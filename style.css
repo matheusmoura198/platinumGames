@@ -35,7 +35,7 @@ body {
     background-color: blue;
 
     color: white;
-    height: 25%;
+     width: 25%;
 
     display: flex;
     justify-content: center;
