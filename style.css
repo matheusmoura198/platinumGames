@@ -69,3 +69,7 @@ body {
 .episodio5 {
     width: 30%;
 }
+
+.borda-img2{
+    border: 5px solid blue;
+}
