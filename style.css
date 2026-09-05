@@ -6,6 +6,7 @@ body {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
 }
 
 .logo {
@@ -30,18 +31,6 @@ body {
     border: 2px solid rgb(34, 33, 33)
 }
 
-h2 {
-  color: white;  
-}
-
-h1 {
-   color: white; 
-}
-
-p {
-   color: white;
-}
-
 .sugestoes{
     background-color: blue;
 
@@ -62,8 +51,4 @@ p {
     display: flex;
     align-items: center;
     gap: 15px;
-}
-
-main{
-    color: white;
 }
