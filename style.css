@@ -73,3 +73,9 @@ body {
 .borda-img2{
     border: 5px solid blue;
 }
+
+definição2{
+    display: flex;
+    aligm-items: center;
+    gap: 20px;
+}
