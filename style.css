@@ -53,8 +53,10 @@ body {
     gap: 15px;
 }
 
-.episodio2{
+.episodios{
     display: flex;
-    align-items: center;
-    gap: 20px;
+}
+
+.episodio2{
+    widht: 50%;
 }
