@@ -55,8 +55,5 @@ body {
 
 .episodios{
     display: flex;
-}
-
-.episodio2{
-    widht: 50%;
+    flex-wrap: wrap;
 }
