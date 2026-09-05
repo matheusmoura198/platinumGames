@@ -53,7 +53,19 @@ body {
     gap: 15px;
 }
 
-.episodios{
+.episodios {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+}
+
+.episodio1,
+.episodio2,
+.episodio3 {
+    width: 30%;
+}
+
+.episodio4,
+.episodio5 {
+    width: 30%;
 }
