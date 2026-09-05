@@ -76,6 +76,6 @@ body {
 
 .definição2{
     display: flex;
-    aligm-items: center;
+    align-items: center;
     gap: 20px;
 }
