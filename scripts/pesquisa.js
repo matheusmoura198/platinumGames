@@ -18,6 +18,6 @@ function buscarJogos() {
         window.location.href = paginas[termo];
     } else {
         
-        alert("Jogo não encontrado ou disponível.");
+        alert("Jogo não encontrado ou indisponível.");
     }
 }
