@@ -15,6 +15,14 @@ body {
     height: auto;
     top: 30px;
 }
+
+.jogosdisponiveis{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 15px; 
+}
+
 .pesquisar {
     width: 10%;
     height: 5vh;
