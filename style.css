@@ -167,6 +167,9 @@ body {
         flex-direction: row;
         align-items: center;
         gap: 20px;
+      column:   
+          align-items: center;
+          gap: 20px;
     }
 }
     
