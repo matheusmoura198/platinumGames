@@ -5,11 +5,13 @@ function buscarJogos() {
    
     const paginas = {
         "minecraft": "jogos/minecraft.html",
-        "god of war": "jogos/godofwarragnarok.html",
         "batman arkham night": "jogos/batmanarkhamnight.html",
         "cuphead": "jogos/cuphead.html",
         "red dead redemption 2": "jogos/reddead2.html",
-        "resident evil 5" : "jogos/residentevil5.html"
+        "resident evil 5" : "jogos/residentevil5.html",
+        "marvel's spiderman" : "jogos/marvel'sspiderman.html",
+        "hollow knight" : "holowKnight.html",
+        "crash bandicoot 4:about time" : "crashBandicoot4It'sAboutTime.html",
     };
 
     
