@@ -11,7 +11,7 @@ function buscarJogos() {
         "resident evil 5" : "jogos/residentevil5.html",
         "marvel's spiderman" : "jogos/marvel'sspiderman.html",
         "hollow knight" : "holowKnight.html",
-        "crash bandicoot 4:about time" : "crashBandicoot4It'sAboutTime.html",
+        "crash bandicoot 4:it's about time" : "crashBandicoot4It'sAboutTime.html",
     };
 
     
