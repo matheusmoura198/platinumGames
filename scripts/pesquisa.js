@@ -10,8 +10,8 @@ function buscarJogos() {
         "red dead redemption 2": "jogos/reddead2.html",
         "resident evil 5" : "jogos/residentevil5.html",
         "marvel's spiderman" : "jogos/marvel'sspiderman.html",
-        "hollow knight" : "holowKnight.html",
-        "crash bandicoot 4:it's about time" : "crashBandicoot4It'sAboutTime.html",
+        "hollow knight" : "jogos/holowKnight.html",
+        "crash bandicoot 4:it's about time" : "jogos/crashBandicoot4It'sAboutTime.html",
     };
 
     
