@@ -80,7 +80,7 @@ body {
     gap: 20px;
 }
 /*pra celular*/
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .logo {
         width: 80%;
         max-width: 300px;
