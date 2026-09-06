@@ -79,10 +79,10 @@ body {
     align-items: center;
     gap: 20px;
 }
-
+/*pra celular*/
 @media (max-width: 768px) {
 }
-
+/*pra computador*/
 @media (min-width: 769px) {
 }
     
