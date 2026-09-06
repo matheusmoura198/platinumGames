@@ -79,4 +79,10 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) {
+}
     
