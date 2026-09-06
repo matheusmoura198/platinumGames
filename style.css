@@ -164,16 +164,25 @@ body {
 
     .definição2 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        gap: 20px;
-      column:   
-          align-items: center;
-          gap: 20px;
+        width: 100%;
+        box-sizing: border-box;
     }
-     .definição2 img {
-    max-width: 100%;
-    height: auto;
+     .definição2 p {
+    width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        overflow-wrap: break-word;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        box-sizing: border-box;
      }
 }
     
