@@ -16,28 +16,6 @@ body {
     top: 30px;
 }
 
-.jogos-disponiveis {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 180px;
-    font-size: 12px;
-}
-
-.jogos-disponiveis p {
-    margin: 0 0 5px 0;
-    font-size: 14px;
-}
-
-.jogos-disponiveis ul {
-    margin: 0;
-    padding-left: 20px;
-}
-
-.jogos-disponiveis li {
-    margin-bottom: 3px;
-}
-
 }
 
 .pesquisar {
