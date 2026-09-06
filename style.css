@@ -171,5 +171,9 @@ body {
           align-items: center;
           gap: 20px;
     }
+     .definição2 img {
+    max-width: 100%;
+    height: auto;
+     }
 }
     
