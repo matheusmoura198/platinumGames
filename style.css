@@ -82,6 +82,11 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+.imagemfundo{
+    background-image: file_000000009164820e8af05ca4f8606010.png;
+    color:white;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
