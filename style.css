@@ -84,7 +84,8 @@ body {
 }
 
 .imagemfundo{
-    background-image: url('./imagens/file_000000009164820e8af05ca4f8606010.png');
+    background-image: url("imagens/file_000000009164820e8af05ca4f8606010.png");
+    x);
     color:white;
 }
 /*pra celular*/
