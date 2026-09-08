@@ -16,8 +16,6 @@ body {
     top: 30px;
 }
 
-}
-
 .pesquisar {
     width: 10%;
     height: 5vh;
@@ -65,12 +63,12 @@ body {
 .episodio1,
 .episodio2,
 .episodio3 {
-    width: 30%;
+    width: 18%;
 }
 
 .episodio4,
 .episodio5 {
-    width: 30%;
+    width: 18%;
 }
 
 .borda-img2{
@@ -149,6 +147,7 @@ body {
         width: 100%;
         box-sizing: border-box;
     }
+}
 /*pra computador*/
 @media (min-width: 769px) 
  {     
@@ -192,6 +191,3 @@ body {
         box-sizing: border-box;
     }
 }
-    
-
-antes
