@@ -16,6 +16,8 @@ body {
     top: 30px;
 }
 
+}
+
 .pesquisar {
     width: 10%;
     height: 5vh;
@@ -29,24 +31,26 @@ body {
     font-size: 20px;
     color: rgb(13, 14, 14);
     background-color: rgb(179, 178, 178);
-    border: 2px solid rgb(34, 33, 33);
+    border: 2px solid rgb(34, 33, 33)
 }
 
-.sugestoes {
+.sugestoes{
     background-color: blue;
+
     color: white;
-    width: 25%;
+     width: 25%;
 
     display: flex;
     justify-content: center;
+
     align-items: center;
 }
 
-.borda-img {
+.borda-img{
     border: 5px solid blue;
 }
 
-.definição1 {
+.definição1{
     display: flex;
     align-items: center;
     gap: 15px;
@@ -69,29 +73,22 @@ body {
     width: 30%;
 }
 
-.borda-img2 {
+.borda-img2{
     border: 5px solid blue;
 }
 
-.definição2 {
+.definição2{
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.imagemfundo {
-    min-height: 100vh;
+.imagemfundo{
     background-image: url("imagens/file_000000009164820e8af05ca4f8606010.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
+    color:white;
 }
-
-
-/* pra celular */
+/*pra celular*/
 @media (max-width: 769px) {
-
     .logo {
         width: 80%;
         max-width: 300px;
@@ -128,18 +125,17 @@ body {
     .episodio5 {
         width: 100%;
         box-sizing: border-box;
-    }
+}
 
-    .definição2 {
+        .definição2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         box-sizing: border-box;
     }
-
-    .definição2 p {
-        width: 100%;
+     .definição2 p {
+    width: 100%;
         box-sizing: border-box;
         margin: 0;
         overflow-wrap: break-word;
@@ -153,13 +149,10 @@ body {
         width: 100%;
         box-sizing: border-box;
     }
-}
-
-
-/* pra computador */
-@media (min-width: 769px) {
-
-    .logo {
+/*pra computador*/
+@media (min-width: 769px) 
+ {     
+        .logo {
         width: 400px;
         max-width: 400px;
         height: auto;
@@ -199,3 +192,6 @@ body {
         box-sizing: border-box;
     }
 }
+    
+
+antes
