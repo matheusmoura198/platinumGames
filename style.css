@@ -15,6 +15,7 @@ body {
     height: auto;
     top: 30px;
 }
+
 .pesquisar {
     width: 10%;
     height: 5vh;
@@ -62,12 +63,12 @@ body {
 .episodio1,
 .episodio2,
 .episodio3 {
-    width: 30%;
+    width: 18%;
 }
 
 .episodio4,
 .episodio5 {
-    width: 30%;
+    width: 18%;
 }
 
 .borda-img2{
@@ -78,6 +79,11 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.imagemfundo{
+    background-image: url("imagens/imagemfundo.png");
+    color:white;
 }
 /*pra celular*/
 @media (max-width: 769px) {
@@ -141,6 +147,7 @@ body {
         width: 100%;
         box-sizing: border-box;
     }
+}
 /*pra computador*/
 @media (min-width: 769px) 
  {     
@@ -172,7 +179,6 @@ body {
     .episodios {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         gap: 20px;
     }
 
@@ -181,8 +187,7 @@ body {
     .episodio3,
     .episodio4,
     .episodio5 {
-        width: 30%;
+        width: 18%;
         box-sizing: border-box;
     }
 }
-    
