@@ -81,9 +81,17 @@ body {
     gap: 20px;
 }
 
-body .imagemfundo1{
+body#imagemfundo1{
     background-image: url("imagens/batman-sign-black-background-dc-superheroes-amoled-5k-8k-10k-3840x2160-4409.jpg");
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    min-height: 100vh;
+}
+body#imagemfundo2{
+    background-image: url("imagens/HD-wallpaper-crash-bandicoot-juegos.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color:white;
