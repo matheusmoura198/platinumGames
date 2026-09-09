@@ -129,6 +129,14 @@ body#imagemfundo6{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+imagemfundo7{
+    color: white;
+    background-image: url("imagens/images.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
