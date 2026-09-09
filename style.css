@@ -129,7 +129,7 @@ body#imagemfundo6{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-imagemfundo7{
+body#imagemfundo7{
     color: white;
     background-image: url("imagens/images.jpeg");
     background-size: cover;
