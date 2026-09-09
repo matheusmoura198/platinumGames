@@ -145,6 +145,10 @@ body#imagemfundo8{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+
+.borda2-img{
+    
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
