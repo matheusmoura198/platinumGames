@@ -121,8 +121,13 @@ body#imagemfundo5{
     color: white;
     min-height: 100vh;
 }
-body#fontecor{
+body#corfonte-e-fundo{
     color: white;
+    background-image: url("imagens/minecraft_logo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 /*pra celular*/
 @media (max-width: 769px) {
