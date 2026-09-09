@@ -105,6 +105,14 @@ body#imagemfundo3{
     color: black;
     min-height: 100vh;
 }
+body#imagemfundo4{
+    background-image: url("imagens/wp6613504.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
