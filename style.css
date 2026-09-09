@@ -81,12 +81,13 @@ body {
     gap: 20px;
 }
 
-.imagemfundo1{
+body .imagemfundo1{
     background-image: url("imagens/batman-wallpaper-v0-9Y8P9UVpjUlPLYRMzJHcHgOs7D96r2tuQ2PYtJ-fsT0.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     color:white;
+    min-height: 100vh;
 }
 /*pra celular*/
 @media (max-width: 769px) {
