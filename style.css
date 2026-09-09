@@ -121,6 +121,9 @@ body#imagemfundo5{
     color: white;
     min-height: 100vh;
 }
+body#fontecor{
+    color: white;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
