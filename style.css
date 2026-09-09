@@ -94,7 +94,15 @@ body#imagemfundo2{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:white;
+    color: white;
+    min-height: 100vh;
+}
+body#imagemfundo3{
+    background-image: url("imagens/cuphead-and-mugman-in-yellow-ma2pai47idyw1im2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
     min-height: 100vh;
 }
 /*pra celular*/
