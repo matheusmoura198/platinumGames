@@ -137,6 +137,14 @@ body#imagemfundo7{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+body#imagemfundo8{
+    color: white;
+    background-image: url("imagens/5c3e9510bbcc17a0c4f18d23d471e1b3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
