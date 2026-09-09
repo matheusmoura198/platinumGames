@@ -113,6 +113,14 @@ body#imagemfundo4{
     color: white;
     min-height: 100vh;
 }
+body#imagemfundo5{
+    background-image: url("spiderman-ps4-spiderman-games-hd-wallpaper-preview.jpg")
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
