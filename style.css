@@ -81,8 +81,11 @@ body {
     gap: 20px;
 }
 
-.imagemfundo{
-    background-image: url("imagens/imagemfundo.png");
+.imagemfundo1{
+    background-image: url("imagens/batman-wallpaper-v0-9Y8P9UVpjUlPLYRMzJHcHgOs7D96r2tuQ2PYtJ-fsT0.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     color:white;
 }
 /*pra celular*/
