@@ -94,7 +94,55 @@ body#imagemfundo2{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:white;
+    color: white;
+    min-height: 100vh;
+}
+body#imagemfundo3{
+    background-image: url("imagens/881478.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    min-height: 100vh;
+}
+body#imagemfundo4{
+    background-image: url("imagens/wp6613504.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+}
+body#imagemfundo5{
+    background-image: url("imagens/nWbv9S.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+}
+body#imagemfundo6{
+    color: white;
+    background-image: url("imagens/1353838.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+body#imagemfundo7{
+    color: white;
+    background-image: url("imagens/images.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+body#imagemfundo8{
+    color: white;
+    background-image: url("imagens/5c3e9510bbcc17a0c4f18d23d471e1b3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 /*pra celular*/
