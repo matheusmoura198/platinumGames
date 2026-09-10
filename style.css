@@ -151,7 +151,7 @@ body#imagemfundo8{
 }
 
 .borda-img4{
-    border: 5px solid green;
+    border: 5px solid blue;
 }
 /*pra celular*/
 @media (max-width: 769px) {
