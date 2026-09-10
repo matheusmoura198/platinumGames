@@ -149,6 +149,10 @@ body#imagemfundo8{
 .borda-img3{
     border: 5px solid white;
 }
+
+.borda-img4{
+    border: 5px solid green;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
