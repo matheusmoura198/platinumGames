@@ -175,6 +175,16 @@ body#imagemfundo8{
     align-items: center;
     gap: 20px;
 }
+
+.definiçãobob{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.bordabob{
+    border: 5px solid blue;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
