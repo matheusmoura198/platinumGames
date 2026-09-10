@@ -146,8 +146,8 @@ body#imagemfundo8{
     min-height: 100vh;
 }
 
-.borda3-img{
-    border: 5px solid blue;
+.borda-img3{
+    border: 5px solid white;
 }
 /*pra celular*/
 @media (max-width: 769px) {
