@@ -153,6 +153,12 @@ body#imagemfundo8{
 .borda-img4{
     border: 5px solid blue;
 }
+
+.definição-mine{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
