@@ -159,6 +159,12 @@ body#imagemfundo8{
     align-items: center;
     gap: 20px;
 }
+
+.definição-aranha{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
