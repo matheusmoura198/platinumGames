@@ -225,6 +225,16 @@ body#imagemfundo8{
 .bordaimg-resident{
     border: 5px solid red;
 }
+
+.definiçãobatman{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bordaimg-batman{
+    border: 5px solid white;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
