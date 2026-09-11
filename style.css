@@ -205,6 +205,16 @@ body#imagemfundo8{
 .bordaimg-hollow{
     border: 5px solid black;
 }
+
+.definiçãoreddead{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+bordaimg-reddead{
+    border: 5px solid orange;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
