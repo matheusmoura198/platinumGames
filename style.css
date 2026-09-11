@@ -185,6 +185,16 @@ body#imagemfundo8{
 .bordabob{
     border: 5px solid blue;
 }
+
+.definiçãocrash{
+    display: flex;
+    align-items:"center;"
+    gap: 20px;
+}
+
+.borda-imgcrash{
+    border: 5px solid orange;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
