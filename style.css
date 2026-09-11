@@ -195,6 +195,16 @@ body#imagemfundo8{
 .borda-imgcrash{
     border: 5px solid orange;
 }
+
+.definiçãohollow{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bordaimg-hollow{
+    border: 5px solid black;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
