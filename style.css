@@ -212,8 +212,8 @@ body#imagemfundo8{
     gap: 20px;
 }
 
-bordaimg-reddead{
-    border: 5px solid orange;
+.bordaimg-reddead{
+    border: 5px solid black;
 }
 /*pra celular*/
 @media (max-width: 769px) {
