@@ -215,6 +215,16 @@ body#imagemfundo8{
 .bordaimg-reddead{
     border: 5px solid black;
 }
+
+.definiçãoresident{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bordaimg-resident{
+    border: 5px solid red;
+}
 /*pra celular*/
 @media (max-width: 769px) {
     .logo {
