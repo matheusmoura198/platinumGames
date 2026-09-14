@@ -109,8 +109,9 @@ body#imagemfundo3{
 body#imagemfundo4{
     background-image: url("imagens/wp6613504.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     min-height: 100vh;
 }
