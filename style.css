@@ -137,8 +137,9 @@ body#imagemfundo7{
     color: white;
     background-image: url("imagens/red-dead-redemption-2-game-2025-cf.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 body#imagemfundo8{
