@@ -143,8 +143,9 @@ body#imagemfundo8{
     color: white;
     background-image: url("imagens/cf7990bd7a9820e3484c24c42e788459.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
