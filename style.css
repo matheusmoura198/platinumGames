@@ -118,8 +118,9 @@ body#imagemfundo4{
 body#imagemfundo5{
     background-image: url("imagens/nWbv9S.webp");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     min-height: 100vh;
 }
