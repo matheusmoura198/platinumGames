@@ -93,8 +93,9 @@ body#imagemfundo1{
 body#imagemfundo2{
     background-image: url("imagens/crash-bandicoot-4-itsabouttime-ps4-wallpaper-10.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: black;
     min-height: 100vh;
 }
