@@ -245,6 +245,10 @@ body#imagemfundo8{
 }
 /*pra celular*/
 @media (max-width: 769px) {
+    body{
+        font-family: "Comic Sans MS", cursive;
+    }
+    
     .logo {
         width: 80%;
         max-width: 300px;
