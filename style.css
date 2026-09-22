@@ -140,6 +140,7 @@ body {
 
 .definição2{
     max-width: 900px;
+    align-items: center;
     line-height: 1.6;
     font-size: 18px;
 }
