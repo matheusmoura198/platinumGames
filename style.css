@@ -138,9 +138,14 @@ body {
     border: 5px solid blue;
 }
 
-.definição2{
-    max-width: 900px;
+.paragrafogod{
     display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+.definição2{
+    flex: 1;
+    max-width: none;
     line-height: 1.6;
     font-size: 18px;
 }
