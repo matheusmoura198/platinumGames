@@ -140,7 +140,7 @@ body {
 
 .definição2{
     max-width: 900px;
-    align-items: center;
+    display: flex;
     line-height: 1.6;
     font-size: 18px;
 }
@@ -250,6 +250,7 @@ body#imagemfundo8{
     max-width: 900px;
     line-height: 1.6;
     font-size: 18px;
+    display: flex;
 }
 
 .bordabob{
