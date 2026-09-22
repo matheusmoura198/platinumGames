@@ -112,9 +112,9 @@ body {
 }
 
 .definição1{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 .episodios {
