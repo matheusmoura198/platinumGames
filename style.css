@@ -247,9 +247,9 @@ body#imagemfundo8{
 }
 
 .definiçãobob{
-    display: flex;
-    align-items: center;
-    gap: 20px; 
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 .bordabob{
