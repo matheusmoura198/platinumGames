@@ -21,8 +21,34 @@ body {
 .pesquisar {
     width: 10%;
     height: 5vh;
-    background-color: rgb(0, 17, 255);
+    background-color: black;
     border: 2px solid rgb(16, 54, 59);
+    color: black;
+
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.pesquisar::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 100%;
+
+    background-color: rgb(0, 17, 255);
+
+    transition: width 0.4s ease;
+
+    z-index: -1;
+}
+
+.pesquisar:hover::before {
+    width: 100%;
 }
 
 .barra {
