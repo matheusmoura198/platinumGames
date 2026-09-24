@@ -121,6 +121,14 @@ body {
     background-color: #3333ff;
 }
 
+.informacoes{
+    text-align: center;
+}
+
+.bemvindo{
+    background-color: royal blue;
+}
+
 .sugestoes{
     background-color: blue;
 
