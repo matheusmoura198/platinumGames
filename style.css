@@ -169,9 +169,11 @@ body {
     align-items: flex-start;
     gap: 25px;
 }
-.definição2{
-    flex: 1;
-    max-width: none;
+
+.definição2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
     line-height: 1.6;
     font-size: 18px;
 }
