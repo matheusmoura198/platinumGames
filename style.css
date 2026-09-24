@@ -42,7 +42,7 @@ body {
 
     background-color: rgb(0, 17, 255);
 
-    transition: width 0.4s ease;
+    transition: width 0.6s ease;
 
     z-index: -1;
 }
