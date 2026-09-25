@@ -175,9 +175,7 @@ body {
 }
 
 .definição2 {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
+    max-width: 900px;
     line-height: 1.6;
     font-size: 18px;
 }
