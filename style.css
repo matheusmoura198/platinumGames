@@ -126,12 +126,12 @@ body {
 }
 
 .bemvindo{
-    background-color: blue;
-    widht: 27%;
-    margin: 20px auto;
-    margin-bottom: 30px;
     text-align: center;
-    border-radius: 7px;
+    background-color: #0808ff;
+    color: white;
+    padding: 18px;
+    margin-bottom: 30px;
+    border-radius: 8px;
 }
 
 .sugestoes{
