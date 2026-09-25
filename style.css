@@ -288,6 +288,7 @@ body#imagemfundo8{
     line-height: 1.6;
     font-size: 18px;
     display: flex;
+    gap: 20px;
 }
 
 .bordabob{
