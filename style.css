@@ -204,6 +204,21 @@ body#imagemfundo2{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
+
+    .definiçãocrash p {
+    margin: 0;
+    padding: 10px 20px;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 17px;
+    max-width: 650px;
+}
+
+    h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+    
 }
 body#imagemfundo3{
     background-image: url("imagens/1458212-3840x2160-desktop-4k-the-cuphead-show-wallpaper.jpg");
