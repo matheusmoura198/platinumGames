@@ -168,16 +168,21 @@ body {
     border: 5px solid blue;
 }
 
-.paragrafogod{
+.definição2 {
     display: flex;
     align-items: flex-start;
     gap: 25px;
-}
-
-.definição2 {
     max-width: 900px;
     line-height: 1.6;
     font-size: 18px;
+}
+
+.definição2 img {
+    flex-shrink: 0;
+}
+
+.definição2 p {
+    margin: 0;
 }
 
 body#imagemfundo1{
