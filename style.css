@@ -178,6 +178,9 @@ body {
 }
 
 .definição2 img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
     flex-shrink: 0;
 }
 
