@@ -232,6 +232,20 @@ body#imagemfundo3{
     color: black;
     min-height: 100vh;
 
+    .definiçãocup {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+   .definiçãocup img {
+    width: 400px;
+    height: auto;
+    flex-shrink: 0;
+}
+    
    .definiçãocup p {
     margin: 0;
     padding: 10px 20px;
