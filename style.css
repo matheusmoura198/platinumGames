@@ -229,6 +229,20 @@ body#imagemfundo3{
     background-attachment: fixed;
     color: black;
     min-height: 100vh;
+
+   .definiçãocup p {
+    margin: 0;
+    padding: 10px 20px;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 17px;
+    max-width: 650px
+   }
+
+   h1{
+    text-align: center;
+    margin-bottom: 20px;
+   }
 }
 body#imagemfundo4{
     background-image: url("imagens/wp6613504.jpg");
