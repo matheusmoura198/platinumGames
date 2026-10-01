@@ -198,7 +198,7 @@ body#imagemfundo1{
 }
 
 body#imagemfundo2{
-    background-image: url("imagens/crash-bandicoot-4-itsabouttime-ps4-wallpaper-10.jpg");
+    background-image: url("https://images8.alphacoders.com/128/1281598.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ body#imagemfundo2{
 
     .definiçãocrash {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: flex-start;    
 }
 
@@ -243,7 +243,11 @@ body#imagemfundo3{
     gap: 20px;
     align-items: flex-start;
     }
-        
+
+    .definiçãocup img{
+        width: 300px;
+        height: auto;
+    }
     
    .definiçãocup p {
     margin: 0;
