@@ -188,18 +188,6 @@ body {
     margin: 0;
 }
 
-.definiçãobob{
-    max-width: 900px;
-    line-height: 1.6;
-    font-size: 18px;
-    display: flex;
-    gap: 20px;
-}
-
-.bordabob{
-    border: 5px solid blue;
-}
-
 body#imagemfundo1{
     background-image: url("imagens/batman-sign-black-background-dc-superheroes-amoled-5k-8k-10k-3840x2160-4409.jpg");
     background-size: cover;
@@ -260,13 +248,13 @@ body#imagemfundo2{
     .borda-imgcrash{
     border: 5px solid orange;
 }
-    
+
     h1 {
     color: orange;
     text-align: center;
     margin-bottom: 20px;
 }
-    
+
 }
 
 body#imagemfundo3{
@@ -292,7 +280,7 @@ body#imagemfundo3{
     .borda-img5{
     border: 5px solid black;
 }
-    
+
    .definiçãocup p {
     margin: 0;
     padding: 10px 20px;
@@ -326,7 +314,7 @@ body#imagemfundo4{
      .bordaimg-hollow{
     border: 5px solid white;
 }
-    
+
     .definiçãohollow p {
     margin: 0;
     padding: 10px 20px;
@@ -335,7 +323,7 @@ body#imagemfundo4{
     font-size: 17px;
     max-width: 650px;
     }
-    
+
     h1{
     color: #4169E1;    
     text-align: center;
@@ -371,7 +359,7 @@ body#imagemfundo5{
    .borda-img3{
     border: 5px solid white;
 }
-    
+
     h1{
     color: red;   
     text-align: center;
@@ -431,7 +419,7 @@ body#imagemfundo7{
     .bordaimg-reddead{
     border: 5px solid black;
 }
-    
+
     .definiçãoreddead p {
     margin: 0;
     padding: 10px 20px;
@@ -456,38 +444,35 @@ body#imagemfundo8{
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
+}
 
-    .definiçãoresident{
+.definiçãobob{
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+.bordabob{
+    border: 5px solid blue;
+}
+
+.definiçãoresident{
     display: flex;
     align-items: center;
     gap: 20px;
-    }
+}
 
-    .definiçãoresident p{
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px;   
-    }
-
-    .bordaimg-resident{
+.bordaimg-resident{
     border: 5px solid red;
 }
-
-    h1{
-    color: red;   
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 /*pra celular*/
 @media (max-width: 769px) {
     body{
         font-family: "Comic Sans MS", cursive;
     }
-    
+
     .logo {
         width: 80%;
         max-width: 300px;
@@ -591,4 +576,4 @@ body#imagemfundo8{
         width: 18%;
         box-sizing: border-box;
     }
-}
+ }
