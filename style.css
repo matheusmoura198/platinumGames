@@ -230,7 +230,8 @@ body#imagemfundo2{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-
+}
+    
     .definiçãocrash {
     display: flex;
     gap: 10px;
@@ -266,7 +267,8 @@ body#imagemfundo3{
     background-attachment: fixed;
     color: black;
     min-height: 100vh;
-
+}
+    
     .definiçãocup {
     display: flex;
     gap: 20px;
@@ -305,7 +307,8 @@ body#imagemfundo4{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-
+}
+    
     .definiçãohollow {
     display: flex;
     gap: 10px;
@@ -341,7 +344,8 @@ body#imagemfundo5{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-
+}
+    
     .definição-aranha {
     display: flex;
     gap: 20px;
@@ -375,7 +379,8 @@ body#imagemfundo6{
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-
+}
+    
     .definição-mine{
     display: flex;
     align-items: center;
@@ -410,7 +415,8 @@ body#imagemfundo7{
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
-
+}
+    
     .definiçãoreddead {
     display: flex;
     align-items: center;
