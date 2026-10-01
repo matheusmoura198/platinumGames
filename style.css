@@ -195,7 +195,6 @@ body#imagemfundo1{
     background-repeat: no-repeat;
     color:white;
     min-height: 100vh;
-}
     
     .definiçãobatman{
     display: flex;
@@ -220,6 +219,7 @@ body#imagemfundo1{
     color: gray;
     text-align: center;
     margin-bottom: 20px;
+ }
 }
 
 body#imagemfundo2{
@@ -230,7 +230,6 @@ body#imagemfundo2{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-}
     
     .definiçãocrash {
     display: flex;
@@ -255,8 +254,7 @@ body#imagemfundo2{
     color: orange;
     text-align: center;
     margin-bottom: 20px;
-}
-
+ }
 }
 
 body#imagemfundo3{
@@ -267,7 +265,6 @@ body#imagemfundo3{
     background-attachment: fixed;
     color: black;
     min-height: 100vh;
-}
     
     .definiçãocup {
     display: flex;
@@ -307,7 +304,6 @@ body#imagemfundo4{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-}
     
     .definiçãohollow {
     display: flex;
@@ -333,7 +329,6 @@ body#imagemfundo4{
     text-align: center;
     margin-bottom: 20px;
     }
-
 }
 
 body#imagemfundo5{
@@ -344,7 +339,6 @@ body#imagemfundo5{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-}
     
     .definição-aranha {
     display: flex;
@@ -379,7 +373,6 @@ body#imagemfundo6{
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-}
     
     .definição-mine{
     display: flex;
@@ -415,7 +408,6 @@ body#imagemfundo7{
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
-}
     
     .definiçãoreddead {
     display: flex;
