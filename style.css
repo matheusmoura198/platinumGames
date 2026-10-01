@@ -206,6 +206,12 @@ body#imagemfundo2{
     color: white;
     min-height: 100vh;
 
+    .definiçãocrash {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;    
+}
+
     .definiçãocrash p {
     margin: 0;
     padding: 10px 20px;
@@ -213,7 +219,7 @@ body#imagemfundo2{
     text-align: justify;
     font-size: 17px;
     max-width: 650px;
-}
+    }
 
     h1 {
     color: orange;
@@ -234,17 +240,10 @@ body#imagemfundo3{
 
     .definiçãocup {
     display: flex;
+    gap: 20px;
     align-items: flex-start;
-    gap: 30px;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-   .definiçãocup img {
-    width: 400px;
-    height: auto;
-    flex-shrink: 0;
-}
+    }
+        
     
    .definiçãocup p {
     margin: 0;
@@ -270,15 +269,21 @@ body#imagemfundo4{
     color: white;
     min-height: 100vh;
 
+    .definiçãohollow {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    }
+
     .definiçãohollow p {
     margin: 0;
     padding: 10px 20px;
     line-height: 1.8;
     text-align: justify;
     font-size: 17px;
-    max-width: 650px
+    max-width: 650px;
     }
-
+    
     h1{
     text-align: center;
     margin-bottom: 20px;
