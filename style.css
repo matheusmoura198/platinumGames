@@ -188,6 +188,18 @@ body {
     margin: 0;
 }
 
+.definiçãobob{
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+.bordabob{
+    border: 5px solid blue;
+}
+
 body#imagemfundo1{
     background-image: url("imagens/batman-sign-black-background-dc-superheroes-amoled-5k-8k-10k-3840x2160-4409.jpg");
     background-size: cover;
@@ -444,28 +456,30 @@ body#imagemfundo8{
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
-}
 
-.definiçãobob{
-    max-width: 900px;
-    line-height: 1.6;
-    font-size: 18px;
-    display: flex;
-    gap: 20px;
-}
-
-.bordabob{
-    border: 5px solid blue;
-}
-
-.definiçãoresident{
+    .definiçãoresident{
     display: flex;
     align-items: center;
     gap: 20px;
+    }
+
+    .definiçãoresident p{
+    margin: 0;
+    padding: 10px 20px;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 17px;
+    max-width: 650px;   
+    }
+
+    .bordaimg-resident{
+    border: 5px solid red;
 }
 
-.bordaimg-resident{
-    border: 5px solid red;
+    h1{
+    color: red;   
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /*pra celular*/
