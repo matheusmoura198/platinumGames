@@ -195,6 +195,30 @@ body#imagemfundo1{
     background-repeat: no-repeat;
     color:white;
     min-height: 100vh;
+
+    .definiçãobatman{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    }
+
+    .definiçãobatman p{
+    margin: 0;
+    padding: 10px 20px;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 17px;
+    max-width: 650px;    
+    }
+
+    .bordaimg-batman{
+    border: 5px solid gray;
+}
+    
+    h1 {
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 body#imagemfundo2{
@@ -444,15 +468,6 @@ body#imagemfundo8{
     border: 5px solid red;
 }
 
-.definiçãobatman{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.bordaimg-batman{
-    border: 5px solid white;
-}
 /*pra celular*/
 @media (max-width: 769px) {
     body{
