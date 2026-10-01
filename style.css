@@ -294,15 +294,21 @@ body#imagemfundo5{
     color: white;
     min-height: 100vh;
 
-    .definição-aranha  p {
+    .definição-aranha {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;    
+    }
+
+   .definição-aranha p{
     margin: 0;
     padding: 10px 20px;
     line-height: 1.8;
     text-align: justify;
     font-size: 17px;
-    max-width: 650px
-    }
-
+    max-width: 650px;
+   }
+    
     h1{
     color: red;   
     text-align: center;
