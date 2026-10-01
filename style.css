@@ -195,7 +195,8 @@ body#imagemfundo1{
     background-repeat: no-repeat;
     color:white;
     min-height: 100vh;
-
+}
+    
     .definiçãobatman{
     display: flex;
     gap: 10px;
