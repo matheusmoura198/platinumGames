@@ -24,7 +24,7 @@ function buscarJogos() {
     case "hollow knight" :
         window.location.href = "jogos/hollowKnight.html"
         break
-    case "crash bandicoot 4:it's about time":
+    case "crash bandicoot 4":
         window.location.href = "jogos/crashBandicoot4It'sAboutTime.html"
         break
     default:
