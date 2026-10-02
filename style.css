@@ -274,7 +274,7 @@ body#imagemfundo3{
 
     .definiçãocup img{
         width: 300px;
-        height: 240px;
+        height: 260px;
     }
 
     .borda-img5{
@@ -381,9 +381,14 @@ body#imagemfundo6{
 }
 
     .borda-img4{
-    border: 5px solid blue;
+    border: 5px solid green;
 }
 
+    definição-mine img{
+        width: 150px;
+        height: 200px;
+    }
+    
     .definição-mine p {
     margin: 0;
     padding: 10px 20px;
@@ -429,7 +434,7 @@ body#imagemfundo7{
     }
 
     h1{
-    color: red;   
+    color: white;   
     text-align: center;
     margin-bottom: 20px;
     }
