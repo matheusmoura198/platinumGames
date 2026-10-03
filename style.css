@@ -223,7 +223,7 @@ body#imagemfundo1{
 }
 
 body#imagemfundo2{
-    background-image: url("https://images8.alphacoders.com/128/1281598.png");
+    background-image: url("imagens/crashbackground.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
