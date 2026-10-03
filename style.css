@@ -471,39 +471,413 @@ body#imagemfundo8{
 .bordaimg-resident{
     border: 5px solid red;
 }
+
 /*pra celular*/
 @media (max-width: 769px) {
-    body{
+
+    body {
         font-family: "Comic Sans MS", cursive;
+        overflow-x: hidden;
     }
 
+    main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
     .logo {
         width: 80%;
         max-width: 300px;
+        height: auto;
     }
-
+    
     .barra {
         width: 60%;
         height: 5vh;
         font-size: 16px;
+        box-sizing: border-box;
     }
 
     .pesquisar {
         width: 25%;
+        box-sizing: border-box;
     }
-
+    
     .sugestoes {
         width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .jogos {
+        width: 100%;
+        max-width: 100%;
+        margin: 30px auto;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+
+    .jogos h2 {
+        font-size: 20px;
+        padding: 15px 5px;
+        margin-bottom: 20px;
+    }
+
+    .lista-jogos {
+        display: grid;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .card-jogo {
+        padding: 6px;
+        border-radius: 8px;
+        box-sizing: border-box;
+        min-width: 0;
+    }
+
+    .card-jogo img {
+        width: 100%;
+        height: 125px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .card-jogo h3 {
+        font-size: 12px;
+        line-height: 1.2;
+        margin: 8px 0;
+        overflow-wrap: break-word;
+    }
+
+    .card-jogo a {
+        font-size: 11px;
+        padding: 5px 7px;
+    }
+
+    .informacoes {
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .definição1 {
+        display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+
+    .definição2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    .definição2 img {
+        width: 70%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .definição2 p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        overflow-wrap: break-word;
+        text-align: justify;
+    }
+
+    .definiçãobob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        max-width: 100%;
+
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    .definiçãobob img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .definiçãobob p {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+
+        font-size: 17px;
+        line-height: 1.7;
+
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+
+    body#imagemfundo1 .definiçãobatman {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    body#imagemfundo1 .definiçãobatman img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    body#imagemfundo1 .definiçãobatman p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+    
+    body#imagemfundo2 .definiçãocrash {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    body#imagemfundo2 .definiçãocrash img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    body#imagemfundo2 .definiçãocrash p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+
+    body#imagemfundo3 .definiçãocup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    body#imagemfundo3 .definiçãocup img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    body#imagemfundo3 .definiçãocup p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+    
+    body#imagemfundo4 .definiçãohollow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    body#imagemfundo4 .definiçãohollow img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    body#imagemfundo4 .definiçãohollow p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+
+    body#imagemfundo5 .definição-aranha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    body#imagemfundo5 .definição-aranha img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    body#imagemfundo5 .definição-aranha p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+
+    body#imagemfundo6 .definição-mine {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    body#imagemfundo6 .definição-mine img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    body#imagemfundo6 .definição-mine p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+
+    body#imagemfundo7 .definiçãoreddead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    body#imagemfundo7 .definiçãoreddead img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    body#imagemfundo7 .definiçãoreddead p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+
+    .definiçãoresident {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    .definiçãoresident img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .definiçãoresident p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: justify;
+        overflow-wrap: break-word;
     }
 
     .episodios {
+        display: flex;
         flex-direction: column;
         gap: 20px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .episodio1,
@@ -513,31 +887,16 @@ body#imagemfundo8{
     .episodio5 {
         width: 100%;
         box-sizing: border-box;
-}
-
-        .definição2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        box-sizing: border-box;
     }
-     .definição2 p {
-    width: 100%;
+
+    p {
+        max-width: 100%;
         box-sizing: border-box;
-        margin: 0;
         overflow-wrap: break-word;
     }
 
-    body {
-        overflow-x: hidden;
     }
-
-    main {
-        width: 100%;
-        box-sizing: border-box;
-    }
-}
+    
 /*pra computador*/
 @media (min-width: 769px) 
  {     
