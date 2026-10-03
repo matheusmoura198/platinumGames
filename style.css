@@ -385,7 +385,7 @@ body#imagemfundo6{
     border: 5px solid green;
 }
 
-    definição-mine img{
+    .definição-mine img{
         width: 150px;
         height: 200px;
     }
@@ -449,6 +449,27 @@ body#imagemfundo8{
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
+
+    .definiçãoresident{
+    display: flex;
+    align-items: center;
+    gap: 20px;   
+    }
+
+    .definiçãoresident p{
+    margin: 0;
+    padding: 10px 20px;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 17px;
+    max-width: 650px;
+    }
+
+    h1{
+    color: red;   
+    text-align: center;
+    margin-bottom: 10px;  
+    }
 }
 
 .definiçãobob{
