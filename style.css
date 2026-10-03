@@ -258,7 +258,7 @@ body#imagemfundo2{
 }
 
 body#imagemfundo3{
-    background-image: url("imagens/1458212-3840x2160-desktop-4k-the-cuphead-show-wallpaper.jpg");
+    background-image: url("imagens/490440a6-9e84-4821-b34e-6918b40b84ff");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@ body#imagemfundo3{
 
     .definiçãocup img{
         width: 300px;
-        height: 260px;
+        height: 280px;
     }
 
     .borda-img5{
@@ -291,6 +291,7 @@ body#imagemfundo3{
    }
 
    h1{
+    color: yellow;
     text-align: center;
     margin-bottom: 20px;
    }
