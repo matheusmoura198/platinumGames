@@ -258,7 +258,7 @@ body#imagemfundo2{
 }
 
 body#imagemfundo3{
-    background-image: url("imagens/490440a6-9e84-4821-b34e-6918b40b84ff");
+    background-image: url("blob:https://chatgpt.com/467db60d-52e6-4a2f-a8ae-6cf4ced5f82f");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@ body#imagemfundo3{
 
     .definiçãocup img{
         width: 300px;
-        height: 280px;
+        height: 290px;
     }
 
     .borda-img5{
