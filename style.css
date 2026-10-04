@@ -475,6 +475,10 @@ body#imagemfundo8{
     text-align: center;
     margin-bottom: 10px;  
     }
+
+    .bordaimg-resident{
+    border: 5px solid red;
+    }
 }
 
 .definiçãobob{
@@ -489,14 +493,133 @@ body#imagemfundo8{
     border: 5px solid blue;
 }
 
-.definiçãoresident{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.conquistas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    align-items: start;
+    width: 100%;
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
-.bordaimg-resident{
-    border: 5px solid red;
+.conquistasbronze  { --cor: #cd7f32; }
+.conquistasprata   { --cor: #c0c0c0; }
+.conquistasouro    { --cor: #ffd700; }
+.conquistasplatina { --cor: #7fe0ff; }
+
+.conquistasbronze,
+.conquistasprata,
+.conquistasouro,
+.conquistasplatina {
+    background-color: rgba(8, 8, 36, 0.88);
+    border: 2px solid var(--cor);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 14px var(--cor);
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.conquistasbronze h4,
+.conquistasprata h4,
+.conquistasouro h4,
+.conquistasplatina h4 {
+    color: var(--cor);
+    text-align: center;
+    font-size: 22px;
+    margin: 0 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--cor);
+}
+
+.conquistasbronze > ul,
+.conquistasprata > ul,
+.conquistasouro > ul,
+.conquistasplatina > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.conquistasbronze > ul > li,
+.conquistasprata > ul > li,
+.conquistasouro > ul > li,
+.conquistasplatina > ul > li {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-left: 4px solid var(--cor);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+}
+
+.conquistasbronze > ul > li:last-child,
+.conquistasprata > ul > li:last-child,
+.conquistasouro > ul > li:last-child,
+.conquistasplatina > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.conquistasbronze li h5,
+.conquistasprata li h5,
+.conquistasouro li h5,
+.conquistasplatina li h5 {
+    color: var(--cor);
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.conquistasbronze li p,
+.conquistasprata li p,
+.conquistasouro li p,
+.conquistasplatina li p {
+    font-size: 15px;
+    line-height: 1.55;
+    margin: 6px 0;
+    overflow-wrap: break-word;
+}
+
+.conquistasbronze li p strong,
+.conquistasprata li p strong,
+.conquistasouro li p strong,
+.conquistasplatina li p strong {
+    color: var(--cor);
+}
+
+.conquistasbronze li ul,
+.conquistasprata li ul,
+.conquistasouro li ul,
+.conquistasplatina li ul,
+.conquistasbronze li ol,
+.conquistasprata li ol,
+.conquistasouro li ol,
+.conquistasplatina li ol {
+    margin: 6px 0 10px;
+    padding-left: 24px;
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.conquistasbronze li li,
+.conquistasprata li li,
+.conquistasouro li li,
+.conquistasplatina li li {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 3px 0;
+}
+
+.conquistasbronze hr,
+.conquistasprata hr,
+.conquistasouro hr,
+.conquistasplatina hr {
+    border: none;
+    border-top: 1px solid var(--cor);
+    margin: 20px 0 0;
+    opacity: 0.6;
 }
 
 /*pra celular*/
@@ -922,6 +1045,33 @@ body#imagemfundo8{
         overflow-wrap: break-word;
     }
 
+    .conquistas {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 0 10px;
+    }
+
+    .conquistasbronze,
+    .conquistasprata,
+    .conquistasouro,
+    .conquistasplatina {
+        padding: 14px;
+    }
+
+    .conquistasbronze h4,
+    .conquistasprata h4,
+    .conquistasouro h4,
+    .conquistasplatina h4 {
+        font-size: 19px;
+    }
+
+    .conquistasbronze li h5,
+    .conquistasprata li h5,
+    .conquistasouro li h5,
+    .conquistasplatina li h5 {
+        font-size: 16px;
+    }
+    
     }
     
 /*pra computador*/
