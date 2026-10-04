@@ -5,7 +5,7 @@ body {
     background-image: url("imagens/photo-1614850523011-8f49ffc73908.avif");
     background-size: 100% 100%;
     background-position: center top;
-     background-attachment: fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
     font-family: "Comic Sans MS", cursive;
@@ -57,7 +57,7 @@ body {
     font-size: 20px;
     color: rgb(13, 14, 14);
     background-color: rgb(179, 178, 178);
-    border: 2px solid rgb(34, 33, 33)
+    border: 2px solid rgb(34, 33, 33);
 }
 
 .jogos {
@@ -121,15 +121,15 @@ body {
     background-color: #3333ff;
 }
 
-.informacoes{
+.informacoes {
     text-align: center;
 }
 
-.sugestoes{
+.sugestoes {
     background-color: blue;
 
     color: white;
-     width: 25%;
+    width: 25%;
 
     display: flex;
     justify-content: center;
@@ -137,11 +137,11 @@ body {
     align-items: center;
 }
 
-.borda-img{
+.borda-img {
     border: 5px solid blue;
 }
 
-.definição1{
+.definição1 {
     max-width: 900px;
     line-height: 1.6;
     font-size: 18px;
@@ -164,7 +164,7 @@ body {
     width: 18%;
 }
 
-.borda-img2{
+.borda-img2 {
     border: 5px solid blue;
 }
 
@@ -188,41 +188,41 @@ body {
     margin: 0;
 }
 
-body#imagemfundo1{
+body#imagemfundo1 {
     background-image: url("imagens/batman-sign-black-background-dc-superheroes-amoled-5k-8k-10k-3840x2160-4409.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:white;
+    color: white;
     min-height: 100vh;
-    
-    .definiçãobatman{
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
+
+    .definiçãobatman {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
     }
 
-    .definiçãobatman p{
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px;    
+    .definiçãobatman p {
+        margin: 0;
+        padding: 10px 20px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 17px;
+        max-width: 650px;
     }
 
-    .bordaimg-batman{
-    border: 5px solid gray;
-}
-    
+    .bordaimg-batman {
+        border: 5px solid gray;
+    }
+
     h1 {
-    color: gray;
-    text-align: center;
-    margin-bottom: 20px;
- }
+        color: gray;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
-body#imagemfundo2{
+body#imagemfundo2 {
     background-image: url("imagens/crashbackground.png");
     background-size: cover;
     background-position: center top;
@@ -230,34 +230,34 @@ body#imagemfundo2{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-    
-    .definiçãocrash {
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;    
-}
 
-    .definiçãocrash p {
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px;
+    .definiçãocrash {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
     }
 
-    .borda-imgcrash{
-    border: 5px solid orange;
-}
+    .definiçãocrash p {
+        margin: 0;
+        padding: 10px 20px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 17px;
+        max-width: 650px;
+    }
+
+    .borda-imgcrash {
+        border: 5px solid orange;
+    }
 
     h1 {
-    color: orange;
-    text-align: center;
-    margin-bottom: 20px;
- }
+        color: orange;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
-body#imagemfundo3{
+body#imagemfundo3 {
     background-image: url("imagens/backgroundcuphead.png");
     background-size: cover;
     background-position: center top;
@@ -265,39 +265,39 @@ body#imagemfundo3{
     background-attachment: fixed;
     color: black;
     min-height: 100vh;
-    
+
     .definiçãocup {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
     }
 
-    .definiçãocup img{
+    .definiçãocup img {
         width: 300px;
         height: 290px;
     }
 
-    .borda-img5{
-    border: 5px solid black;
+    .borda-img5 {
+        border: 5px solid black;
+    }
+
+    .definiçãocup p {
+        margin: 0;
+        padding: 10px 20px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 17px;
+        max-width: 650px;
+    }
+
+    h1 {
+        color: yellow;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
-   .definiçãocup p {
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px
-   }
-
-   h1{
-    color: yellow;
-    text-align: center;
-    margin-bottom: 20px;
-   }
-}
-
-body#imagemfundo4{
+body#imagemfundo4 {
     background-image: url("imagens/wp7097408.jpg");
     background-size: cover;
     background-position: center top;
@@ -305,34 +305,34 @@ body#imagemfundo4{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-    
+
     .definiçãohollow {
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
     }
 
-     .bordaimg-hollow{
-    border: 5px solid white;
-}
+    .bordaimg-hollow {
+        border: 5px solid white;
+    }
 
     .definiçãohollow p {
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px;
+        margin: 0;
+        padding: 10px 20px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 17px;
+        max-width: 650px;
     }
 
-    h1{
-    color: #4169E1;    
-    text-align: center;
-    margin-bottom: 20px;
+    h1 {
+        color: #4169E1;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
-body#imagemfundo5{
+body#imagemfundo5 {
     background-image: url("imagens/nWbv9S.webp");
     background-size: cover;
     background-position: center top;
@@ -340,78 +340,78 @@ body#imagemfundo5{
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-    
+
     .definição-aranha {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;    
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
     }
 
-   .definição-aranha p{
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px;
-   }
+    .definição-aranha p {
+        margin: 0;
+        padding: 10px 20px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 17px;
+        max-width: 650px;
+    }
 
-   .borda-img3{
-    border: 5px solid white;
+    .borda-img3 {
+        border: 5px solid white;
+    }
+
+    h1 {
+        color: red;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 260px;
+        height: 270px;
+    }
 }
 
-    h1{
-    color: red;   
-    text-align: center;
-    margin-bottom: 20px;
-    }
-
-    img{
-    width: 260px;
-    height: 270px;
-    }
-}
-
-body#imagemfundo6{
+body#imagemfundo6 {
     color: white;
     background-image: url("imagens/minecraftbackground.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    
-    .definição-mine{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
 
-    .borda-img4{
-    border: 5px solid green;
-}
+    .definição-mine {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
 
-    .definição-mine img{
+    .borda-img4 {
+        border: 5px solid green;
+    }
+
+    .definição-mine img {
         width: 350px;
         height: 260px;
     }
-    
+
     .definição-mine p {
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px;
+        margin: 0;
+        padding: 10px 20px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 17px;
+        max-width: 650px;
     }
 
-    h1{
-    color: green;   
-    text-align: center;
-    margin-bottom: 20px;
+    h1 {
+        color: green;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
-body#imagemfundo7{
+body#imagemfundo7 {
     color: white;
     background-image: url("imagens/red-dead-redemption-2-game-2025-cf.jpg");
     background-size: cover;
@@ -419,34 +419,34 @@ body#imagemfundo7{
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
-    
-    .definiçãoreddead {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
 
-    .bordaimg-reddead{
-    border: 5px solid black;
-}
+    .definiçãoreddead {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bordaimg-reddead {
+        border: 5px solid black;
+    }
 
     .definiçãoreddead p {
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px;
+        margin: 0;
+        padding: 10px 20px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 17px;
+        max-width: 650px;
     }
 
-    h1{
-    color: white;   
-    text-align: center;
-    margin-bottom: 20px;
+    h1 {
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
-body#imagemfundo8{
+body#imagemfundo8 {
     color: white;
     background-image: url("imagens/cf7990bd7a9820e3484c24c42e788459.jpeg");
     background-size: cover;
@@ -455,33 +455,33 @@ body#imagemfundo8{
     background-attachment: fixed;
     min-height: 100vh;
 
-    .definiçãoresident{
-    display: flex;
-    align-items: center;
-    gap: 20px;   
+    .definiçãoresident {
+        display: flex;
+        align-items: center;
+        gap: 20px;
     }
 
-    .definiçãoresident p{
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 17px;
-    max-width: 650px;
+    .definiçãoresident p {
+        margin: 0;
+        padding: 10px 20px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 17px;
+        max-width: 650px;
     }
 
-    h1{
-    color: red;   
-    text-align: center;
-    margin-bottom: 10px;  
+    h1 {
+        color: red;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
-    .bordaimg-resident{
-    border: 5px solid red;
+    .bordaimg-resident {
+        border: 5px solid red;
     }
 }
 
-.definiçãobob{
+.definiçãobob {
     max-width: 900px;
     line-height: 1.6;
     font-size: 18px;
@@ -489,10 +489,13 @@ body#imagemfundo8{
     gap: 20px;
 }
 
-.bordabob{
+.bordabob {
     border: 5px solid blue;
 }
 
+/* ===== CONQUISTAS (God of War Ragnarök) ===== */
+
+/* Container: as seções se distribuem sozinhas em colunas */
 .conquistas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -505,11 +508,13 @@ body#imagemfundo8{
     box-sizing: border-box;
 }
 
+/* Cor de cada tipo de troféu */
 .conquistasbronze  { --cor: #cd7f32; }
 .conquistasprata   { --cor: #c0c0c0; }
 .conquistasouro    { --cor: #ffd700; }
 .conquistasplatina { --cor: #7fe0ff; }
 
+/* Caixa de cada seção */
 .conquistasbronze,
 .conquistasprata,
 .conquistasouro,
@@ -523,6 +528,7 @@ body#imagemfundo8{
     min-width: 0;
 }
 
+/* Título da seção */
 .conquistasbronze h4,
 .conquistasprata h4,
 .conquistasouro h4,
@@ -535,6 +541,7 @@ body#imagemfundo8{
     border-bottom: 2px solid var(--cor);
 }
 
+/* Lista principal sem marcadores */
 .conquistasbronze > ul,
 .conquistasprata > ul,
 .conquistasouro > ul,
@@ -544,6 +551,7 @@ body#imagemfundo8{
     padding: 0;
 }
 
+/* Cada conquista */
 .conquistasbronze > ul > li,
 .conquistasprata > ul > li,
 .conquistasouro > ul > li,
@@ -562,6 +570,7 @@ body#imagemfundo8{
     margin-bottom: 0;
 }
 
+/* Nome da conquista */
 .conquistasbronze li h5,
 .conquistasprata li h5,
 .conquistasouro li h5,
@@ -571,6 +580,7 @@ body#imagemfundo8{
     margin: 0 0 10px;
 }
 
+/* Textos */
 .conquistasbronze li p,
 .conquistasprata li p,
 .conquistasouro li p,
@@ -581,6 +591,7 @@ body#imagemfundo8{
     overflow-wrap: break-word;
 }
 
+/* "Objetivo:" e nomes de missões em destaque */
 .conquistasbronze li p strong,
 .conquistasprata li p strong,
 .conquistasouro li p strong,
@@ -588,6 +599,7 @@ body#imagemfundo8{
     color: var(--cor);
 }
 
+/* Listas internas (caçadas, armadura, missões) */
 .conquistasbronze li ul,
 .conquistasprata li ul,
 .conquistasouro li ul,
@@ -612,6 +624,7 @@ body#imagemfundo8{
     margin: 3px 0;
 }
 
+/* Linha divisória (hr) dentro das seções */
 .conquistasbronze hr,
 .conquistasprata hr,
 .conquistasouro hr,
@@ -620,6 +633,26 @@ body#imagemfundo8{
     border-top: 1px solid var(--cor);
     margin: 20px 0 0;
     opacity: 0.6;
+}
+
+/* Botão "Voltar ao topo" (fim da página) */
+body > button {
+    display: block;
+    margin: 20px auto 40px;
+    padding: 10px 24px;
+    font-family: inherit;
+    font-size: 16px;
+    color: white;
+    background-color: #1111ff;
+    border: 2px solid #3333ff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+body > button:hover {
+    background-color: #3333ff;
+    box-shadow: 0 0 12px #1111ff;
 }
 
 /*pra celular*/
@@ -634,13 +667,13 @@ body#imagemfundo8{
         width: 100%;
         box-sizing: border-box;
     }
-    
+
     .logo {
         width: 80%;
         max-width: 300px;
         height: auto;
     }
-    
+
     .barra {
         width: 60%;
         height: 5vh;
@@ -652,12 +685,12 @@ body#imagemfundo8{
         width: 25%;
         box-sizing: border-box;
     }
-    
+
     .sugestoes {
         width: 100%;
         box-sizing: border-box;
     }
-    
+
     .jogos {
         width: 100%;
         max-width: 100%;
@@ -811,7 +844,7 @@ body#imagemfundo8{
         text-align: justify;
         overflow-wrap: break-word;
     }
-    
+
     body#imagemfundo2 .definiçãocrash {
         display: flex;
         flex-direction: column;
@@ -871,7 +904,7 @@ body#imagemfundo8{
         text-align: justify;
         overflow-wrap: break-word;
     }
-    
+
     body#imagemfundo4 .definiçãohollow {
         display: flex;
         flex-direction: column;
@@ -1045,6 +1078,8 @@ body#imagemfundo8{
         overflow-wrap: break-word;
     }
 
+
+    /* conquistas */
     .conquistas {
         grid-template-columns: 1fr;
         gap: 18px;
@@ -1071,13 +1106,12 @@ body#imagemfundo8{
     .conquistasplatina li h5 {
         font-size: 16px;
     }
-    
-    }
-    
+}
+
 /*pra computador*/
-@media (min-width: 769px) 
- {     
-        .logo {
+@media (min-width: 769px) {
+
+    .logo {
         width: 400px;
         max-width: 400px;
         height: auto;
@@ -1116,4 +1150,5 @@ body#imagemfundo8{
         width: 18%;
         box-sizing: border-box;
     }
- }
+    }
+    
