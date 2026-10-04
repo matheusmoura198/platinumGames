@@ -659,7 +659,7 @@ body > button:hover {
 @media (max-width: 769px) {
 
     body {
-        font-family: "Comic Sans MS", cursive;
+        font-family: "Comic Neue", "Comic Sans MS", sans-serif;
         overflow-x: hidden;
     }
 
