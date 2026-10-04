@@ -754,6 +754,12 @@ body > button:hover {
         padding: 0 15px;
     }
 
+        .definição1 img {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+        }
+
     .definição2 {
         display: flex;
         flex-direction: column;
