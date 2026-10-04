@@ -514,16 +514,11 @@ body#imagemfundo8 {
 .conquistasouro    { --cor: #ffd700; }
 .conquistasplatina { --cor: #7fe0ff; }
 
-/* Caixa de cada seção */
+/* Seção: sem caixa grande, só agrupa as conquistas */
 .conquistasbronze,
 .conquistasprata,
 .conquistasouro,
 .conquistasplatina {
-    background-color: rgba(8, 8, 36, 0.88);
-    border: 2px solid var(--cor);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 14px var(--cor);
     box-sizing: border-box;
     min-width: 0;
 }
@@ -539,6 +534,7 @@ body#imagemfundo8 {
     margin: 0 0 20px;
     padding-bottom: 12px;
     border-bottom: 2px solid var(--cor);
+    text-shadow: 0 0 8px #000, 0 0 3px #000;
 }
 
 /* Lista principal sem marcadores */
@@ -556,9 +552,11 @@ body#imagemfundo8 {
 .conquistasprata > ul > li,
 .conquistasouro > ul > li,
 .conquistasplatina > ul > li {
-    background-color: rgba(255, 255, 255, 0.06);
-    border-left: 4px solid var(--cor);
-    border-radius: 8px;
+    background-color: rgba(8, 8, 36, 0.88);
+    border: 2px solid var(--cor);
+    border-left-width: 6px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--cor);
     padding: 14px 16px;
     margin-bottom: 16px;
 }
@@ -1086,13 +1084,6 @@ body > button:hover {
         padding: 0 10px;
     }
 
-    .conquistasbronze,
-    .conquistasprata,
-    .conquistasouro,
-    .conquistasplatina {
-        padding: 14px;
-    }
-
     .conquistasbronze h4,
     .conquistasprata h4,
     .conquistasouro h4,
@@ -1150,5 +1141,4 @@ body > button:hover {
         width: 18%;
         box-sizing: border-box;
     }
-    }
-    
+        }
