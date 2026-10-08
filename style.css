@@ -258,7 +258,7 @@ body#imagemfundo2 {
 }
 
 body#imagemfundo3 {
-    background-image: url("imagens/backgroundcuphead.png");
+    background-image: url("imagens/cupheadbackground.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
