@@ -12,8 +12,8 @@ O **PlatinumGames** é um site desenvolvido como projeto de informática para ap
 
 ## Tecnologias utilizadas
 
-- **HTML5:** estrutura das páginas.
-- **CSS3:** aparência, organização dos elementos e responsividade.
+- **HTML:** estrutura das páginas.
+- **CSS:** aparência, organização dos elementos e responsividade.
 - **JavaScript:** funcionalidades interativas, como a pesquisa de jogos.
 
 ## Como executar
