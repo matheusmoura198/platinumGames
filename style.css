@@ -366,9 +366,14 @@ body#imagemfundo5 {
         margin-bottom: 20px;
     }
 
-    img {
-        width: 260px;
-        height: 270px;
+    .definição-aranha img {
+        display: block;
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+        max-height: 450px;
+        object-fit: contain;
+        flex-shrink: 0;
     }
 }
 
@@ -498,7 +503,7 @@ body#imagemfundo8 {
 /* Container: as seções se distribuem sozinhas em colunas */
 .conquistas {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
     align-items: start;
     width: 100%;
@@ -521,6 +526,13 @@ body#imagemfundo8 {
 .conquistasplatina {
     box-sizing: border-box;
     min-width: 0;
+}
+
+/* Platina centralizada abaixo das colunas Bronze, Prata e Ouro */
+.conquistasplatina {
+    grid-column: 1 / -1;
+    width: min(100%, 680px);
+    justify-self: center;
 }
 
 /* Título da seção */
