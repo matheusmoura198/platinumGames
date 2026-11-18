@@ -603,3 +603,32 @@ select {
     background-attachment: scroll;
   }
 }
+
+/* Descoberta e acompanhamento da jornada */
+.discovery-section,
+.journey-section { padding-block: 28px 58px; }
+.discovery-section { border-top: 1px solid var(--color-border); }
+.loading-state { color: var(--color-muted); }
+.journey-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 16px; }
+.journey-card,
+.progress-panel { border: 1px solid var(--color-border); border-radius: 14px; background: var(--color-surface); }
+.journey-card { display: grid; gap: 12px; padding: 18px; }
+.journey-card-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.journey-card h3 { margin: 0; font-size: 1rem; }
+.journey-percent { color: var(--color-accent); font-weight: 800; font-variant-numeric: tabular-nums; }
+.journey-card p { margin: 0; color: var(--color-muted); font-size: 0.85rem; }
+.journey-progress,
+.guide-progress-bar { width: 100%; height: 10px; accent-color: var(--color-primary-hover); }
+.progress-panel { display: grid; gap: 14px; margin-block: 20px 28px; padding: 18px; }
+.progress-panel-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 18px; }
+.progress-panel h2 { margin: 0; font-size: 1.15rem; }
+.progress-count { margin: 0; color: var(--color-muted); font-size: 0.88rem; }
+.progress-panel-actions { display: flex; justify-content: flex-end; }
+.trackable-item { display: grid; grid-template-columns: 22px minmax(0, 1fr); align-items: start; gap: 10px; padding-block: 5px; }
+.guide-progress-checkbox { width: 18px; height: 18px; margin: 4px 0 0; accent-color: var(--color-primary-hover); cursor: pointer; }
+.guide-progress-content { min-width: 0; }
+.trackable-item.is-complete > .guide-progress-content { color: var(--color-muted); text-decoration: line-through; text-decoration-thickness: 1px; }
+@media (max-width: 520px) {
+  .progress-panel { padding: 14px; }
+  .progress-panel-actions .button { width: 100%; }
+}
