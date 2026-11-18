@@ -89,3 +89,14 @@ test("página inicial: destaques e retomada de progresso", async () => {
   assert.match(script, /featuredIds/);
   assert.match(script, /readProgress/);
 });
+
+
+test("página inicial: recomendações editoriais e filtros por gênero", async () => {
+  const html = await readFile(resolve(root, "index.html"), "utf8");
+  const script = await readFile(resolve(root, "scripts/home.js"), "utf8");
+  assert.match(html, /id="featured-grid"/);
+  assert.match(html, /id="genre-discovery"/);
+  assert.match(script, /recommendedIds/);
+  assert.match(script, /makeGenreButton/);
+  assert.match(script, /dispatchEvent\(new Event\("change"/);
+});
