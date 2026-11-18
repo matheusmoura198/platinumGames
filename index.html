@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="styles/legacy-guides.css">
 <link rel="stylesheet" href="style.css">
 <script type="module" src="scripts/pesquisa.js"></script>
+<script type="module" src="scripts/home.js"></script>
 </head>
 <body id="topo">
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -35,14 +36,27 @@
 <p class="empty-state" id="empty-state" hidden>Nenhum jogo encontrado. Tente outro nome ou remova os filtros.</p>
 <div class="game-grid" id="game-grid" aria-label="Jogos disponíveis"></div>
 </section>
+
+<section class="discovery-section" aria-labelledby="featured-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">SELEÇÃO DA COMUNIDADE</p><h2 id="featured-title">Guias em destaque</h2></div>
+    <p>Uma seleção para descobrir novas jornadas.</p>
+  </div>
+  <div class="game-grid" id="featured-grid" aria-label="Guias em destaque"><p class="loading-state">Carregando destaques…</p></div>
+</section>
+<section class="journey-section" aria-labelledby="journey-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">SEU PROGRESSO</p><h2 id="journey-title">Continue sua jornada</h2></div>
+    <p>Seu progresso fica salvo neste navegador.</p>
+  </div>
+  <div class="journey-grid" id="journey-grid"><p class="empty-state">Quando você marcar objetivos em um guia, seu progresso aparecerá aqui.</p></div>
+</section>
+
 <section class="about-section" id="sobre" aria-labelledby="about-title"><div><p class="eyebrow">SOBRE O PROJETO</p><h2 id="about-title">Uma biblioteca feita por jogadores.</h2></div><p>O PlatinumGames reúne informações e guias que ajudam jogadores a planejar suas conquistas, descobrir objetivos e aproveitar cada etapa até completar um jogo.</p></section>
 <section class="legacy-guides" id="guias-legados" aria-labelledby="legacy-title">
 <div class="section-heading legacy-heading"><div><p class="eyebrow">CONTEÚDO DA COMUNIDADE</p><h2 id="legacy-title">Guias já publicados</h2></div><p>Os guias existentes foram preservados durante esta refatoração.</p></div>
 <h2 id="sally-face">Sally face.</h2>
-
-  <script src="scripts/pesquisa.js"></script>
-
-  <!--definição do jogo-->
+<!--definição do jogo-->
   <div class="legacy-guide-block">
 
     <section class="definição1">
