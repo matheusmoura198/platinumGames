@@ -86,7 +86,7 @@ test("página inicial: destaques e retomada de progresso", async () => {
   const script = await readFile(resolve(root, "scripts/home.js"), "utf8");
   assert.match(html, /id="featured-grid"/);
   assert.match(html, /id="journey-grid"/);
-  assert.match(script, /featuredIds/);
+  assert.match(script, /recommendedIds/);
   assert.match(script, /readProgress/);
 });
 
