@@ -7,6 +7,9 @@ O **PlatinumGames** reúne informações e guias para ajudar jogadores a planeja
 - Biblioteca de jogos alimentada por um catálogo JSON.
 - Pesquisa por nome, apelidos e gênero, com normalização de acentos e diferenças de maiúsculas/minúsculas.
 - Cards com links para os guias.
+- Seleção de guias em destaque na página inicial.
+- Acompanhamento de objetivos com caixas de seleção em cada guia.
+- Salvamento local do progresso por jogo e painel para continuar a jornada na página inicial.
 - Páginas individuais com navegação compartilhada.
 - Guias históricos preservados durante a refatoração.
 - Layout responsivo para telas grandes e pequenas.
@@ -89,6 +92,8 @@ O arquivo `data/jogos.json` é a fonte central do catálogo. Cada registro cont�
 - `image`: caminho da imagem.
 - `href`: destino do guia.
 - `description`: resumo exibido no card.
+
+O progresso é armazenado somente no `localStorage` do navegador e não é sincronizado entre dispositivos. Limpar os dados do navegador pode apagar esse progresso.
 
 Ao adicionar um jogo, atualize o JSON e confira se o destino e a imagem existem.
 
