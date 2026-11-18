@@ -7,7 +7,8 @@ O **PlatinumGames** reúne informações e guias para ajudar jogadores a planeja
 - Biblioteca de jogos alimentada por um catálogo JSON.
 - Pesquisa por nome, apelidos e gênero, com normalização de acentos e diferenças de maiúsculas/minúsculas.
 - Cards com links para os guias.
-- Seleção de guias em destaque na página inicial.
+- Recomendações editoriais e descoberta de jogos por gênero.
+- Formulário de sugestões de jogos com envio pelo Formspree (após configuração do identificador do formulário).
 - Acompanhamento de objetivos com caixas de seleção em cada guia.
 - Salvamento local do progresso por jogo e painel para continuar a jornada na página inicial.
 - Páginas individuais com navegação compartilhada.
@@ -23,7 +24,19 @@ O **PlatinumGames** reúne informações e guias para ajudar jogadores a planeja
 - JSON para os dados do catálogo.
 - Node.js (somente para executar os testes automatizados).
 
-Não há backend, banco de dados ou dependência de framework nesta etapa.
+Não há backend próprio, banco de dados ou dependência de framework nesta etapa. O formulário de sugestões utiliza o serviço externo Formspree para processar e encaminhar mensagens.
+
+## Configurar o recebimento de sugestões
+
+O formulário da página inicial usa o Formspree. Para ativar o envio:
+
+1. Crie uma conta em [formspree.io](https://formspree.io/) e cadastre um novo formulário.
+2. Configure como destinatário o endereço de e-mail que deseja receber as sugestões e conclua a verificação solicitada pelo serviço.
+3. Copie o identificador do formulário fornecido pelo Formspree.
+4. No arquivo `index.html`, localize o formulário `#suggestion-form` e substitua o valor `SEU_ID_FORMSPREE` do atributo `data-formspree-id` pelo identificador real.
+5. Publique a alteração e faça um envio de teste pelo site.
+
+O identificador do formulário é público e pode ficar no HTML; a configuração do destinatário e a verificação do e-mail são gerenciadas no painel do Formspree. Não coloque senhas ou chaves privadas no repositório. Enquanto o identificador não for configurado, o formulário informa que o envio ainda não está ativado.
 
 ## Executar localmente
 
