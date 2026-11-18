@@ -1,110 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
 <head>
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PlatinumGames</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="imagens/logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Guias, dicas e informações para acompanhar sua jornada rumo à platina dos seus jogos favoritos.">
+<meta name="theme-color" content="#080b12">
+<title>PlatinumGames — Guias e conquistas</title>
+<link rel="icon" type="image/png" href="imagens/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/legacy-guides.css">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="scripts/pesquisa.js"></script>
 </head>
-
 <body id="topo">
-
-  <div style="display: flex; justify-content: center; align-items: flex-start; height: auto;">
-    <img src="imagens/logo.png" alt="" class="logo">
-  </div>
-
-  <p style="text-align: center;">
-    <input class="barra" type="text" id="campoPesquisa" placeholder="Pesquise o jogo">
-
-    <!-- O botão que dispara a função -->
-    <button class="pesquisar" onclick="buscarJogos()">Pesquisar</button>
-  </p>
-
-  <section class="jogos">
-    <h2>⬇️Jogos disponíveis do site⬇️</h2>
-
-    <div class="lista-jogos">
-
-      <div class="card-jogo">
-        <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Cuphead_%28artwork%29.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=origina" alt="Cuphead" width="180" height="260">
-        <h3>Cuphead</h3>
-      </div>
-
-      <div class="card-jogo">
-        <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" width="180" height="260">
-        <h3>Hollow Knight</h3>
-      </div>
-
-      <div class="card-jogo">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/5/59/Crash-Bandicoot-4-capa.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" width="180" height="260">
-        <h3>Crash Bandicoot 4</h3>
-      </div>
-
-      <div class="card-jogo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFXYaNr-8VDcks1088jUqscqhAf3GY-dbemId1dcqWQ07o0vb0SQUilgI&s=10" width="180" height="260">
-        <h3>Red Dead Redemption 2</h3>
-      </div>
-
-      <div class="card-jogo">
-        <img src="https://thumb.wikimedia.org/wikipedia/pt/thumb/c/c1/Resident_Evil_5_-_North-american_cover.jpg/250px-Resident_Evil_5_-_North-american_cover.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Resident Evil 5" width="180" height="260">
-        <h3>Resident Evil 5</h3>
-      </div>
-
-      <div class="card-jogo">
-        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202011/0402/pZ2pIEEnH7YhEtpxh1CY6KDz.png" width="180" height="260">
-        <h3>Marvel's Spider-Man</h3>
-      </div>
-
-      <div class="card-jogo">
-        <img src="https://cdn2.unrealengine.com/Diesel/productv2/batman-arkham-knight/EGS_WB_Batman_Arkham_Knight_G1_1920x1080_19_0911-1920x1080-1d69e15f00cb5ab57249f208f1f8f45d52cbbc59.jpg" width="180" height="260">
-        <h3>Batman Arkham Knight</h3>
-      </div>
-
-      <div class="card-jogo">
-        <img src="https://images.hdqwalls.com/download/luz-creeper-verde-minecraft-b7-750x1334.jpg" width="180" height="260">
-        <h3>Minecraft</h3>
-      </div>
-
-    </div>
-  </section>
-
-  <!--definição e sugestões de jogos-->
-  <section class="informacoes">
-
-    <h1>Bem vindo ao PlatinumGames!</h1>
-
-    <hr>
-
-    <h2>
-      O <b>PlatinumGames</b> é um site criado para ajudar jogadores a conquistarem a platina de seus jogos.
-    </h2>
-
-    <h3>
-      Encontre informações,dicas e guias necessários para conseguir tudo e alcançar a platina.
-    </h3>
-
-  </section>
-
-  <section class="sugestoes" style="background-color: blue; height: 100px; width: 100%; display: flex; justify-content: center; align-items: center;">
-    <div>
-      <h1>Sugestões de jogos...</h1>
-    </div>
-  </section>
-
-  <h1 id="sally face">Sally face.</h1>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header">
+<a class="site-brand" href="index.html" aria-label="PlatinumGames — início"><img src="imagens/logo.png" alt="" width="44" height="44"><span>Platinum<span class="brand-accent">Games</span></span></a>
+<nav class="site-nav" aria-label="Navegação principal"><a href="#inicio">Início</a><a href="#biblioteca">Biblioteca</a><a href="#guias-legados">Guias</a><a href="#sobre">Sobre</a></nav>
+</header>
+<main id="conteudo">
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+<div class="hero-content"><p class="eyebrow">SUA JORNADA. SUA PRÓXIMA PLATINA.</p><h1 id="hero-title">Cada conquista começa com um bom guia.</h1><p>Encontre informações, organize sua jornada e descubra o que falta para completar seus jogos favoritos.</p><a class="button button-primary" href="#biblioteca">Explorar biblioteca</a></div>
+<div class="hero-art"><img src="imagens/cupheadbackground.png" alt="Arte de destaque de Cuphead" width="900" height="600" fetchpriority="high"><span class="hero-art-label">Guias para sua próxima platina</span></div>
+</section>
+<section class="library-section" id="biblioteca" aria-labelledby="library-title">
+<div class="section-heading"><div><p class="eyebrow">EXPLORE O CATÁLOGO</p><h2 id="library-title">Biblioteca de jogos</h2></div><p class="results-count" id="results-count" role="status" aria-live="polite">Carregando jogos…</p></div>
+<form class="search-panel" id="search-form" role="search">
+<div class="field-group search-field"><label for="campoPesquisa">Pesquisar jogo</label><input id="campoPesquisa" name="q" type="search" placeholder="Ex.: God of War, Batman, Minecraft…" autocomplete="off"></div>
+<div class="field-group"><label for="genre-filter">Gênero</label><select id="genre-filter" name="genre"><option value="">Todos os gêneros</option></select></div>
+<button class="button button-secondary" type="button" id="clear-search">Limpar filtros</button>
+</form>
+<p class="empty-state" id="empty-state" hidden>Nenhum jogo encontrado. Tente outro nome ou remova os filtros.</p>
+<div class="game-grid" id="game-grid" aria-label="Jogos disponíveis"></div>
+</section>
+<section class="about-section" id="sobre" aria-labelledby="about-title"><div><p class="eyebrow">SOBRE O PROJETO</p><h2 id="about-title">Uma biblioteca feita por jogadores.</h2></div><p>O PlatinumGames reúne informações e guias que ajudam jogadores a planejar suas conquistas, descobrir objetivos e aproveitar cada etapa até completar um jogo.</p></section>
+<section class="legacy-guides" id="guias-legados" aria-labelledby="legacy-title">
+<div class="section-heading legacy-heading"><div><p class="eyebrow">CONTEÚDO DA COMUNIDADE</p><h2 id="legacy-title">Guias já publicados</h2></div><p>Os guias existentes foram preservados durante esta refatoração.</p></div>
+<h2 id="sally-face">Sally face.</h2>
 
   <script src="scripts/pesquisa.js"></script>
 
   <!--definição do jogo-->
-  <main>
+  <div class="legacy-guide-block">
 
     <section class="definição1">
-      <img src="imagens/MV5BMjUxNWZhMjEtM2MyZS00NjZmLWJjZWUtYTNhYTQ0ZjUzMjQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="borda-img" width="350" height="300">
+      <img alt="Imagem ilustrativa do guia" src="imagens/MV5BMjUxNWZhMjEtM2MyZS00NjZmLWJjZWUtYTNhYTQ0ZjUzMjQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="borda-img" width="350" height="300" loading="lazy">
       <p>
         Sally Face é um jogo de aventura e terror psicológico desenvolvido pela Portable Moose.
         A história acompanha Sal Fisher, um garoto que usa uma máscara protética azul para esconder seu rosto.
@@ -196,16 +138,16 @@
 
     </div>
 
-  </main>
+  </div>
 
   <hr>
 
-  <h1 id="god of war ragnarok">God of war Ragnarok.</h1>
+  <h2 id="god-of-war-ragnarok">God of war Ragnarok.</h2>
 
-  <main>
+  <div class="legacy-guide-block">
 
     <section class="definição2">
-      <img src="imagens/209a330a-50f4-48d1-9db7-7485e6a81d87cover.jpg" class="borda-img2" width="200" height="280">
+      <img alt="Imagem ilustrativa do guia" src="imagens/209a330a-50f4-48d1-9db7-7485e6a81d87cover.jpg" class="borda-img2" width="200" height="280" loading="lazy">
       <p>
         God of War Ragnarok é um jogo de ação e aventura desenvolvido pela Santa Monica Studio.
         Lançado em 2022, ele é uma sequência direta de God of War (2018).
@@ -560,14 +502,14 @@
       </section>
     </div>
 
-  </main>
+  </div>
 
   <hr>
 
-  <h1 id="SpongeBob SquarePants: Battle for Bikini Bottom">SpongeBob SquarePants: Battle for Bikini Bottom.</h1>
+  <h2 id="bob-esponja">SpongeBob SquarePants: Battle for Bikini Bottom.</h2>
 
   <section class="definiçãobob">
-    <img src="imagens/BattleForBikiniBottom.jpg" width="350" height="350" class="bordabob">
+    <img alt="Imagem ilustrativa do guia" src="imagens/BattleForBikiniBottom.jpg" width="350" height="350" class="bordabob" loading="lazy">
     <p>
       Bob Esponja: Batalha pela Fenda do Biquíni é um jogo de aventura e plataforma baseado na famosa animação Bob Esponja Calça Quadrada.
       A história acompanha Bob Esponja, Patrick e Sandy em uma missão para salvar a Fenda do Biquíni de robôs criados pelo Plankton.
@@ -580,7 +522,7 @@
     </p>
   </section>
 
-  <h1>🧽 GUIA DE 100% — BOB ESPONJA: BATALHA PELA FENDA DO BIQUÍNI.</h1>
+  <h2>🧽 GUIA DE 100% — BOB ESPONJA: BATALHA PELA FENDA DO BIQUÍNI.</h2>
   <p>
     Para obter todos os itens você precisa coletar 100 golden espatulas,80 patrick's socks,todos os tipos de robô
     todos os chefes e todos os desafios e missões.
@@ -652,9 +594,9 @@
 
   <hr>
 
-  <button type="button" onclick="window.location.href='#topo'">Voltar ao topo</button>
-
+  <a class="back-to-top" href="#topo">Voltar ao topo</a>
+</section>
+</main>
+<footer class="site-footer"><a class="site-brand footer-brand" href="#topo">Platinum<span class="brand-accent">Games</span></a><p>Guias e informações para sua jornada rumo à platina.</p><a href="#topo">Voltar ao início ↑</a></footer>
 </body>
-
-                                                                                                  </html>
-                                                                                                  
+</html>
