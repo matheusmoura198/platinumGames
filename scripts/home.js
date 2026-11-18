@@ -1,5 +1,7 @@
 const featuredGrid = document.querySelector("#featured-grid");
+const genreDiscovery = document.querySelector("#genre-discovery");
 const journeyGrid = document.querySelector("#journey-grid");
+const genreFilter = document.querySelector("#genre-filter");
 
 const makeElement = (tag, className, text) => {
   const element = document.createElement(tag);
@@ -59,14 +61,37 @@ const makeJourneyCard = (game, progress) => {
   return article;
 };
 
+const makeGenreButton = (genre, count) => {
+  const button = makeElement("button", "genre-chip", genre);
+  button.type = "button";
+  button.setAttribute("aria-label", `Ver ${count} jogos do gênero ${genre}`);
+  button.addEventListener("click", () => {
+    genreFilter.value = genre;
+    genreFilter.dispatchEvent(new Event("change", { bubbles: true }));
+    document.querySelector("#biblioteca").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  return button;
+};
+
 const initializeHome = async () => {
   try {
     const response = await fetch(new URL("../data/jogos.json", import.meta.url));
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const games = await response.json();
-    const featuredIds = ["hollow-knight", "cuphead", "red-dead-redemption-2"];
-    const featured = featuredIds.map((id) => games.find((game) => game.id === id)).filter(Boolean);
-    featuredGrid.replaceChildren(...featured.map(makeGameCard));
+    if (!Array.isArray(games)) throw new TypeError("O catálogo precisa ser uma lista.");
+
+    const recommendedIds = ["hollow-knight", "cuphead", "red-dead-redemption-2"];
+    const recommended = recommendedIds.map((id) => games.find((game) => game.id === id)).filter(Boolean);
+    featuredGrid.replaceChildren(...recommended.map(makeGameCard));
+
+    const genreCounts = games.reduce((counts, game) => {
+      if (game.genre) counts.set(game.genre, (counts.get(game.genre) || 0) + 1);
+      return counts;
+    }, new Map());
+    const genreButtons = [...genreCounts.entries()]
+      .sort(([a], [b]) => a.localeCompare(b, "pt-BR"))
+      .map(([genre, count]) => makeGenreButton(genre, count));
+    genreDiscovery.replaceChildren(...genreButtons);
 
     const journeys = games
       .map((game) => ({ game, progress: readProgress(game.href) }))
@@ -79,7 +104,8 @@ const initializeHome = async () => {
       journeyGrid.replaceChildren(makeElement("p", "empty-state", "Você ainda não marcou objetivos. Abra um guia e marque as etapas concluídas para acompanhar sua jornada aqui."));
     }
   } catch (error) {
-    featuredGrid.replaceChildren(makeElement("p", "empty-state", "Não foi possível carregar os destaques."));
+    featuredGrid.replaceChildren(makeElement("p", "empty-state", "Não foi possível carregar as recomendações."));
+    genreDiscovery.replaceChildren(makeElement("p", "empty-state", "Não foi possível carregar os gêneros."));
     journeyGrid.replaceChildren(makeElement("p", "empty-state", "Seu progresso não pôde ser carregado agora."));
     console.error("Erro ao carregar recursos da página inicial:", error);
   }
