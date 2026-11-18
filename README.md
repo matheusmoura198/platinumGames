@@ -112,8 +112,7 @@ Ao adicionar um jogo, atualize o JSON e confira se o destino e a imagem existem.
 
 ## Decisões de manutenção
 
-- A branch `main` não deve receber alterações diretamente durante a evolução desta refatoração.
-- Mudanças devem ser feitas em branches de trabalho e revisadas antes de integrar.
+- Prefira branches de trabalho e Pull Requests para mudanças relevantes; alterações diretas na `main` devem ocorrer somente quando explicitamente autorizadas.
 - Os guias existentes devem ser preservados ao reorganizar páginas e componentes.
 - Não adicionar frameworks ou serviços externos sem uma necessidade concreta.
 - Imagens devem ser otimizadas e utilizadas respeitando direitos e licenças aplicáveis.
