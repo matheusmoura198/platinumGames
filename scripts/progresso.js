@@ -60,6 +60,36 @@ if (main) {
   panel.append(heading, progress, actions);
   main.querySelector("h1")?.after(panel);
 
+
+  const stageHeadings = [...main.querySelectorAll("h2")].filter((heading) => !heading.closest(".progress-panel"));
+  if (stageHeadings.length) {
+    const navigation = document.createElement("details");
+    navigation.className = "guide-toc";
+    const summary = document.createElement("summary");
+    summary.textContent = "Navegar pelas etapas deste guia";
+    const list = document.createElement("ol");
+
+    stageHeadings.forEach((heading, index) => {
+      const slug = heading.textContent
+        .normalize("NFD")
+        .replace(/[\\u0300-\\u036f]/g, "")
+        .toLocaleLowerCase("pt-BR")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
+      heading.id ||= `etapa-${slug || "guia"}-${index + 1}`;
+
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = `#${heading.id}`;
+      link.textContent = heading.textContent.replace(/\\s+/g, " ").trim();
+      item.append(link);
+      list.append(item);
+    });
+
+    navigation.append(summary, list);
+    panel.after(navigation);
+  }
+
   const checkboxes = [];
 
   items.forEach((item) => {
