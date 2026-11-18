@@ -736,26 +736,27 @@ body > button:hover {
 
     .lista-jogos {
         display: grid;
-
-        grid-template-columns: repeat(4, 1fr);
-
-        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 145px), 1fr));
+        gap: 18px;
         width: 100%;
         box-sizing: border-box;
+        align-items: stretch;
     }
 
     .card-jogo {
-        padding: 6px;
-        border-radius: 8px;
+        padding: 10px;
+        border-radius: 10px;
         box-sizing: border-box;
         min-width: 0;
     }
 
     .card-jogo img {
+        display: block;
         width: 100%;
-        height: 125px;
-        object-fit: cover;
-        border-radius: 5px;
+        height: auto;
+        aspect-ratio: 2 / 3;
+        object-fit: contain;
+        border-radius: 6px;
     }
 
     .card-jogo h3 {
@@ -1121,12 +1122,29 @@ body > button:hover {
         padding: 0 10px;
     }
 
+    /* No celular, transforma as colunas em itens independentes
+       para controlar a ordem: Bronze, Prata, Ouro e Platina. */
+    .conquistas-coluna {
+        display: contents;
+    }
+
     .conquistas-esquerda,
-    .conquistas-direita,
+    .conquistas-direita {
+        display: contents;
+    }
+
+    .conquistasbronze,
+    .conquistasprata,
+    .conquistasouro,
     .conquistasplatina {
         grid-column: 1;
         width: 100%;
     }
+
+    .conquistasbronze { order: 1; }
+    .conquistasprata { order: 2; }
+    .conquistasouro { order: 3; }
+    .conquistasplatina { order: 4; }
 
     .conquistasbronze h4,
     .conquistasprata h4,
