@@ -8,7 +8,7 @@ const clearButton = document.querySelector("#clear-search");
 
 const normalize = (value = "") => value
   .normalize("NFD")
-  .replace(/[\\u0300-\\u036f]/g, "")
+  .replace(/[\u0300-\u036f]/g, "")
   .toLocaleLowerCase("pt-BR")
   .replace(/[^a-z0-9]+/g, " ")
   .trim();
