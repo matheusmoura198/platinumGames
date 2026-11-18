@@ -72,7 +72,7 @@ if (main) {
     stageHeadings.forEach((heading, index) => {
       const slug = heading.textContent
         .normalize("NFD")
-        .replace(/[\\u0300-\\u036f]/g, "")
+        .replace(/[\u0300-\u036f]/g, "")
         .toLocaleLowerCase("pt-BR")
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-|-$/g, "");
@@ -81,7 +81,7 @@ if (main) {
       const item = document.createElement("li");
       const link = document.createElement("a");
       link.href = `#${heading.id}`;
-      link.textContent = heading.textContent.replace(/\\s+/g, " ").trim();
+      link.textContent = heading.textContent.replace(/\s+/g, " ").trim();
       item.append(link);
       list.append(item);
     });
