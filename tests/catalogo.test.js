@@ -72,7 +72,7 @@ test("HTML: referências locais, textos alternativos e sem handlers inline", asy
 test("guias individuais: painel de progresso e script compartilhado", async () => {
   for (const game of catalog.filter((item) => item.href.startsWith("jogos/"))) {
     const html = await readFile(resolve(root, game.href), "utf8");
-    assert.match(html, /scripts\\/progresso\\.js/, game.href);
+    assert.match(html, /scripts\/progresso\.js/, game.href);
   }
   const script = await readFile(resolve(root, "scripts/progresso.js"), "utf8");
   assert.match(script, /localStorage/);
