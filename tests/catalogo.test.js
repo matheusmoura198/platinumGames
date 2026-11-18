@@ -67,3 +67,24 @@ test("HTML: referências locais, textos alternativos e sem handlers inline", asy
     assert.match(html, /<main\b/i, `Elemento main ausente em ${file}`);
   }
 });
+
+
+test("guias individuais: painel de progresso e script compartilhado", async () => {
+  for (const game of catalog.filter((item) => item.href.startsWith("jogos/"))) {
+    const html = await readFile(resolve(root, game.href), "utf8");
+    assert.match(html, /scripts\\/progresso\\.js/, game.href);
+  }
+  const script = await readFile(resolve(root, "scripts/progresso.js"), "utf8");
+  assert.match(script, /localStorage/);
+  assert.match(script, /guide-progress-checkbox/);
+  assert.match(script, /Limpar progresso/);
+});
+
+test("página inicial: destaques e retomada de progresso", async () => {
+  const html = await readFile(resolve(root, "index.html"), "utf8");
+  const script = await readFile(resolve(root, "scripts/home.js"), "utf8");
+  assert.match(html, /id="featured-grid"/);
+  assert.match(html, /id="journey-grid"/);
+  assert.match(script, /featuredIds/);
+  assert.match(script, /readProgress/);
+});
