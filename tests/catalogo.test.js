@@ -100,3 +100,16 @@ test("página inicial: recomendações editoriais e filtros por gênero", async 
   assert.match(script, /makeGenreButton/);
   assert.match(script, /dispatchEvent\(new Event\("change"/);
 });
+
+
+test("página inicial: formulário de sugestões com configuração externa", async () => {
+  const html = await readFile(resolve(root, "index.html"), "utf8");
+  const script = await readFile(resolve(root, "scripts/sugestoes.js"), "utf8");
+  assert.match(html, /id="suggestion-form"/);
+  assert.match(html, /name="jogo"[^>]+required/);
+  assert.match(html, /name="_gotcha"/);
+  assert.match(html, /data-formspree-id="SEU_ID_FORMSPREE"/);
+  assert.match(script, /https:\/\/formspree\.io\/f\//);
+  assert.match(script, /response\.ok/);
+  assert.match(script, /submitButton\.disabled = true/);
+});
