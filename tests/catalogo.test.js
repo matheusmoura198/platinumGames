@@ -78,6 +78,7 @@ test("guias individuais: painel de progresso e script compartilhado", async () =
   assert.match(script, /localStorage/);
   assert.match(script, /guide-progress-checkbox/);
   assert.match(script, /Limpar progresso/);
+  assert.match(script, /Navegar pelas etapas deste guia/);
 });
 
 test("página inicial: destaques e retomada de progresso", async () => {
