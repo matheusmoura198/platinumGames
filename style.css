@@ -658,3 +658,13 @@ select {
   text-decoration: none;
 }
 .guide-toc a:hover { color: var(--color-accent); text-decoration: underline; }
+
+
+/* Identidade visual da página inicial: azul Royal escuro */
+body#topo {
+  background-color: #081b45;
+}
+
+body#topo .site-header {
+  background: rgba(8, 27, 69, 0.96);
+}
