@@ -1,41 +1,106 @@
 # PlatinumGames
 
-O **PlatinumGames** é um site desenvolvido como projeto de informática para apresentar jogos e reunir informações e guias que ajudam os jogadores a completar suas conquistas e obter a platina.
+O **PlatinumGames** reúne informações e guias para ajudar jogadores a planejar suas conquistas e completar seus jogos favoritos.
 
 ## Funcionalidades
 
-- Página inicial com jogos disponíveis.
-- Páginas com informações sobre jogos.
-- Guias com etapas, colecionáveis, atividades e troféus.
-- Organização das conquistas por categoria: Bronze, Prata, Ouro e Platina.
-- Layout com ajustes para computadores e celulares.
+- Biblioteca de jogos alimentada por um catálogo JSON.
+- Pesquisa por nome, apelidos e gênero, com normalização de acentos e diferenças de maiúsculas/minúsculas.
+- Cards com links para os guias.
+- Seleção de guias em destaque na página inicial.
+- Acompanhamento de objetivos com caixas de seleção em cada guia.
+- Salvamento local do progresso por jogo e painel para continuar a jornada na página inicial.
+- Páginas individuais com navegação compartilhada.
+- Guias históricos preservados durante a refatoração.
+- Layout responsivo para telas grandes e pequenas.
+- Verificações automatizadas do catálogo, dos arquivos locais e da estrutura básica das páginas.
 
-## Tecnologias utilizadas
+## Tecnologias
 
-- **HTML:** estrutura das páginas.
-- **CSS:** aparência, organização dos elementos e responsividade.
-- **JavaScript:** funcionalidades interativas, como a pesquisa de jogos.
+- HTML5 semântico.
+- CSS3 com estilos globais e uma folha separada para os estilos históricos dos guias.
+- JavaScript ES modules.
+- JSON para os dados do catálogo.
+- Node.js (somente para executar os testes automatizados).
 
-## Como executar
+Não há backend, banco de dados ou dependência de framework nesta etapa.
 
-1. Baixe ou clone este repositório.
-2. Abra a pasta do projeto.
-3. Abra o arquivo `index.html` em um navegador.
+## Executar localmente
 
-Não é necessário instalar dependências para visualizar as páginas estáticas.
+Como o catálogo é carregado por `fetch()`, abra o projeto por um servidor HTTP local, e não diretamente por `file://`.
 
-## Organização do projeto
+Com Python:
 
-- `index.html`: página inicial e conteúdo dos guias.
-- `style.css`: estilos compartilhados entre as páginas.
-- `jogos/`: páginas individuais dos jogos.
-- `scripts/`: arquivos JavaScript.
-- `imagens/`: imagens utilizadas no site.
+```bash
+python -m http.server 8000
+```
 
-## Objetivo
+Depois, acesse:
 
-Este projeto tem finalidade educacional e demonstra conhecimentos básicos de desenvolvimento web, organização de conteúdo e criação de interfaces.
+```text
+http://localhost:8000
+```
 
----
+Também é possível utilizar a extensão Live Server do Visual Studio Code.
 
-Desenvolvido como projeto de informática.
+## Testes
+
+É necessário ter Node.js instalado. Execute na raiz do projeto:
+
+```bash
+npm test
+```
+
+Os testes verificam:
+
+- Estrutura mínima e identificadores únicos do catálogo.
+- Existência dos destinos internos e imagens locais cadastrados.
+- Idioma, viewport e elemento principal das páginas individuais.
+- Referências locais de imagens, folhas de estilo e scripts.
+- Textos alternativos e ausência de manipuladores JavaScript inline.
+
+A suíte automatizada não substitui testes visuais em navegadores reais. A validação final de layout em diferentes celulares, tablets e computadores ainda deve ser feita manualmente ou com testes de navegador.
+
+## Organização
+
+```text
+platinumGames/
+├── data/
+│   └── jogos.json
+├── imagens/
+├── jogos/
+│   └── páginas individuais dos jogos
+├── scripts/
+│   └── pesquisa.js
+├── styles/
+│   └── legacy-guides.css
+├── tests/
+│   └── catalogo.test.js
+├── index.html
+├── style.css
+└── package.json
+```
+
+### Dados dos jogos
+
+O arquivo `data/jogos.json` é a fonte central do catálogo. Cada registro contém:
+
+- `id`: identificador único.
+- `title`: nome apresentado.
+- `aliases`: termos alternativos para pesquisa.
+- `genre`: categoria usada no filtro.
+- `image`: caminho da imagem.
+- `href`: destino do guia.
+- `description`: resumo exibido no card.
+
+O progresso é armazenado somente no `localStorage` do navegador e não é sincronizado entre dispositivos. Limpar os dados do navegador pode apagar esse progresso.
+
+Ao adicionar um jogo, atualize o JSON e confira se o destino e a imagem existem.
+
+## Decisões de manutenção
+
+- A branch `main` não deve receber alterações diretamente durante a evolução desta refatoração.
+- Mudanças devem ser feitas em branches de trabalho e revisadas antes de integrar.
+- Os guias existentes devem ser preservados ao reorganizar páginas e componentes.
+- Não adicionar frameworks ou serviços externos sem uma necessidade concreta.
+- Imagens devem ser otimizadas e utilizadas respeitando direitos e licenças aplicáveis.

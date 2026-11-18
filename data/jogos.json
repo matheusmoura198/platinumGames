@@ -1,0 +1,137 @@
+[
+  {
+    "id": "cuphead",
+    "title": "Cuphead",
+    "aliases": [
+      "cup head"
+    ],
+    "genre": "Plataforma",
+    "image": "imagens/cupheadbackground.png",
+    "href": "jogos/cuphead.html",
+    "description": "Desafios de plataforma, chefes e conquistas."
+  },
+  {
+    "id": "hollow-knight",
+    "title": "Hollow Knight",
+    "aliases": [
+      "hollow",
+      "hollowknight"
+    ],
+    "genre": "Ação e aventura",
+    "image": "imagens/nWbv9S.webp",
+    "href": "jogos/hollowKnight.html",
+    "description": "Explore Hallownest e complete seus desafios."
+  },
+  {
+    "id": "crash-bandicoot-4",
+    "title": "Crash Bandicoot 4: It's About Time",
+    "aliases": [
+      "crash bandicoot 4",
+      "crash 4",
+      "crash"
+    ],
+    "genre": "Plataforma",
+    "image": "imagens/crashbackground.png",
+    "href": "jogos/crashBandicoot4It'sAboutTime.html",
+    "description": "Fases, relíquias e desafios de precisão."
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "title": "Red Dead Redemption 2",
+    "aliases": [
+      "red dead 2",
+      "rdr2",
+      "red dead"
+    ],
+    "genre": "Ação e aventura",
+    "image": "imagens/red-dead-redemption-2-game-2025-cf.jpg",
+    "href": "jogos/reddead2.html",
+    "description": "Explore o Velho Oeste e acompanhe os objetivos."
+  },
+  {
+    "id": "resident-evil-5",
+    "title": "Resident Evil 5",
+    "aliases": [
+      "resident evil five",
+      "re5"
+    ],
+    "genre": "Ação e aventura",
+    "image": "imagens/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51.jpg",
+    "href": "jogos/residentevil5.html",
+    "description": "Informações e guia de conquistas."
+  },
+  {
+    "id": "marvels-spider-man",
+    "title": "Marvel's Spider-Man",
+    "aliases": [
+      "spiderman",
+      "spider man",
+      "marvel spider man"
+    ],
+    "genre": "Ação e aventura",
+    "image": "imagens/wp7097408.jpg",
+    "href": "jogos/marvel'sspiderman.html",
+    "description": "Missões, colecionáveis e atividades de Nova York."
+  },
+  {
+    "id": "batman-arkham-knight",
+    "title": "Batman: Arkham Knight",
+    "aliases": [
+      "batman",
+      "arkham knight",
+      "batman arkham"
+    ],
+    "genre": "Ação e aventura",
+    "image": "imagens/batman-sign-black-background-dc-superheroes-amoled-5k-8k-10k-3840x2160-4409.jpg",
+    "href": "jogos/batmanarkhamnight.html",
+    "description": "Investigue Gotham e complete os desafios."
+  },
+  {
+    "id": "minecraft",
+    "title": "Minecraft",
+    "aliases": [
+      "mine craft"
+    ],
+    "genre": "Sobrevivência",
+    "image": "imagens/minecraftbackground.png",
+    "href": "jogos/minecraft.html",
+    "description": "Construção, exploração e objetivos."
+  },
+  {
+    "id": "sally-face",
+    "title": "Sally Face",
+    "aliases": [
+      "sally"
+    ],
+    "genre": "Aventura",
+    "image": "imagens/MV5BMjUxNWZhMjEtM2MyZS00NjZmLWJjZWUtYTNhYTQ0ZjUzMjQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "href": "index.html#sally-face",
+    "description": "Guia organizado pelos cinco episódios."
+  },
+  {
+    "id": "god-of-war-ragnarok",
+    "title": "God of War Ragnarök",
+    "aliases": [
+      "god of war",
+      "gow ragnarok",
+      "ragnarok"
+    ],
+    "genre": "Ação e aventura",
+    "image": "imagens/209a330a-50f4-48d1-9db7-7485e6a81d87cover.jpg",
+    "href": "index.html#god-of-war-ragnarok",
+    "description": "Troféus, missões e colecionáveis dos nove reinos."
+  },
+  {
+    "id": "spongebob-battle-for-bikini-bottom",
+    "title": "Bob Esponja: Batalha pela Fenda do Biquíni",
+    "aliases": [
+      "bob esponja",
+      "spongebob",
+      "battle for bikini bottom"
+    ],
+    "genre": "Plataforma",
+    "image": "imagens/BattleForBikiniBottom.jpg",
+    "href": "index.html#bob-esponja",
+    "description": "Áreas, chefes e itens para completar o jogo."
+  }
+]
