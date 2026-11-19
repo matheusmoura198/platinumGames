@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test && npm run validate:catalogo",
+    "validate:catalogo": "node scripts/validar-catalogo.js"
   }
-}
+}\n
