@@ -817,3 +817,80 @@ body#topo .site-header {
     max-height: 190px;
   }
 }
+
+
+/* Organização da apresentação inicial: marca centralizada e conteúdo em duas colunas */
+.hero.hero-logo-only {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  padding-block: 48px 28px;
+}
+.hero-logo-only .hero-brand-art {
+  width: min(100%, 620px);
+  min-height: 340px;
+  margin-inline: auto;
+}
+.hero-logo-only .hero-brand-art img {
+  width: min(54%, 250px);
+  max-height: 250px;
+}
+.intro-about-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(28px, 5vw, 64px);
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  padding: 28px 0 64px;
+}
+.intro-about-section .hero-content {
+  max-width: 100%;
+}
+.intro-about-section .hero-content h1 {
+  max-width: 560px;
+  margin: 0;
+  font-size: clamp(2.3rem, 4.2vw, 3.7rem);
+  line-height: 1.06;
+  letter-spacing: -0.055em;
+}
+.intro-about-section .hero-content > p:not(.eyebrow) {
+  max-width: 540px;
+  margin: 20px 0 26px;
+  color: var(--color-muted);
+  font-size: 1.05rem;
+}
+.intro-about-section .about-section {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: clamp(24px, 3vw, 36px);
+}
+.intro-about-section .about-section > p {
+  margin-top: 18px;
+}
+@media (max-width: 800px) {
+  .hero.hero-logo-only {
+    padding-block: 32px 12px;
+  }
+  .hero-logo-only .hero-brand-art {
+    min-height: 280px;
+  }
+  .intro-about-section {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding-block: 24px 52px;
+  }
+  .intro-about-section .hero-content h1 {
+    font-size: clamp(2.25rem, 8vw, 3.3rem);
+  }
+}
+@media (max-width: 520px) {
+  .hero-logo-only .hero-brand-art {
+    min-height: 240px;
+  }
+  .intro-about-section .about-section {
+    padding: 22px;
+  }
+}
