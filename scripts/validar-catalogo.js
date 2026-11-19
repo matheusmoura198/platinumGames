@@ -8,7 +8,7 @@ const errors = [];
 const report = (message) => errors.push(message);
 const normalize = (value = "") => value
   .normalize("NFD")
-  .replace(/[\\u0300-\\u036f]/g, "")
+  .replace(/[\u0300-\u036f]/g, "")
   .toLocaleLowerCase("pt-BR")
   .replace(/[^a-z0-9]+/g, " ")
   .trim();
@@ -88,13 +88,13 @@ for (const [index, game] of (Array.isArray(catalog) ? catalog : []).entries()) {
     if (new Set(aliases).size !== aliases.length) report(`${label}: há aliases repetidos após normalização.`);
   }
 
-  if (typeof game.image !== "string" || !/^imagens\\/[^?#]+\\.(?:avif|gif|jpe?g|png|webp)$/i.test(game.image)) {
+  if (typeof game.image !== "string" || !/^imagens\/[^?#]+\.(?:avif|gif|jpe?g|png|webp)$/i.test(game.image)) {
     report(`${label}: imagem deve ser um caminho local válido dentro de imagens/.`);
   } else if (!(await existsInsideProject(game.image))) {
     report(`${label}: arquivo de capa não encontrado: ${game.image}`);
   }
 
-  if (typeof game.href !== "string" || !/^(?:jogos\\/[^?#]+\\.html|index\\.html#[a-z0-9-]+)$/i.test(game.href)) {
+  if (typeof game.href !== "string" || !/^(?:jogos\/[^?#]+\.html|index\.html#[a-z0-9-]+)$/i.test(game.href)) {
     report(`${label}: destino deve ser jogos/arquivo.html ou uma âncora de index.html.`);
   } else {
     const [target, anchor] = game.href.split("#");
@@ -102,7 +102,7 @@ for (const [index, game] of (Array.isArray(catalog) ? catalog : []).entries()) {
       report(`${label}: página de destino não encontrada: ${target}`);
     } else if (anchor) {
       const html = target === "index.html" ? home : await readProjectFile(target);
-      const anchorMatches = [...html.matchAll(/\\bid=["']([^"']+)["']/gi)].map((match) => match[1]);
+      const anchorMatches = [...html.matchAll(/\bid=["']([^"']+)["']/gi)].map((match) => match[1]);
       if (!anchorMatches.includes(anchor)) report(`${label}: âncora não encontrada em ${target}: #${anchor}`);
     }
   }
@@ -112,16 +112,16 @@ for (const [id, href, anchor] of homepageGames) {
   const game = Array.isArray(catalog) ? catalog.find((item) => item?.id === id) : null;
   if (!game) report(`Jogo que deve permanecer na página inicial foi removido: ${id}`);
   else if (game.href !== href) report(`${id}: o destino deve permanecer em ${href}.`);
-  const anchors = [...home.matchAll(/\\bid=["']([^"']+)["']/gi)].map((match) => match[1]);
+  const anchors = [...home.matchAll(/\bid=["']([^"']+)["']/gi)].map((match) => match[1]);
   if (!anchors.includes(anchor)) report(`Âncora obrigatória ausente na página inicial: #${anchor}`);
 }
 
-const homeIds = [...home.matchAll(/\\bid=["']([^"']+)["']/gi)].map((match) => match[1]);
+const homeIds = [...home.matchAll(/\bid=["']([^"']+)["']/gi)].map((match) => match[1]);
 const duplicateHomeIds = homeIds.filter((id, index) => homeIds.indexOf(id) !== index);
 for (const id of new Set(duplicateHomeIds)) report(`ID HTML duplicado em index.html: ${id}`);
 
 if (errors.length) {
-  console.error("\\nFalha na validação do catálogo PlatinumGames:");
+  console.error("\nFalha na validação do catálogo PlatinumGames:");
   for (const error of errors) console.error(`- ${error}`);
   process.exitCode = 1;
 } else {
