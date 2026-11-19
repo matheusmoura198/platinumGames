@@ -140,7 +140,7 @@ O contrato de cada registro está documentado em `data/jogo.schema.json`. Os set
 
 1. Não reutilize o `id` de outro jogo e não o altere depois que o jogo já tiver progresso salvo pelos visitantes.
 2. Use nomes oficiais, acentuação correta e aliases úteis para variações de busca.
-3. Adicione a capa ao repositório antes de referenciá-la no JSON; prefira nomes de arquivo claros e sem espaços.
+3. Adicione a capa ao repositório antes de referenciá-la no JSON; prefira nomes de arquivo claros e sem espaços. Enquanto a capa definitiva não estiver disponível, use `imagens/capa-pendente.svg` e substitua o caminho no catálogo e no guia quando enviar a imagem.
 4. Não invente dados ausentes. Informações adicionais só devem ser incluídas quando forem confirmadas e o contrato for atualizado.
 5. Todo registro deve levar a um guia acessível: uma página individual ou uma seção de guia na página inicial.
 6. O cadastro é manual e editorial. Uma sugestão enviada por visitante não entra automaticamente no catálogo.
