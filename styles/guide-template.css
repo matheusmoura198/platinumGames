@@ -20,6 +20,13 @@
 }
 .guide-intro { color: var(--color-muted); }
 .guide-intro p { margin: 0; }
+.guide-intro .guide-meta {
+  margin-top: 18px;
+  color: var(--color-text);
+  line-height: 1.8;
+  font-size: .96rem;
+}
+.guide-meta strong { color: var(--color-accent); }
 .guide-section {
   margin-block: 28px;
   padding: clamp(18px, 3vw, 26px);
@@ -35,27 +42,6 @@
 }
 .guide-section > p,
 .guide-section .section-note { color: var(--color-muted); }
-.guide-facts {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
-  gap: 12px;
-  margin: 0;
-}
-.guide-facts div {
-  padding: 14px;
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  background: var(--color-surface);
-}
-.guide-facts dt {
-  color: var(--color-muted);
-  font-size: .78rem;
-  font-weight: 700;
-}
-.guide-facts dd {
-  margin: 5px 0 0;
-  font-weight: 700;
-}
 .guide-trophy-groups {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
