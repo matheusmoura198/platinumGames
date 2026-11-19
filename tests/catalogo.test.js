@@ -158,6 +158,7 @@ test("biblioteca: paginação, ordenação e filtros possuem controles acessíve
   assert.match(script, /matchesQuery/);
   assert.match(script, /matchesGenre/);
   assert.match(script, /localeCompare/);
+  assert.match(script, /sort !== "catalog"/);
   assert.match(styles, /\.pagination-button/);
 });
 
