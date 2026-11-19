@@ -1,0 +1,101 @@
+/* Padrão visual compartilhado para novos guias PlatinumGames. */
+.guide-hero {
+  display: grid;
+  grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(20px, 4vw, 36px);
+  margin-block: 24px 34px;
+  padding: clamp(18px, 3vw, 28px);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, .16), var(--color-surface));
+}
+.guide-cover {
+  width: 100%;
+  max-height: 360px;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #080b12;
+}
+.guide-intro { color: var(--color-muted); }
+.guide-intro p { margin: 0; }
+.guide-section {
+  margin-block: 28px;
+  padding: clamp(18px, 3vw, 26px);
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background: rgba(17, 24, 39, .82);
+  scroll-margin-top: 100px;
+}
+.guide-section > h2 {
+  margin: 0 0 18px;
+  color: var(--color-text);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+}
+.guide-section > p,
+.guide-section .section-note { color: var(--color-muted); }
+.guide-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  gap: 12px;
+  margin: 0;
+}
+.guide-facts div {
+  padding: 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: var(--color-surface);
+}
+.guide-facts dt {
+  color: var(--color-muted);
+  font-size: .78rem;
+  font-weight: 700;
+}
+.guide-facts dd {
+  margin: 5px 0 0;
+  font-weight: 700;
+}
+.guide-trophy-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.guide-trophy-group {
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--color-surface);
+}
+.guide-trophy-group h3 { margin-top: 0; }
+.guide-trophy-group ul,
+.guide-section ol,
+.guide-section ul { padding-left: 24px; }
+.guide-trophy-group li,
+.guide-section li { margin-block: 8px; }
+.guide-warning {
+  border-color: rgba(245, 158, 11, .65);
+  background: rgba(120, 53, 15, .16);
+}
+.guide-warning > h2 { color: #fbbf24; }
+.guide-steps { display: grid; gap: 18px; }
+.guide-step {
+  padding: 18px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--color-surface);
+  scroll-margin-top: 100px;
+}
+.guide-step h3 { margin-top: 0; }
+.guide-back-link {
+  display: inline-flex;
+  margin-block: 24px;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+@media (max-width: 680px) {
+  .guide-hero { grid-template-columns: 1fr; }
+  .guide-cover { width: min(100%, 240px); margin-inline: auto; }
+  .guide-trophy-groups { grid-template-columns: 1fr; }
+}
