@@ -36,7 +36,7 @@ test("catálogo: campos obrigatórios, formato e identificadores únicos", () =>
     assert.ok(game.title?.trim(), `Título ausente: ${game.id}`);
     assert.ok(game.genre?.trim(), `Gênero ausente: ${game.id}`);
     assert.ok(game.image?.startsWith("imagens/"), `Imagem deve estar em imagens/: ${game.id}`);
-    assert.match(game.image, /^imagens\/.+\.(avif|gif|jpe?g|png|webp)$/i, game.id);
+    assert.match(game.image, /^imagens\/.+\.(avif|gif|jpe?g|png|svg|webp)$/i, game.id);
     assert.ok(game.href, `Destino ausente: ${game.id}`);
     assert.match(game.href, /^(jogos\/.+\.html|index\.html#[a-z0-9-]+)$/i, game.id);
     assert.ok(game.description?.trim(), `Descrição ausente: ${game.id}`);
