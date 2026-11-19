@@ -133,5 +133,86 @@
     "image": "imagens/BattleForBikiniBottom.jpg",
     "href": "index.html#bob-esponja",
     "description": "Áreas, chefes e itens para completar o jogo."
+  },
+  {
+    "id": "resident-evil-7",
+    "title": "Resident Evil 7: Biohazard",
+    "aliases": [
+      "resident evil 7",
+      "re7",
+      "resident evil biohazard"
+    ],
+    "genre": "Terror e sobrevivência",
+    "image": "imagens/capa-pendente.svg",
+    "href": "jogos/resident-evil-7.html",
+    "description": "Explore a propriedade Baker e acompanhe os desafios de Resident Evil 7."
+  },
+  {
+    "id": "resident-evil-4-remake",
+    "title": "Resident Evil 4 (Remake)",
+    "aliases": [
+      "resident evil 4 remake",
+      "re4 remake",
+      "resident evil 4 2023",
+      "re4"
+    ],
+    "genre": "Ação e sobrevivência",
+    "image": "imagens/capa-pendente.svg",
+    "href": "jogos/resident-evil-4-remake.html",
+    "description": "Guia de conquistas da reimaginação de Resident Evil 4."
+  },
+  {
+    "id": "hi-fi-rush",
+    "title": "Hi-Fi RUSH",
+    "aliases": [
+      "hi fi rush",
+      "hifi rush",
+      "hi-fi"
+    ],
+    "genre": "Ação e ritmo",
+    "image": "imagens/capa-pendente.svg",
+    "href": "jogos/hi-fi-rush.html",
+    "description": "Organize os desafios e as conquistas de Hi-Fi RUSH."
+  },
+  {
+    "id": "grand-theft-auto-v",
+    "title": "Grand Theft Auto V",
+    "aliases": [
+      "gta 5",
+      "gta v",
+      "grand theft auto 5",
+      "gtav"
+    ],
+    "genre": "Ação e mundo aberto",
+    "image": "imagens/capa-pendente.svg",
+    "href": "jogos/grand-theft-auto-v.html",
+    "description": "Guia para organizar os objetivos de Grand Theft Auto V."
+  },
+  {
+    "id": "grand-theft-auto-vi",
+    "title": "Grand Theft Auto VI",
+    "aliases": [
+      "gta 6",
+      "gta vi",
+      "grand theft auto 6",
+      "gtavi"
+    ],
+    "genre": "Ação e mundo aberto",
+    "image": "imagens/capa-pendente.svg",
+    "href": "jogos/grand-theft-auto-vi.html",
+    "description": "Página de acompanhamento para informações e conquistas de Grand Theft Auto VI."
+  },
+  {
+    "id": "black-myth-wukong",
+    "title": "Black Myth: Wukong",
+    "aliases": [
+      "black myth wukong",
+      "black myth",
+      "wukong"
+    ],
+    "genre": "Ação e RPG",
+    "image": "imagens/capa-pendente.svg",
+    "href": "jogos/black-myth-wukong.html",
+    "description": "Organize os objetivos e as conquistas de Black Myth: Wukong."
   }
 ]
