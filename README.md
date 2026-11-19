@@ -6,6 +6,8 @@ O **PlatinumGames** reúne informações e guias para ajudar jogadores a planeja
 
 - Biblioteca de jogos alimentada por um catálogo JSON.
 - Pesquisa por nome, apelidos e gênero, com normalização de acentos e diferenças de maiúsculas/minúsculas.
+- Paginação da biblioteca, com 8, 12 ou 24 jogos por página.
+- Ordenação alfabética crescente ou decrescente, combinada com os filtros.
 - Cards com links para os guias.
 - Recomendações editoriais e descoberta de jogos por gênero.
 - Formulário de sugestões de jogos com envio pelo Formspree (após configuração do identificador do formulário).
