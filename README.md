@@ -189,3 +189,8 @@ Toda página individual deve seguir esta sequência:
 - Cada objetivo que deva ser acompanhado deve ficar em um item de lista (`li`), pois o painel de progresso transforma esses itens em caixas de seleção.
 - Mantenha os identificadores das seções únicos e os links de navegação funcionais.
 - Teste em computador e celular. Os guias legados permanecem preservados; a migração deles para o modelo compartilhado deve ser feita sem perda de conteúdo.
+
+
+### Validação automatizada do catálogo
+
+O comando `npm run validate:catalogo` verifica o contrato dos registros, IDs únicos, aliases repetidos, capas locais existentes, páginas de destino, âncoras válidas e a preservação dos três guias que permanecem na página inicial. Ele também identifica IDs duplicados no HTML principal. O comando `npm test` executa a suíte de testes e essa validação automaticamente; o GitHub Actions executa o mesmo comando a cada atualização da branch principal.
