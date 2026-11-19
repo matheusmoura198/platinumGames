@@ -116,3 +116,49 @@ Ao adicionar um jogo, atualize o JSON e confira se o destino e a imagem existem.
 - Os guias existentes devem ser preservados ao reorganizar páginas e componentes.
 - Não adicionar frameworks ou serviços externos sem uma necessidade concreta.
 - Imagens devem ser otimizadas e utilizadas respeitando direitos e licenças aplicáveis.
+
+
+## Padrão oficial de cadastro de jogos
+
+O catálogo é **manual**: cada novo título deve ser revisado e adicionado pela equipe em `data/jogos.json`. Não há importação automática de uma API externa.
+
+O contrato de cada registro está documentado em `data/jogo.schema.json`. Os sete campos obrigatórios são:
+
+| Campo | Regra |
+| --- | --- |
+| `id` | Identificador único em `kebab-case`, estável mesmo se o título mudar. |
+| `title` | Nome do jogo apresentado no site. |
+| `aliases` | Lista de nomes alternativos para a pesquisa; não repetir termos no mesmo jogo. |
+| `genre` | Gênero principal, escrito de forma consistente com os demais registros. |
+| `image` | Caminho relativo para uma capa existente dentro de `imagens/`. |
+| `href` | Caminho para um guia em `jogos/*.html` ou para uma seção de guia existente em `index.html#...`. |
+| `description` | Resumo curto para os cards, com até 240 caracteres. |
+
+### Regras de cadastro
+
+1. Não reutilize o `id` de outro jogo e não o altere depois que o jogo já tiver progresso salvo pelos visitantes.
+2. Use nomes oficiais, acentuação correta e aliases úteis para variações de busca.
+3. Adicione a capa ao repositório antes de referenciá-la no JSON; prefira nomes de arquivo claros e sem espaços.
+4. Não invente dados ausentes. Informações adicionais só devem ser incluídas quando forem confirmadas e o contrato for atualizado.
+5. Todo registro deve levar a um guia acessível: uma página individual ou uma seção de guia na página inicial.
+6. O cadastro é manual e editorial. Uma sugestão enviada por visitante não entra automaticamente no catálogo.
+
+### Jogos que permanecem na página inicial
+
+God of War Ragnarök, Sally Face e Bob Esponja: Batalha pela Fenda do Biquíni permanecem na página inicial, com seus guias nas respectivas âncoras. Eles não devem ser movidos para páginas individuais sem uma decisão posterior.
+
+### Exemplo de registro
+
+```json
+{
+  "id": "nome-do-jogo",
+  "title": "Nome do Jogo",
+  "aliases": ["nome alternativo"],
+  "genre": "Ação e aventura",
+  "image": "imagens/nome-do-jogo.jpg",
+  "href": "jogos/nome-do-jogo.html",
+  "description": "Resumo objetivo do jogo para apresentar no catálogo."
+}
+```
+
+Antes de concluir qualquer lote, execute `npm test` e confira visualmente a capa, o card, o destino do guia e a pesquisa na página inicial.
