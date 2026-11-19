@@ -43,7 +43,7 @@
     },
     "image": {
       "type": "string",
-      "pattern": "^imagens/[^?#]+\\.(?:avif|gif|jpe?g|png|webp)$",
+      "pattern": "^imagens/[^?#]+\\.(?:avif|gif|jpe?g|png|svg|webp)$",
       "description": "Caminho relativo de uma imagem versionada no repositório."
     },
     "href": {
