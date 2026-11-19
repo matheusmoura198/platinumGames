@@ -162,3 +162,28 @@ God of War Ragnarök, Sally Face e Bob Esponja: Batalha pela Fenda do Biquíni p
 ```
 
 Antes de concluir qualquer lote, execute `npm test` e confira visualmente a capa, o card, o destino do guia e a pesquisa na página inicial.
+
+
+## Padrão oficial das páginas de guias
+
+O modelo reutilizável está em `templates/guia-jogo.html`, e seus estilos compartilhados em `styles/guide-template.css`. Para criar uma página individual, copie o modelo para `jogos/`, substitua os campos editoriais e mantenha a identidade visual e a navegação do site.
+
+Toda página individual deve seguir esta sequência:
+
+1. **Cabeçalho e apresentação do jogo:** nome, capa local válida e resumo introdutório.
+2. **Informações gerais e dificuldade:** dificuldade, tempo estimado, total de troféus, jogadores, perdíveis e edição/plataforma. Só preencher dados verificados; quando não houver confirmação, informar isso claramente.
+3. **Organização dos troféus:** separar Bronze, Prata, Ouro e Platina, com nome, objetivo e orientação de cada conquista quando disponível.
+4. **Etapas da conquista:** apresentar uma ordem recomendada, dividida em etapas claras, com objetivos que possam ser acompanhados no painel.
+5. **Avisos sobre troféus perdíveis:** destacar o que pode ser perdido, em que momento e como evitar; declarar que não há perdíveis somente quando isso estiver confirmado.
+6. **Colecionáveis e objetivos secundários:** organizar por região, capítulo, categoria ou sequência útil.
+7. **Painel de progresso:** manter o script compartilhado `scripts/progresso.js`, que cria caixas de seleção, salva o andamento no navegador e permite limpar o progresso.
+8. **Navegação entre seções:** manter títulos de seção em `h2`; o script compartilhado cria um índice navegável a partir deles.
+
+### Regras editoriais e técnicas dos guias
+
+- Preserve o conteúdo útil já existente ao atualizar guias antigos; não descarte etapas, dicas ou listas específicas.
+- Não invente dificuldade, duração, quantidade de troféus, perdíveis, rotas ou requisitos.
+- Use imagens locais do repositório sempre que possível, com texto alternativo descritivo.
+- Cada objetivo que deva ser acompanhado deve ficar em um item de lista (`li`), pois o painel de progresso transforma esses itens em caixas de seleção.
+- Mantenha os identificadores das seções únicos e os links de navegação funcionais.
+- Teste em computador e celular. Os guias legados permanecem preservados; a migração deles para o modelo compartilhado deve ser feita sem perda de conteúdo.
