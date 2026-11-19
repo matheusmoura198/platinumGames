@@ -145,6 +145,22 @@ test("modelo oficial de guia: contém as seções e integrações obrigatórias"
   assert.match(styles, /@media/);
 });
 
+
+test("biblioteca: paginação, ordenação e filtros possuem controles acessíveis", async () => {
+  const html = await readFile(resolve(root, "index.html"), "utf8");
+  const script = await readFile(resolve(root, "scripts/pesquisa.js"), "utf8");
+  const styles = await readFile(resolve(root, "style.css"), "utf8");
+  for (const id of ["sort-filter", "page-size-filter", "pagination"]) {
+    assert.match(html, new RegExp(`id=["']${id}["']`), `Controle ausente: ${id}`);
+  }
+  assert.match(html, /aria-label="Paginação da biblioteca"/);
+  assert.match(script, /filteredGames\.slice\(start, start \+ pageSize\)/);
+  assert.match(script, /matchesQuery/);
+  assert.match(script, /matchesGenre/);
+  assert.match(script, /localeCompare/);
+  assert.match(styles, /\.pagination-button/);
+});
+
 test("página inicial: destaques e retomada de progresso", async () => {
   const html = await readFile(resolve(root, "index.html"), "utf8");
   const script = await readFile(resolve(root, "scripts/home.js"), "utf8");
