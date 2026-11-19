@@ -88,7 +88,7 @@ for (const [index, game] of (Array.isArray(catalog) ? catalog : []).entries()) {
     if (new Set(aliases).size !== aliases.length) report(`${label}: há aliases repetidos após normalização.`);
   }
 
-  if (typeof game.image !== "string" || !/^imagens\/[^?#]+\.(?:avif|gif|jpe?g|png|webp)$/i.test(game.image)) {
+  if (typeof game.image !== "string" || !/^imagens\/[^?#]+\.(?:avif|gif|jpe?g|png|svg|webp)$/i.test(game.image)) {
     report(`${label}: imagem deve ser um caminho local válido dentro de imagens/.`);
   } else if (!(await existsInsideProject(game.image))) {
     report(`${label}: arquivo de capa não encontrado: ${game.image}`);
