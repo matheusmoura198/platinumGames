@@ -37,8 +37,13 @@
 <div class="field-group"><label for="genre-filter">Gênero</label><select id="genre-filter" name="genre"><option value="">Todos os gêneros</option></select></div>
 <button class="button button-secondary" type="button" id="clear-search">Limpar filtros</button>
 </form>
+<div class="library-options" aria-label="Opções de exibição da biblioteca">
+<div class="field-group"><label for="sort-filter">Ordenar por</label><select id="sort-filter" name="sort"><option value="az">Nome: A–Z</option><option value="za">Nome: Z–A</option></select></div>
+<div class="field-group"><label for="page-size-filter">Jogos por página</label><select id="page-size-filter" name="page-size"><option value="8" selected>8 jogos</option><option value="12">12 jogos</option><option value="24">24 jogos</option></select></div>
+</div>
 <p class="empty-state" id="empty-state" hidden>Nenhum jogo encontrado. Tente outro nome ou remova os filtros.</p>
 <div class="game-grid" id="game-grid" aria-label="Jogos disponíveis"></div>
+<nav class="pagination" id="pagination" aria-label="Paginação da biblioteca" hidden></nav>
 </section>
 
 <section class="discovery-section" aria-labelledby="featured-title">
