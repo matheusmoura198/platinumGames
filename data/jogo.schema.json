@@ -1,6 +1,5 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://platinumgames.example/schemas/jogo.schema.json",
   "title": "Cadastro de jogo do PlatinumGames",
   "description": "Contrato oficial de cada registro em data/jogos.json.",
   "type": "object",
