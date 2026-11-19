@@ -187,7 +187,7 @@ test("página inicial: formulário de sugestões com configuração externa", as
   assert.match(html, /id="suggestion-form"/);
   assert.match(html, /name="jogo"[^>]+required/);
   assert.match(html, /name="_gotcha"/);
-  assert.match(html, /data-formspree-id="SEU_ID_FORMSPREE"/);
+  assert.match(html, /data-formspree-id="[a-z0-9]+"/);
   assert.match(script, /https:\/\/formspree\.io\/f\//);
   assert.match(script, /response\.ok/);
   assert.match(script, /submitButton\.disabled = true/);
