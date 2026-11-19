@@ -130,6 +130,21 @@ test("guias individuais: painel de progresso e script compartilhado", async () =
   assert.match(script, /Navegar pelas etapas deste guia/);
 });
 
+
+test("modelo oficial de guia: contém as seções e integrações obrigatórias", async () => {
+  const template = await readFile(resolve(root, "templates/guia-jogo.html"), "utf8");
+  const styles = await readFile(resolve(root, "styles/guide-template.css"), "utf8");
+  for (const id of ["informacoes-gerais", "trofeus", "etapas", "perdiveis", "colecionaveis"]) {
+    assert.match(template, new RegExp(`id=["']${id}["']`), `Seção ausente no modelo: ${id}`);
+  }
+  assert.match(template, /scripts\/progresso\.js/);
+  assert.match(template, /guide-hero/);
+  assert.match(template, /guide-trophy-groups/);
+  assert.match(template, /guide-warning/);
+  assert.match(styles, /\.guide-section/);
+  assert.match(styles, /@media/);
+});
+
 test("página inicial: destaques e retomada de progresso", async () => {
   const html = await readFile(resolve(root, "index.html"), "utf8");
   const script = await readFile(resolve(root, "scripts/home.js"), "utf8");
