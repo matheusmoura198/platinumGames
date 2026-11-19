@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://platinumgames.example/schemas/jogo.schema.json",
+  "title": "Cadastro de jogo do PlatinumGames",
+  "description": "Contrato oficial de cada registro em data/jogos.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "aliases",
+    "genre",
+    "image",
+    "href",
+    "description"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 1,
+      "description": "Identificador único e estável, em kebab-case."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Nome oficial/apresentado do jogo."
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Nomes alternativos usados pela pesquisa.",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      }
+    },
+    "genre": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "image": {
+      "type": "string",
+      "pattern": "^imagens/[^?#]+\\.(?:avif|gif|jpe?g|png|webp)$",
+      "description": "Caminho relativo de uma imagem versionada no repositório."
+    },
+    "href": {
+      "type": "string",
+      "pattern": "^(?:jogos/[^?#]+\\.html|index\\.html#[a-z0-9-]+)$",
+      "description": "Guia individual em jogos/ ou seção de guia existente na página inicial."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "maxLength": 240
+    }
+  }
+}
