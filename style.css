@@ -751,3 +751,69 @@ body#topo .site-header {
   .suggestion-form { padding: 16px; }
   .suggestion-form .button { width: 100%; }
 }
+
+
+/* Reforço da marca no cabeçalho e no destaque principal */
+.site-brand {
+  gap: 13px;
+  font-size: 1.32rem;
+}
+.site-brand img {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+}
+.hero-brand-art {
+  display: grid;
+  place-items: center;
+  min-height: 330px;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 50% 42%, rgba(59, 130, 246, 0.30), transparent 58%),
+    linear-gradient(145deg, #102b68 0%, #081b45 58%, #061536 100%);
+}
+.hero-brand-art::before {
+  position: absolute;
+  z-index: -1;
+  width: min(68%, 310px);
+  aspect-ratio: 1;
+  border: 1px solid rgba(147, 197, 253, 0.18);
+  border-radius: 50%;
+  box-shadow: 0 0 0 24px rgba(96, 165, 250, 0.035), 0 0 0 52px rgba(96, 165, 250, 0.025);
+  content: "";
+}
+.hero-brand-art::after {
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 27, 69, 0.02) 45%, rgba(4, 13, 34, 0.78));
+}
+.hero-brand-art img {
+  position: relative;
+  z-index: 1;
+  width: min(58%, 260px);
+  height: auto;
+  min-height: 0;
+  max-height: 260px;
+  padding: 0;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.32));
+}
+.hero-brand-art .hero-art-label {
+  z-index: 2;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+@media (max-width: 800px) {
+  .site-brand img {
+    width: 60px;
+    height: 60px;
+  }
+  .hero-brand-art,
+  .hero-brand-art img {
+    min-height: 240px;
+  }
+  .hero-brand-art img {
+    min-height: 0;
+    max-height: 190px;
+  }
+}
