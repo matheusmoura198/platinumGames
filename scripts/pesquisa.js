@@ -154,10 +154,12 @@ const applyFilters = (resetPage = true) => {
     return matchesQuery && matchesGenre;
   });
 
-  filteredGames.sort((a, b) => {
-    const comparison = a.title.localeCompare(b.title, "pt-BR", { sensitivity: "base" });
-    return sort === "za" ? -comparison : comparison;
-  });
+  if (sort !== "catalog") {
+    filteredGames.sort((a, b) => {
+      const comparison = a.title.localeCompare(b.title, "pt-BR", { sensitivity: "base" });
+      return sort === "za" ? -comparison : comparison;
+    });
+  }
 
   if (resetPage) currentPage = 1;
   renderPage();
@@ -190,7 +192,7 @@ const initialize = async () => {
     clearButton.addEventListener("click", () => {
       searchInput.value = "";
       genreFilter.value = "";
-      sortFilter.value = "az";
+      sortFilter.value = "catalog";
       pageSizeFilter.value = "8";
       applyFilters();
       searchInput.focus();
