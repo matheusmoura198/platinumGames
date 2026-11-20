@@ -10,14 +10,25 @@
   border-radius: 16px;
   background: linear-gradient(135deg, rgba(37, 99, 235, .16), var(--color-surface));
 }
+/* Capas dos seis guias recentes: tamanho natural, sem proporção ou altura pré-definidas. */
 .guide-cover {
-  width: 100%;
-  max-height: 360px;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  border: 5px solid var(--guide-cover-border, var(--color-border));
   border-radius: 10px;
   background: #080b12;
+  justify-self: center;
 }
+
+/* Borda temática individual nas capas dos guias recentes. */
+body#fundo-resident-evil-7 { --guide-cover-border: #8c292e; }
+body#fundo-resident-evil-4-remake { --guide-cover-border: #b58a45; }
+body#fundo-hi-fi-rush { --guide-cover-border: #e04c39; }
+body#fundo-grand-theft-auto-v { --guide-cover-border: #b5a35b; }
+body#fundo-grand-theft-auto-vi { --guide-cover-border: #bd6c36; }
+body#fundo-black-myth-wukong { --guide-cover-border: #b79b62; }
 .guide-intro { color: var(--color-muted); }
 .guide-intro p { margin: 0; }
 .guide-intro .guide-meta {
