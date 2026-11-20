@@ -945,12 +945,25 @@ body#topo .site-header {
 }
 
 
-/* Padronização seletiva das capas na página inicial: proporção vertical e borda temática. */
-.game-card img {
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-  border: 5px solid var(--cover-border, #334155);
+/* Proporção original e borda temática apenas para os jogos antigos selecionados.
+   Os outros cards, inclusive os seis adicionados recentemente, mantêm o estilo padrão. */
+.game-card-minecraft img,
+.game-card-hollow-knight img,
+.game-card-crash-bandicoot-4 img,
+.game-card-marvels-spider-man img,
+.game-card-batman-arkham-knight img,
+.game-card-god-of-war-ragnarok img,
+.game-card-sally-face img,
+.game-card-spongebob-battle-for-bikini-bottom img,
+.game-card-resident-evil-5 img,
+.game-card-red-dead-redemption-2 img,
+.game-card-cuphead img {
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: initial;
+  border: 5px solid var(--cover-border);
 }
+
 .game-card-minecraft img { --cover-border: #4b8b42; }
 .game-card-hollow-knight img { --cover-border: #8b9db8; }
 .game-card-crash-bandicoot-4 img { --cover-border: #e78b31; }
