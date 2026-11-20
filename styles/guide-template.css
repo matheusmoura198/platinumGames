@@ -85,3 +85,18 @@
   .guide-cover { width: min(100%, 240px); margin-inline: auto; }
   .guide-trophy-groups { grid-template-columns: 1fr; }
 }
+
+/* Paletas de fundo por jogo: páginas recentes */
+body[id^="fundo-"] { background-image: none; background-attachment: scroll; }
+body#fundo-resident-evil-7 { background-color: #241b19; color: #f5eee8; }
+body#fundo-resident-evil-7 .guide-section { border-color: #62413a; }
+body#fundo-resident-evil-4-remake { background-color: #201b28; color: #f5f0fa; }
+body#fundo-resident-evil-4-remake .guide-section { border-color: #58465e; }
+body#fundo-hi-fi-rush { background-color: #172536; color: #f5f7ff; }
+body#fundo-hi-fi-rush .guide-section { border-color: #45647c; }
+body#fundo-grand-theft-auto-v { background-color: #202b22; color: #f4f4e8; }
+body#fundo-grand-theft-auto-v .guide-section { border-color: #56694b; }
+body#fundo-grand-theft-auto-vi { background-color: #2a2029; color: #f8eff6; }
+body#fundo-grand-theft-auto-vi .guide-section { border-color: #76566b; }
+body#fundo-black-myth-wukong { background-color: #2b2017; color: #f8efe0; }
+body#fundo-black-myth-wukong .guide-section { border-color: #806344; }
