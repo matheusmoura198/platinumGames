@@ -975,3 +975,12 @@ body#topo .site-header {
 .game-card-resident-evil-5 img { --cover-border: #8c292e; }
 .game-card-red-dead-redemption-2 img { --cover-border: #9b5e35; }
 .game-card-cuphead img { --cover-border: #c9c9c9; }
+
+
+/* Os seis guias recentes também preservam as capas originais na biblioteca inicial. */
+.game-card-resident-evil-7 img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #8c292e; }
+.game-card-resident-evil-4-remake img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #b58a45; }
+.game-card-hi-fi-rush img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #e04c39; }
+.game-card-grand-theft-auto-v img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #b5a35b; }
+.game-card-grand-theft-auto-vi img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #bd6c36; }
+.game-card-black-myth-wukong img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #b79b62; }
