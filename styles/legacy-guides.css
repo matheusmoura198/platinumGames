@@ -1205,3 +1205,24 @@ body > button:hover {
         box-sizing: border-box;
     }
         }
+
+/* Fundos sólidos personalizados dos guias clássicos */
+body#imagemfundo3, body#imagemfundo2, body#imagemfundo7, body#imagemfundo8, body#imagemfundo1, body#imagemfundo6 { background-image: none; background-attachment: scroll; }
+body#imagemfundo3 { background-color: #38271f; color: #fff8e8; }
+body#imagemfundo3 h1 { color: #f2c94c; }
+body#imagemfundo3 .definiçãocup p { background: rgba(25,17,13,.78); border-left: 4px solid #f2c94c; border-radius: 10px; }
+body#imagemfundo2 { background-color: #142b46; color: #f4f7ff; }
+body#imagemfundo2 h1 { color: #ff9b35; }
+body#imagemfundo2 .definiçãocrash p { background: rgba(7,17,33,.82); border-left: 4px solid #ff9b35; border-radius: 10px; }
+body#imagemfundo7 { background-color: #30251d; color: #f7eee2; }
+body#imagemfundo7 h1 { color: #d9b98a; }
+body#imagemfundo7 .definiçãoreddead p { background: rgba(20,14,10,.82); border-left: 4px solid #b58b5b; border-radius: 10px; }
+body#imagemfundo8 { background-color: #260d12; color: #f9f0f0; }
+body#imagemfundo8 h1 { color: #ff5b68; }
+body#imagemfundo8 .definiçãoresident p { background: rgba(14,9,12,.82); border-left: 4px solid #b52a3a; border-radius: 10px; }
+body#imagemfundo1 { background-color: #111820; color: #f1f4f7; }
+body#imagemfundo1 h1 { color: #aeb8c5; }
+body#imagemfundo1 .definiçãobatman p { background: rgba(5,9,14,.84); border-left: 4px solid #738398; border-radius: 10px; }
+body#imagemfundo6 { background-color: #132b20; color: #f0f7ee; }
+body#imagemfundo6 h1 { color: #74c365; }
+body#imagemfundo6 .definição-mine p { background: rgba(7,17,12,.82); border-left: 4px solid #58a84d; border-radius: 10px; }
