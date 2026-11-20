@@ -61,16 +61,26 @@ const createPageButton = (page, currentPage, label = String(page)) => {
   button.type = "button";
   button.className = "pagination-button";
   button.textContent = label;
+  button.dataset.page = String(page);
   button.disabled = page === currentPage;
   if (page === currentPage) button.setAttribute("aria-current", "page");
   button.setAttribute("aria-label", label === String(page) ? `Página ${page}` : label);
-  button.addEventListener("click", () => {
-    currentPage = page;
-    renderPage();
-    pagination.querySelector('[aria-current="page"]')?.focus();
-  });
   return button;
 };
+
+pagination.addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-page]");
+  if (!button || button.disabled || !pagination.contains(button)) return;
+
+  const requestedPage = Number(button.dataset.page);
+  if (!Number.isInteger(requestedPage) || requestedPage < 1) return;
+
+  currentPage = requestedPage;
+  renderPage();
+
+  pagination.querySelector('[aria-current="page"]')?.focus();
+  grid.scrollIntoView({ behavior: "smooth", block: "start" });
+});
 
 let allGames = [];
 let filteredGames = [];
