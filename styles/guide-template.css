@@ -14,7 +14,7 @@
   width: 100%;
   max-height: 360px;
   aspect-ratio: 3 / 4;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 10px;
   background: #080b12;
 }
