@@ -943,3 +943,22 @@ body#topo .site-header {
   .pagination { gap: 6px; }
   .pagination-button { min-width: 38px; min-height: 40px; padding-inline: 9px; }
 }
+
+
+/* Padronização seletiva das capas na página inicial: proporção vertical e borda temática. */
+.game-card img {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: 5px solid var(--cover-border, #334155);
+}
+.game-card-minecraft img { --cover-border: #4b8b42; }
+.game-card-hollow-knight img { --cover-border: #8b9db8; }
+.game-card-crash-bandicoot-4 img { --cover-border: #e78b31; }
+.game-card-marvels-spider-man img { --cover-border: #c42b35; }
+.game-card-batman-arkham-knight img { --cover-border: #596b83; }
+.game-card-god-of-war-ragnarok img { --cover-border: #a78b57; }
+.game-card-sally-face img { --cover-border: #6e91b8; }
+.game-card-spongebob-battle-for-bikini-bottom img { --cover-border: #e6c63b; }
+.game-card-resident-evil-5 img { --cover-border: #8c292e; }
+.game-card-red-dead-redemption-2 img { --cover-border: #9b5e35; }
+.game-card-cuphead img { --cover-border: #c9c9c9; }
