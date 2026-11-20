@@ -452,6 +452,32 @@ select {
   background: #060910;
 }
 
+.site-footer .back-to-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 9px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-footer .back-to-top:hover {
+  border-color: var(--color-primary-hover);
+  color: var(--color-accent);
+}
+
+@media (max-width: 520px) {
+  .site-footer {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .site-footer p {
   margin: 0;
   color: var(--color-muted);
