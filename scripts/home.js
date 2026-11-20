@@ -11,7 +11,7 @@ const makeElement = (tag, className, text) => {
 };
 
 const makeGameCard = (game) => {
-  const article = makeElement("article", "game-card");
+  const article = makeElement("article", `game-card game-card-${game.id}`);
   const link = makeElement("a", "game-card-link");
   link.href = game.href;
   link.setAttribute("aria-label", `Abrir guia de ${game.title}`);
