@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "game": "Hollow Knight",
+    "platform": "PlayStation 4/5 trophy list (35 trophies)",
+    "guideVersion": "1.0",
+    "gameVersion": "1.5.x (source cross-check; exact platform patch not independently verified)",
+    "reviewed": "2026-11-21",
+    "status": "Revisão inicial — conferido por fontes públicas; não testado integralmente em gameplay",
+    "reviewNotes": "Roadmap orientado à platina de PlayStation. Há objetivos opcionais que não são necessários para a platina e alguns finais/rotas são mutuamente exclusivos."
+  },
+  "phases": [
+    {
+      "id": "p1",
+      "title": "1. Exploração inicial e mobilidade",
+      "summary": "Avance pela história, adquira mapas e habilidades de movimento; evite explorar cada área em profundidade antes de desbloquear ferramentas de travessia.",
+      "tasks": [
+        {
+          "id": "p1a",
+          "title": "Obter mapa e Quill e abrir rotas/estações sempre que estiverem no caminho",
+          "details": "Comprar mapas de Cornifer e obter Quill facilita navegação e planejamento de revisitas.",
+          "links": [
+            "Cartographer",
+            "Connection",
+            "Hope"
+          ]
+        },
+        {
+          "id": "p1b",
+          "title": "Derrotar False Knight e Hornet (Greenpath)",
+          "details": "Os confrontos introduzem progressão e liberam recursos/habilidade importantes para alcançar novas regiões.",
+          "links": [
+            "Falsehood",
+            "Test of Resolve"
+          ]
+        },
+        {
+          "id": "p1c",
+          "title": "Obter Mothwing Cloak, Mantis Claw e outras habilidades de travessia",
+          "details": "Priorize dash e escalada para abrir caminhos; faça revisitas somente quando a habilidade permitir.",
+          "links": [
+            "Cartographer",
+            "Mask upgrades"
+          ]
+        },
+        {
+          "id": "p1d",
+          "title": "Desbloquear City of Tears e suas rotas de acesso",
+          "details": "A cidade funciona como ponto central para upgrades, comerciantes e conexões de regiões.",
+          "links": [
+            "Nail upgrades",
+            "Dreamers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "2. Melhorias de combate e recursos",
+      "summary": "Aumente poder e resistência antes de se dedicar a desafios opcionais e chefes difíceis.",
+      "tasks": [
+        {
+          "id": "p2a",
+          "title": "Melhorar o Nail com o Nailsmith, quando houver recursos",
+          "details": "Recolha Pale Ore e Geo ao longo das rotas; upgrades de Nail reduzem o tempo dos confrontos.",
+          "links": [
+            "Nail upgrades",
+            "Trial of the Fool",
+            "Pantheons"
+          ]
+        },
+        {
+          "id": "p2b",
+          "title": "Recolher Mask Shards e Vessel Fragments",
+          "details": "Procure recompensas em áreas revisitadas, lojas e quests; cada conjunto melhora sobrevivência ou capacidade de SOUL.",
+          "links": [
+            "Mask upgrades",
+            "Soul Vessel upgrades"
+          ]
+        },
+        {
+          "id": "p2c",
+          "title": "Adquirir spells e upgrades de spells",
+          "details": "Explore Soul Sanctum, Ancient Basin e áreas conectadas; upgrades ampliam opções de combate.",
+          "links": [
+            "Spells",
+            "Bosses"
+          ]
+        },
+        {
+          "id": "p2d",
+          "title": "Aprender Nail Arts e adquirir Charms/Charm Notches",
+          "details": "As Nail Arts e combinações de charms são úteis em desafios longos; a coleta de charms também tem troféu.",
+          "links": [
+            "Nail Arts",
+            "Charms"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "3. Dream Nail, Essence e Dreamers",
+      "summary": "Desbloqueie o Dream Nail, reúna Essence durante exploração e conclua os três Dreamers, sem deixar tudo para o final.",
+      "tasks": [
+        {
+          "id": "p3a",
+          "title": "Obter Dream Nail e registrar Essence em revisitas",
+          "details": "Use o Dream Nail em oportunidades de história e sonhos; os milestones de Essence desbloqueiam troféus.",
+          "links": [
+            "Attunement",
+            "Awakening",
+            "Ascension"
+          ]
+        },
+        {
+          "id": "p3b",
+          "title": "Concluir os três Dreamers: Monomon, Lurien e Herrah",
+          "details": "Os três objetivos se conectam à abertura do Black Egg Temple e aos finais.",
+          "links": [
+            "Teacher",
+            "Watcher",
+            "Beast",
+            "Ending trophies"
+          ]
+        },
+        {
+          "id": "p3c",
+          "title": "Reunir 2.400 Essence e ouvir as palavras finais da Seer",
+          "details": "Essence pode ser obtida por Warrior Dreams, árvores de sonhos e outros eventos. Faça progresso contínuo e confira o contador.",
+          "links": [
+            "Ascension"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "title": "4. Coletáveis e objetivos de exploração",
+      "summary": "Faça limpeza de colecionáveis com as habilidades já adquiridas; use rotas de revisita para reduzir deslocamentos.",
+      "tasks": [
+        {
+          "id": "p4a",
+          "title": "Resgatar Grubs e reclamar recompensas do Grubfather",
+          "details": "Resgates contribuem para troféus de metade e total; não são parte do contador de 112%.",
+          "links": [
+            "The Hollow Knight (Grub trophy)",
+            "Metamorphosis"
+          ]
+        },
+        {
+          "id": "p4b",
+          "title": "Concluir mapas e abrir Stag Stations",
+          "details": "Revisite áreas com habilidades novas para descobrir conexões e transporte rápido.",
+          "links": [
+            "Cartographer",
+            "Connection",
+            "Hope"
+          ]
+        },
+        {
+          "id": "p4c",
+          "title": "Concluir coleções de Mask Shards, Vessel Fragments e Charms",
+          "details": "Use listas por região e marque itens quando coletados; esses conjuntos conectam diretamente a upgrades e troféus.",
+          "links": [
+            "Masked",
+            "Worldsoul",
+            "Blessed"
+          ]
+        },
+        {
+          "id": "p4d",
+          "title": "Revisar objetivos de Hunter's Journal",
+          "details": "O Journal exige entradas e contagens específicas; não confundir registro de inimigos com porcentagem de conclusão.",
+          "links": [
+            "Keen Hunter",
+            "True Hunter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "title": "5. Conteúdo opcional e missões",
+      "summary": "Conclua atividades opcionais que rendem troféus, antes de concentrar esforço nos desafios finais.",
+      "tasks": [
+        {
+          "id": "p5a",
+          "title": "Concluir as Trials of the Colosseum em ordem",
+          "details": "Trial of the Warrior, Conqueror e Fool. A última prova é mais exigente; deixe-a para depois de upgrades e prática.",
+          "links": [
+            "Warrior",
+            "Conqueror",
+            "Fool"
+          ]
+        },
+        {
+          "id": "p5b",
+          "title": "Concluir a quest da Grey Mourner e entregar Delicate Flower",
+          "details": "Planeje a entrega com cuidado: a missão é sensível a dano durante o percurso. O guia não reproduz rotas de desafio nesta versão.",
+          "links": [
+            "Solace"
+          ]
+        },
+        {
+          "id": "p5c",
+          "title": "Concluir Mister Mushroom / Passing of the Age",
+          "details": "O objetivo requer sequência de interações e finalizar o jogo após cumprir os encontros.",
+          "links": [
+            "Passing of the Age"
+          ]
+        },
+        {
+          "id": "p5d",
+          "title": "Resolver objetivos relacionados a Zote e Bretta conforme o estado da save",
+          "details": "A progressão de Zote/Bretta pode afetar conteúdos opcionais; confira estado dos personagens antes de priorizar os sonhos relacionados.",
+          "links": [
+            "Optional dream content"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "title": "6. Grimm Troupe — decisão de rota",
+      "summary": "A quest da trupe tem finais alternativos. A platina pede os troféus Grand Performance e Nightmare's End, que podem ser obtidos por uma das rotas finais da quest.",
+      "tasks": [
+        {
+          "id": "p6a",
+          "title": "Invocar a Grimm Troupe e progredir até derrotar Troupe Master Grimm",
+          "details": "Colete as flames com Grimmchild equipado e volte ao NPC conforme a quest exige.",
+          "links": [
+            "Grand Performance",
+            "Nightmare's End"
+          ]
+        },
+        {
+          "id": "p6b",
+          "title": "Escolher Ritual (Nightmare King Grimm) OU Banishment",
+          "details": "As rotas são mutuamente exclusivas na mesma save. Para Nightmare's End, ambas servem; Ritual envolve Nightmare King Grimm. Banishment substitui Grimmchild por Carefree Melody e pode bloquear charms Unbreakable pendentes. Se quiser converter Fragile Charms com Divine, faça isso antes de banir.",
+          "links": [
+            "Nightmare's End",
+            "Ritual / Banishment (mutually exclusive)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "title": "7. Finais e 112%",
+      "summary": "Faça os finais necessários em ordem planejada; ao terminar, a save retorna ao estado anterior ao final, permitindo outros finais.",
+      "tasks": [
+        {
+          "id": "p7a",
+          "title": "Final The Hollow Knight (Black Egg Temple)",
+          "details": "Conclua o final básico após os Dreamers; este é um dos finais que devem ser vistos antes de certas mudanças na save.",
+          "links": [
+            "The Hollow Knight"
+          ]
+        },
+        {
+          "id": "p7b",
+          "title": "Desbloquear Kings Brand, Void Heart e caminhos alternativos",
+          "details": "A progressão de Hornet Sentinel, Abyss e Void Heart habilita finais adicionais. Planeje a transição: Void Heart muda a disponibilidade do final básico.",
+          "links": [
+            "Proof of Resolve",
+            "Sealed Siblings",
+            "Dream No More"
+          ]
+        },
+        {
+          "id": "p7c",
+          "title": "Concluir 112% e terminar o jogo",
+          "details": "O 112% combina categorias específicas: charms, bosses, trials, Warrior Dreams, spells, Nail Arts, upgrades, Dreamers, Dream Nail, Nail, saúde/SOUL, Grimm Troupe e Godhome. Não significa todos os itens/segredos.",
+          "links": [
+            "Pure Completion"
+          ]
+        },
+        {
+          "id": "p7d",
+          "title": "Fazer os finais alternativos requeridos, incluindo Dream No More",
+          "details": "A obtenção do Void Heart desbloqueia alternativas de finais; use a save reaberta após créditos para seguir outro caminho.",
+          "links": [
+            "Dream No More",
+            "Sealed Siblings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "title": "8. Godhome — desafios finais",
+      "summary": "Reserve Godhome para quando estiver com upgrades e familiaridade com os chefes. A platina do PlayStation exige o Pantheon of the Knight e Pantheon of Hallownest.",
+      "tasks": [
+        {
+          "id": "p8a",
+          "title": "Encontrar Godhome e liberar Hall of Gods",
+          "details": "A entrada fica no Junk Pit; acesso depende de um Simple Key e interação com a Godseeker.",
+          "links": [
+            "Godhome",
+            "Hall of Gods"
+          ]
+        },
+        {
+          "id": "p8b",
+          "title": "Completar Pantheons 1–3 e desbloquear o Pantheon of the Knight",
+          "details": "Os Pantheons têm sequências de chefes. Pratique chefes individualmente no Hall of Gods antes das tentativas.",
+          "links": [
+            "Brotherhood",
+            "Inspiration",
+            "Focus",
+            "Soul & Shade"
+          ]
+        },
+        {
+          "id": "p8c",
+          "title": "Completar Pantheon of the Knight",
+          "details": "Concluir o quarto Pantheon desbloqueia o troféu Soul & Shade.",
+          "links": [
+            "Soul & Shade"
+          ]
+        },
+        {
+          "id": "p8d",
+          "title": "Completar Pantheon of Hallownest",
+          "details": "O quinto Pantheon é o desafio mais longo e não exige para o 112%, mas exige para Embrace the Void. Considere treino separado no Hall of Gods.",
+          "links": [
+            "Embrace the Void"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "title": "9. Auditoria final",
+      "summary": "Use a lista de troféus do console e a checklist abaixo para verificar os requisitos que faltam.",
+      "tasks": [
+        {
+          "id": "p9a",
+          "title": "Confirmar os 35 troféus PlayStation e o troféu de platina",
+          "details": "O conjunto de troféus do PlayStation difere de conquistas de outras plataformas; este guia é para a lista de 35 troféus.",
+          "links": [
+            "Heart of Hallownest"
+          ]
+        },
+        {
+          "id": "p9b",
+          "title": "Revisar checklist, finais, coleções, quests e Pantheons",
+          "details": "Não confundir 112% com a platina: algumas coleções/troféus não contam para o contador, e o Pantheon of Hallownest é um requisito de troféu independente.",
+          "links": [
+            "All trophies"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceLinks": [
+    {
+      "name": "Hollow Knight Wiki — Achievements (platform trophy lists)",
+      "url": "https://hollowknight.wiki/w/Achievements_(Hollow_Knight)"
+    },
+    {
+      "name": "Hollow Knight Wiki — Completion (112%)",
+      "url": "https://hollowknight.wiki/w/Completion_(Hollow_Knight)"
+    },
+    {
+      "name": "Hollow Knight Wiki — Hunter's Journal",
+      "url": "https://hollowknight.wiki/w/Hunter's_Journal_(Hollow_Knight)"
+    },
+    {
+      "name": "Hollow Knight Wiki — Grimm Troupe Quest",
+      "url": "https://hollowknight.wiki/w/Grimm_Troupe_(Quest)"
+    },
+    {
+      "name": "PlayStationTrophies — Trophy Guide",
+      "url": "https://www.playstationtrophies.org/game/hollow-knight/guide/"
+    },
+    {
+      "name": "PSN Tracker — Trophy Guide",
+      "url": "https://psntracker.app/game/hollow-knight/trophy-guide"
+    },
+    {
+      "name": "Exophase — PS4 Trophy List",
+      "url": "https://www.exophase.com/game/hollow-knight-psn/trophies/pt/"
+    },
+    {
+      "name": "Steam Community — 112% walkthrough (route cross-reference)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3603365583"
+    }
+  ]
+}
