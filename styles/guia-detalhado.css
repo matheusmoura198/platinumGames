@@ -1,20 +1,24 @@
-/* Roteiro detalhado de platina (piloto Hollow Knight) */
-.detailed-roadmap { display:grid; gap:16px; margin-block:30px; }
-.detailed-roadmap > h2 { margin-bottom:0; }
-.roadmap-overall,.roadmap-phase,.roadmap-task,.guide-editorial { border:1px solid var(--color-border); border-radius:12px; background:var(--color-surface); padding:16px; }
-.roadmap-overall { display:grid; gap:10px; }
-.roadmap-count,.roadmap-phase-count { color:var(--color-muted); margin:0; }
-.roadmap-phase { display:grid; gap:12px; }
-.roadmap-phase summary { cursor:pointer; font-weight:800; }
-.roadmap-task-list { display:grid; gap:12px; }
-.roadmap-task { background:var(--color-surface-raised); display:grid; gap:8px; }
-.roadmap-task label { display:flex; align-items:flex-start; gap:10px; cursor:pointer; }
-.roadmap-task input { margin-top:5px; accent-color:var(--color-primary-hover); width:18px; height:18px; flex-shrink:0; }
-.roadmap-task p { margin:0; color:var(--color-muted); font-size:.92rem; }
-.roadmap-task .roadmap-relations { font-size:.82rem; color:var(--color-accent); }
-.guide-editorial { display:grid; gap:10px; }
-.guide-editorial h2,.guide-editorial p { margin:0; }
-.guide-editorial li { margin-block:6px; }
-.guide-editorial a { color:var(--color-accent); overflow-wrap:anywhere; }
-.guide-data-error { padding:12px; border:1px solid #b45309; border-radius:8px; }
-@media(max-width:520px){ .roadmap-overall,.roadmap-phase,.roadmap-task,.guide-editorial{padding:12px;} }
+/* Roteiro detalhado de platina — Hollow Knight */
+.detailed-roadmap{display:grid;gap:16px;margin-block:30px}
+.detailed-roadmap>h2{margin-bottom:0}
+.roadmap-overall,.roadmap-phase,.roadmap-task,.guide-editorial{border:1px solid var(--color-border);border-radius:12px;background:var(--color-surface);padding:16px}
+.roadmap-overall{display:grid;gap:10px}
+.roadmap-count,.roadmap-phase-count{color:var(--color-muted);margin:0}
+.roadmap-phase{display:grid;gap:12px}
+.roadmap-phase summary{cursor:pointer;font-weight:800}
+.roadmap-task-list{display:grid;gap:12px}
+.roadmap-task{background:var(--color-surface-raised);display:grid;gap:10px}
+.roadmap-task>label,.roadmap-subtask{display:flex;align-items:flex-start;gap:10px;cursor:pointer}
+.roadmap-task input,.roadmap-subtask input{margin-top:5px;accent-color:var(--color-primary-hover);width:18px;height:18px;flex-shrink:0}
+.roadmap-task p{margin:0;color:var(--color-muted);font-size:.92rem}
+.roadmap-steps{display:grid;gap:7px;margin:0;padding-left:24px;line-height:1.6}
+.roadmap-prerequisites{padding:10px;border-left:3px solid var(--color-accent);background:var(--color-surface)}
+.roadmap-warning{padding:10px;border-left:3px solid #d97706;background:var(--color-surface);font-weight:600}
+.roadmap-subchecklist{display:grid;gap:8px;padding:12px;border:1px dashed var(--color-border);border-radius:8px}
+.roadmap-subtask{font-size:.9rem}
+.roadmap-task .roadmap-relations{font-size:.82rem;color:var(--color-accent)}
+.guide-editorial{display:grid;gap:10px}
+.guide-editorial h2,.guide-editorial p{margin:0}
+.guide-editorial li{margin-block:6px}
+.guide-editorial a{color:var(--color-accent);overflow-wrap:anywhere}
+@media(max-width:520px){.roadmap-overall,.roadmap-phase,.roadmap-task,.guide-editorial{padding:12px}}
