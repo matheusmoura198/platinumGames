@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "category": "Charm Notches",
+    "total": 8,
+    "startingNotches": 3,
+    "maxNotches": 11
+  },
+  "items": [
+    {
+      "id": "notch-1",
+      "name": "Salubra — 5 Charms",
+      "area": "Forgotten Crossroads",
+      "location": "Loja de Salubra",
+      "description": "Comprar o primeiro notch.",
+      "requirements": "Possuir 5 Charms e pagar 120 Geo."
+    },
+    {
+      "id": "notch-2",
+      "name": "Salubra — 10 Charms",
+      "area": "Forgotten Crossroads",
+      "location": "Loja de Salubra",
+      "description": "Comprar o segundo notch.",
+      "requirements": "Possuir 10 Charms e pagar 500 Geo."
+    },
+    {
+      "id": "notch-3",
+      "name": "Salubra — 18 Charms",
+      "area": "Forgotten Crossroads",
+      "location": "Loja de Salubra",
+      "description": "Comprar o terceiro notch.",
+      "requirements": "Possuir 18 Charms e pagar 900 Geo."
+    },
+    {
+      "id": "notch-4",
+      "name": "Salubra — 25 Charms",
+      "area": "Forgotten Crossroads",
+      "location": "Loja de Salubra",
+      "description": "Comprar o quarto notch.",
+      "requirements": "Possuir 25 Charms e pagar 1.400 Geo."
+    },
+    {
+      "id": "notch-5",
+      "name": "Fog Canyon",
+      "area": "Fog Canyon",
+      "location": "Área escondida a nordeste de Cornifer",
+      "description": "Notch em área escondida.",
+      "requirements": "Isma's Tear ou Monarch Wings."
+    },
+    {
+      "id": "notch-6",
+      "name": "Shrumal Ogres",
+      "area": "Fungal Wastes",
+      "location": "Sala de combate dos Shrumal Ogres",
+      "description": "Recompensa por derrotar os dois Shrumal Ogres.",
+      "requirements": "Derrotar ambos."
+    },
+    {
+      "id": "notch-7",
+      "name": "Trial of the Warrior",
+      "area": "Kingdom's Edge",
+      "location": "Colosseum of Fools",
+      "description": "Recompensa pela conclusão do Trial of the Warrior.",
+      "requirements": "Completar o Trial of the Warrior."
+    },
+    {
+      "id": "notch-8",
+      "name": "Grimm",
+      "area": "Dirtmouth",
+      "location": "Tenda da Grimm Troupe",
+      "description": "Recompensa após derrotar Troupe Master Grimm.",
+      "requirements": "Completar o combate contra Grimm."
+    }
+  ]
+}
