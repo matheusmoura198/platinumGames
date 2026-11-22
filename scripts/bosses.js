@@ -1,4 +1,5 @@
-const response = await fetch('../data/guias/hollowKnight-bosses.json');\nconst bossData = await response.json();
+const response = await fetch('../data/guias/hollowKnight-bosses.json');
+const bossData = await response.json();
 
 const root=document.querySelector('#boss-tracker');
 if(root){
