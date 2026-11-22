@@ -1010,3 +1010,11 @@ body#topo .site-header {
 .game-card-grand-theft-auto-v img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #b5a35b; }
 .game-card-grand-theft-auto-vi img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #bd6c36; }
 .game-card-black-myth-wukong img { height: auto; aspect-ratio: auto; object-fit: initial; border: 5px solid #b79b62; }
+
+/* Rastreador aprimorado de progresso dos guias */
+.progress-percent { color: var(--color-accent); font-size: 1.1rem; }
+.progress-stage-list { display: grid; gap: 12px; }
+.progress-stage { display: grid; gap: 6px; padding: 12px; border: 1px solid var(--color-border); border-radius: 10px; background: var(--color-surface-raised); }
+.progress-stage h3 { margin: 0; font-size: .95rem; }
+.progress-stage-count { margin: 0; color: var(--color-muted); font-size: .82rem; }
+.progress-stage .guide-progress-bar { height: 7px; }
