@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "game": "Hollow Knight",
+    "category": "Pale Ore",
+    "count": 6,
+    "status": "Dados compilados de fontes de referência; não verificados em gameplay"
+  },
+  "items": [
+    {
+      "id": "ore-1",
+      "number": 1,
+      "area": "Ancient Basin",
+      "location": "Oeste da estação de Tram",
+      "description": "Pale Ore protegido por dois Lesser Mawleks.",
+      "requirements": "Acessar Ancient Basin e derrotar os guardiões."
+    },
+    {
+      "id": "ore-2",
+      "number": 2,
+      "area": "Resting Grounds",
+      "location": "Recompensa da Seer",
+      "description": "Recebido ao atingir 300 Essence e conversar com a Seer.",
+      "requirements": "Dream Nail; 300 Essence."
+    },
+    {
+      "id": "ore-3",
+      "number": 3,
+      "area": "Crystal Peak",
+      "location": "Hallownest's Crown",
+      "description": "No pedestal da estátua no topo de Crystal Peak.",
+      "requirements": "Mantis Claw; Monarch Wings e Crystal Heart recomendados."
+    },
+    {
+      "id": "ore-4",
+      "number": 4,
+      "area": "Deepnest",
+      "location": "Lair de Nosk",
+      "description": "Pale Ore na câmara após derrotar Nosk.",
+      "requirements": "Acesso à região e derrotar Nosk."
+    },
+    {
+      "id": "ore-5",
+      "number": 5,
+      "area": "Forgotten Crossroads",
+      "location": "Recompensa do Grubfather",
+      "description": "Recompensa por resgatar 31 Grubs.",
+      "requirements": "Resgatar 31 Grubs e voltar ao Grubfather."
+    },
+    {
+      "id": "ore-6",
+      "number": 6,
+      "area": "Kingdom's Edge",
+      "location": "Colosseum of Fools",
+      "description": "Recompensa pela primeira conclusão do Trial of the Conqueror.",
+      "requirements": "Completar Trial of the Warrior; 450 Geo para entrar no Trial of the Conqueror."
+    }
+  ]
+}
