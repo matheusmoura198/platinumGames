@@ -17,7 +17,7 @@ if (main) {
     return (result >>> 0).toString(36);
   };
 
-  const getItemLabel = (item) => item.textContent.replace(/\\s+/g, " ").trim().slice(0, 180);
+  const getItemLabel = (item) => item.textContent.replace(/\s+/g, " ").trim().slice(0, 180);
 
   try {
     const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
@@ -89,12 +89,12 @@ if (main) {
     summary.textContent = "Navegar pelas etapas deste guia";
     const list = document.createElement("ol");
     stageHeadings.forEach((heading, index) => {
-      const slug = heading.textContent.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      const slug = heading.textContent.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
       heading.id ||= `etapa-${slug || "guia"}-${index + 1}`;
       const item = document.createElement("li");
       const link = document.createElement("a");
       link.href = `#${heading.id}`;
-      link.textContent = heading.textContent.replace(/\\s+/g, " ").trim();
+      link.textContent = heading.textContent.replace(/\s+/g, " ").trim();
       item.append(link);
       list.append(item);
     });
