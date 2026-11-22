@@ -2,11 +2,11 @@
   "metadata": {
     "game": "Hollow Knight",
     "platform": "PlayStation 4/5 trophy list (35 trophies)",
-    "guideVersion": "1.1",
+    "guideVersion": "1.2",
     "gameVersion": "1.5.x (source cross-check; exact platform patch not independently verified)",
     "reviewed": "2026-11-22",
-    "status": "Revisão de conteúdo ampliada — passos de execução, pré-requisitos e alertas adicionados; fontes cruzadas, não verificado em gameplay integral.",
-    "reviewNotes": "Este roteiro organiza progressão e dependências; ele não substitui prática, nem é uma rota speedrun. Confirmar a lista de troféus PlayStation no console. O guia não reproduz mapas ou imagens."
+    "status": "Central de referência regional adicionada; locais gerais indicativos, sem verificação room-by-room.",
+    "reviewNotes": "Este roteiro organiza progressão e dependências; ele não substitui prática, nem é uma rota speedrun. Confirmar a lista de troféus PlayStation no console. O guia não reproduz mapas ou imagens. A central de localização indica regiões/áreas de referência e não substitui mapa detalhado; conferir localização específica e requisitos antes de se deslocar."
   },
   "phases": [
     {
@@ -42,6 +42,9 @@
               "id": "p1a-step3",
               "text": "Ative Stag Stations encontradas e registre caminhos bloqueados para revisitar."
             }
+          ],
+          "locations": [
+            "Dirtmouth; Forgotten Crossroads; regiões exploradas — Cornifer e Stag Stations variam por área"
           ]
         },
         {
@@ -70,6 +73,9 @@
               "id": "p1b-step3",
               "text": "Após vencer Hornet, use o dash para explorar caminhos que antes estavam inacessíveis."
             }
+          ],
+          "locations": [
+            "Forgotten Crossroads (False Knight); Greenpath (Hornet)"
           ]
         },
         {
@@ -98,6 +104,9 @@
               "id": "p1c-step3",
               "text": "À medida que obtiver Crystal Heart, Monarch Wings e Isma's Tear, revisite áreas marcadas como inacessíveis."
             }
+          ],
+          "locations": [
+            "Greenpath (Mothwing Cloak); Mantis Village (Mantis Claw); Crystal Peak; Ancient Basin"
           ]
         },
         {
@@ -126,6 +135,9 @@
               "id": "p1d-step3",
               "text": "Desbloqueie atalhos e bancos para diminuir deslocamentos futuros."
             }
+          ],
+          "locations": [
+            "City of Tears; acesso pelo City Crest"
           ]
         }
       ]
@@ -162,6 +174,9 @@
               "id": "p2a-step3",
               "text": "Visite Nailsmith e faça upgrades conforme recursos permitirem."
             }
+          ],
+          "locations": [
+            "City of Tears — Nailsmith; Pale Ore em regiões e desafios diversos"
           ]
         },
         {
@@ -190,6 +205,9 @@
               "id": "p2b-step3",
               "text": "Converta fragmentos em upgrades quando completar os conjuntos."
             }
+          ],
+          "locations": [
+            "Hallownest — lojas, quests e áreas desbloqueadas"
           ]
         },
         {
@@ -218,6 +236,9 @@
               "id": "p2c-step3",
               "text": "Teste spells em encontros e considere revisitar obstáculos de exploração."
             }
+          ],
+          "locations": [
+            "Soul Sanctum (City of Tears); Ancient Basin; outras áreas de spell upgrades"
           ]
         },
         {
@@ -246,6 +267,9 @@
               "id": "p2d-step3",
               "text": "Compare charms com seu estilo de jogo e prepare combinações para chefes."
             }
+          ],
+          "locations": [
+            "Hallownest — Nailmasters; Charm Notches em áreas e desafios"
           ]
         }
       ]
@@ -282,6 +306,9 @@
               "id": "p3a-step3",
               "text": "Confira a contagem de Essence com a Seer para acompanhar os milestones."
             }
+          ],
+          "locations": [
+            "Resting Grounds — Dream Nail; Whispering Roots e Warrior Dreams por Hallownest"
           ]
         },
         {
@@ -312,6 +339,9 @@
               "id": "p3b-step3",
               "text": "Após os três, confira o acesso ao Black Egg Temple."
             }
+          ],
+          "locations": [
+            "Monomon: Fog Canyon; Lurien: City of Tears; Herrah: Deepnest"
           ]
         },
         {
@@ -339,6 +369,9 @@
               "id": "p3c-step3",
               "text": "Ao atingir 2.400 Essence, retorne à Seer e conclua a interação."
             }
+          ],
+          "locations": [
+            "Resting Grounds — Seer; Essence por Warrior Dreams, Whispering Roots e eventos"
           ]
         }
       ]
@@ -374,6 +407,9 @@
               "id": "p4a-step3",
               "text": "Retorne ao Grubfather para receber recompensas dos resgates."
             }
+          ],
+          "locations": [
+            "Hallownest — 46 Grubs espalhados; Grubfather em Forgotten Crossroads"
           ]
         },
         {
@@ -403,6 +439,9 @@
               "id": "p4b-step3",
               "text": "Visite Stag Nest após desbloquear a rede de estações."
             }
+          ],
+          "locations": [
+            "Cornifer nas regiões; Stag Stations; Stag Nest"
           ]
         },
         {
@@ -432,6 +471,9 @@
               "id": "p4c-step3",
               "text": "Retorne a Salubra após completar os charms para verificar a bênção."
             }
+          ],
+          "locations": [
+            "Hallownest — coleções distribuídas por áreas, lojas e quests"
           ]
         },
         {
@@ -460,6 +502,9 @@
               "id": "p4d-step3",
               "text": "Confira o Journal e Hunter para requisitos da Hunter's Mark."
             }
+          ],
+          "locations": [
+            "Hallownest — inimigos específicos; Hunter em Greenpath"
           ]
         }
       ]
@@ -496,6 +541,9 @@
               "id": "p5a-step3",
               "text": "Deixe Trial of the Fool para quando tiver upgrades e prática suficientes."
             }
+          ],
+          "locations": [
+            "Kingdom's Edge — Colosseum of Fools"
           ]
         },
         {
@@ -524,6 +572,9 @@
               "id": "p5b-step3",
               "text": "Conclua a entrega e retorne para confirmar o troféu."
             }
+          ],
+          "locations": [
+            "Resting Grounds — Grey Mourner; destino da entrega depende da quest"
           ]
         },
         {
@@ -551,6 +602,9 @@
               "id": "p5c-step3",
               "text": "Após completar as interações, termine o jogo para concluir a quest."
             }
+          ],
+          "locations": [
+            "Hallownest — sequência de encontros de Mister Mushroom em regiões distintas"
           ]
         },
         {
@@ -578,6 +632,9 @@
               "id": "p5d-step3",
               "text": "Revise os encontros oníricos relacionados aos personagens, conforme estado da save."
             }
+          ],
+          "locations": [
+            "Greenpath (Zote); Dirtmouth (Bretta); conteúdos dependem do estado da save"
           ]
         }
       ]
@@ -613,6 +670,9 @@
               "id": "p6a-step3",
               "text": "Conclua o combate com Troupe Master Grimm."
             }
+          ],
+          "locations": [
+            "Dirtmouth — início da quest; flames em regiões; Grimm em Dirtmouth"
           ]
         },
         {
@@ -642,6 +702,9 @@
               "id": "p6b-step3",
               "text": "Banishment: siga a quest alternativa e confirme os efeitos sobre Grimmchild/Carefree Melody."
             }
+          ],
+          "locations": [
+            "Dirtmouth — Grimm Troupe; Ritual e Banishment são decisões de quest"
           ]
         }
       ]
@@ -677,6 +740,9 @@
               "id": "p7a-step3",
               "text": "Após créditos, a save pode ser retomada para continuar progressão."
             }
+          ],
+          "locations": [
+            "Forgotten Crossroads — Black Egg Temple"
           ]
         },
         {
@@ -706,6 +772,9 @@
               "id": "p7b-step3",
               "text": "Conclua o processo que transforma Kingsoul em Void Heart, verificando a decisão de finais."
             }
+          ],
+          "locations": [
+            "Kingdom's Edge (Hornet Sentinel); Ancient Basin; Abyss"
           ]
         },
         {
@@ -733,6 +802,9 @@
               "id": "p7c-step3",
               "text": "Após atingir 112%, termine o jogo para o troféu."
             }
+          ],
+          "locations": [
+            "Hallownest e Godhome — categorias de conclusão distribuídas"
           ]
         },
         {
@@ -761,6 +833,9 @@
               "id": "p7d-step3",
               "text": "Confira a lista PlayStation para finais exigidos, evitando objetivos de outras plataformas."
             }
+          ],
+          "locations": [
+            "Black Egg Temple e Dream Nail — finais dependem do estado da save"
           ]
         }
       ]
@@ -796,6 +871,9 @@
               "id": "p8a-step3",
               "text": "Interaja com a Godseeker usando Dream Nail para entrar em Godhome."
             }
+          ],
+          "locations": [
+            "Junk Pit (Royal Waterways) — Godseeker; acesso com Simple Key"
           ]
         },
         {
@@ -826,6 +904,9 @@
               "id": "p8b-step3",
               "text": "Pratique encontros no Hall of Gods para conhecer padrões antes das tentativas completas."
             }
+          ],
+          "locations": [
+            "Godhome — Pantheons of the Master, Artist e Sage"
           ]
         },
         {
@@ -854,6 +935,9 @@
               "id": "p8c-step3",
               "text": "Conclua a sequência para desbloquear Soul & Shade."
             }
+          ],
+          "locations": [
+            "Godhome — Pantheon of the Knight"
           ]
         },
         {
@@ -882,6 +966,9 @@
               "id": "p8d-step3",
               "text": "Tente o Pantheon of Hallownest e conclua a sequência para Embrace the Void."
             }
+          ],
+          "locations": [
+            "Godhome — Pantheon of Hallownest"
           ]
         }
       ]
@@ -916,6 +1003,9 @@
               "id": "p9a-step3",
               "text": "Após os 34 troféus restantes, confirme Heart of Hallownest."
             }
+          ],
+          "locations": [
+            "Menu de troféus do PlayStation — verificação na plataforma"
           ]
         },
         {
@@ -943,6 +1033,9 @@
               "id": "p9b-step3",
               "text": "Use o menu de troféus do console como registro final."
             }
+          ],
+          "locations": [
+            "Hallownest e Godhome — revisão geral; confirmar no menu de troféus"
           ]
         }
       ]
