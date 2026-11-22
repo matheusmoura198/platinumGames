@@ -4,7 +4,8 @@ if (main) {
   const allItems = [...main.querySelectorAll("li")];
   const items = allItems.filter((item) => !item.querySelector("li"));
   const pageKey = location.pathname.split("/").slice(-2).join("/");
-  const storageKey = `platinumGames:progress:v2:${pageKey}`;\n  const homeStorageKey = `platinumGames:progress:v1:${pageKey}`;
+  const storageKey = `platinumGames:progress:v2:${pageKey}`;
+  const homeStorageKey = `platinumGames:progress:v1:${pageKey}`;
   const completed = new Set();
   const occurrences = new Map();
 
@@ -155,12 +156,14 @@ if (main) {
       stage.progressElement.value = stageDone;
     });
     try {
-      localStorage.setItem(storageKey, JSON.stringify({
+      const payload = {
         version: 2,
         completed: tracked.filter(({ checkbox }) => checkbox.checked).map(({ itemKey }) => itemKey),
         total: tracked.length,
         updatedAt: new Date().toISOString()
-      }));
+      };
+      localStorage.setItem(storageKey, JSON.stringify(payload));
+      localStorage.setItem(homeStorageKey, JSON.stringify(payload));
     } catch {
       count.textContent += " — não foi possível salvar neste navegador";
     }
