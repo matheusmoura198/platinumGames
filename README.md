@@ -194,4 +194,16 @@ Toda página individual deve seguir esta sequência:
 ### Validação automatizada do catálogo
 
 O comando `npm run validate:catalogo` verifica o contrato dos registros, IDs únicos, aliases repetidos, capas locais existentes, páginas de destino, âncoras válidas e a preservação dos três guias que permanecem na página inicial. Ele também identifica IDs duplicados no HTML principal. O comando `npm test` executa a suíte de testes e essa validação automaticamente; o GitHub Actions executa o mesmo comando a cada atualização da branch principal.
-\n\n## Padrão de qualidade para novos guias (fase 3)\n\n- Cada guia deve identificar o escopo (platina/troféus), plataforma/versão quando verificadas e data de revisão.\n- Objetivos novos devem usar IDs estáveis; evitar usar apenas o texto exibido como identidade do item.\n- Dados de rastreadores devem ser separados do comportamento e do CSS.\n- Cada módulo deve incluir pesquisa/filtros somente quando úteis, estado persistido e reset explícito, com confirmação.\n- Usar `textContent` e criação de elementos para conteúdo dinâmico; não interpolar dados não confiáveis em `innerHTML`.\n- Explicitar incompletude, fontes e requisitos ainda não verificados; não chamar listas parciais de definitivas.\n- Validar arquivos, JSON, IDs únicos, integração HTML e testes automatizados antes de publicar.\n- Confirmar acessibilidade: labels, teclado, foco, estado de progresso, contraste e mobile.\n- Evitar módulos genéricos sem necessidade; cada jogo recebe rastreadores específicos para sua platina.\n
+
+
+## Padrão de qualidade para novos guias (fase 3)
+
+- Cada guia deve identificar o escopo (platina/troféus), plataforma/versão quando verificadas e data de revisão.
+- Objetivos novos devem usar IDs estáveis; evitar usar apenas o texto exibido como identidade do item.
+- Dados de rastreadores devem ser separados do comportamento e do CSS.
+- Cada módulo deve incluir pesquisa/filtros somente quando úteis, estado persistido e reset explícito, com confirmação.
+- Usar `textContent` e criação de elementos para conteúdo dinâmico; não interpolar dados não confiáveis em `innerHTML`.
+- Explicitar incompletude, fontes e requisitos ainda não verificados; não chamar listas parciais de definitivas.
+- Validar arquivos, JSON, IDs únicos, integração HTML e testes automatizados antes de publicar.
+- Confirmar acessibilidade: labels, teclado, foco, estado de progresso, contraste e mobile.
+- Evitar módulos genéricos sem necessidade; cada jogo recebe rastreadores específicos para sua platina.
