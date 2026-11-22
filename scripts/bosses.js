@@ -1,4 +1,4 @@
-import bossData from '../data/guias/hollowKnight-bosses.json' assert { type: 'json' };
+const response = await fetch('../data/guias/hollowKnight-bosses.json');\nconst bossData = await response.json();
 
 const root=document.querySelector('#boss-tracker');
 if(root){
