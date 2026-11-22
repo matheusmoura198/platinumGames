@@ -31,7 +31,11 @@ function render(data) {
   const clear = document.createElement("button");
   clear.type = "button"; clear.className = "button button-secondary"; clear.textContent = "Limpar checklist";
   overall.append(overallText, overallBar, clear);
-  const finder = document.createElement("div"); finder.className = "roadmap-finder";\n  const finderLabel = document.createElement("label"); finderLabel.textContent = "Central de localização — pesquisar objetivo ou região";\n  const finderInput = document.createElement("input"); finderInput.type = "search"; finderInput.placeholder = "Ex.: Deepnest, Grubs, Grimm, Pantheon..."; finderInput.setAttribute("aria-label", finderLabel.textContent);\n  finderLabel.append(finderInput); finder.append(finderLabel);\n  section.append(title, intro, finder, overall);
+  const finder = document.createElement("div"); finder.className = "roadmap-finder";
+  const finderLabel = document.createElement("label"); finderLabel.textContent = "Central de localização — pesquisar objetivo ou região";
+  const finderInput = document.createElement("input"); finderInput.type = "search"; finderInput.placeholder = "Ex.: Deepnest, Grubs, Grimm, Pantheon..."; finderInput.setAttribute("aria-label", finderLabel.textContent);
+  finderLabel.append(finderInput); finder.append(finderLabel);
+  section.append(title, intro, finder, overall);
   let saved = {};
   try { saved = JSON.parse(localStorage.getItem(storageKey) || "{}"); } catch {}
   const inputs = [];
@@ -48,7 +52,8 @@ function render(data) {
       const name = document.createElement("strong"); name.textContent = task.title;
       header.append(checkbox,name); card.append(header);
       const detail = document.createElement("p"); detail.textContent = task.details; card.append(detail);
-      if(task.locations?.length){const location=document.createElement("p");location.className="roadmap-location";location.textContent="Onde procurar: "+task.locations.join(" • ");card.append(location);}\n      if(task.prerequisites){const pre=document.createElement("p");pre.className="roadmap-prerequisites";pre.textContent="Pré-requisitos/observações: "+task.prerequisites;card.append(pre);}
+      if(task.locations?.length){const location=document.createElement("p");location.className="roadmap-location";location.textContent="Onde procurar: "+task.locations.join(" • ");card.append(location);}
+      if(task.prerequisites){const pre=document.createElement("p");pre.className="roadmap-prerequisites";pre.textContent="Pré-requisitos/observações: "+task.prerequisites;card.append(pre);}
       if(task.warning){const warning=document.createElement("p");warning.className="roadmap-warning";warning.textContent="Atenção: "+task.warning;card.append(warning);}
       if(task.steps?.length){const guide=document.createElement("ol");guide.className="roadmap-steps";task.steps.forEach(s=>{const li=document.createElement("li");li.textContent=s;guide.append(li);});card.append(guide);}
       if(task.checklist?.length){const sub=document.createElement("div");sub.className="roadmap-subchecklist";const heading=document.createElement("strong");heading.textContent="Subchecklist";sub.append(heading);task.checklist.forEach(item=>{const lab=document.createElement("label");lab.className="roadmap-subtask";const cb=document.createElement("input");cb.type="checkbox";cb.checked=Boolean(saved[item.id]);cb.dataset.task=item.id;const text=document.createElement("span");text.textContent=item.text;lab.append(cb,text);sub.append(lab);inputs.push(cb);});card.append(sub);}
@@ -65,7 +70,8 @@ function render(data) {
   editorial.append(editorialTitle,editorialText,caveat,sources);section.append(editorial);
   const placeholder=document.getElementById("guia-detalhado");if(placeholder)placeholder.replaceWith(section);else root.append(section);
   const update=()=>{const done=inputs.filter(input=>input.checked).length;overallText.textContent=done+" / "+inputs.length+" itens marcados ("+(inputs.length?Math.round(done/inputs.length*100):0)+"%)";overallBar.max=Math.max(inputs.length,1);overallBar.value=done;section.querySelectorAll(".roadmap-phase").forEach(phase=>{const count=phase._inputs.filter(input=>input?.checked).length;phase._count.textContent=count+" / "+phase._inputs.length+" itens marcados";});const state={};inputs.forEach(input=>{if(input.checked)state[input.dataset.task]=true;});try{localStorage.setItem(storageKey,JSON.stringify(state));}catch{}};
-  inputs.forEach(input=>input.addEventListener("change",update));\n  finderInput.addEventListener("input",()=>{const term=finderInput.value.trim().toLowerCase();section.querySelectorAll(".roadmap-task").forEach(card=>{card.hidden=term.length>0&&!card.dataset.search.includes(term);});section.querySelectorAll(".roadmap-phase").forEach(phase=>{const visible=[...phase.querySelectorAll(".roadmap-task")].some(card=>!card.hidden);phase.hidden=term.length>0&&!visible;if(term&&visible)phase.open=true;});});
+  inputs.forEach(input=>input.addEventListener("change",update));
+  finderInput.addEventListener("input",()=>{const term=finderInput.value.trim().toLowerCase();section.querySelectorAll(".roadmap-task").forEach(card=>{card.hidden=term.length>0&&!card.dataset.search.includes(term);});section.querySelectorAll(".roadmap-phase").forEach(phase=>{const visible=[...phase.querySelectorAll(".roadmap-task")].some(card=>!card.hidden);phase.hidden=term.length>0&&!visible;if(term&&visible)phase.open=true;});});
   clear.addEventListener("click",()=>{if(!confirm("Limpar o progresso deste roteiro?"))return;inputs.forEach(input=>input.checked=false);update();});
   update();
 }
