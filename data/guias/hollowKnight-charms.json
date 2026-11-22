@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "game": "Hollow Knight",
+    "category": "Charms",
+    "count": 40,
+    "status": "Referências resumidas; conferir antes de publicação final"
+  },
+  "items": [
+    {
+      "id": "charm-1",
+      "number": 1,
+      "name": "Wayward Compass",
+      "area": "Dirtmouth",
+      "location": "Comprar de Iselda por 220 Geo.",
+      "requirements": "Encontrar Cornifer e acessar a loja de Iselda."
+    },
+    {
+      "id": "charm-2",
+      "number": 2,
+      "name": "Gathering Swarm",
+      "area": "Dirtmouth",
+      "location": "Comprar de Sly por 300 Geo.",
+      "requirements": "Resgatar Sly nos Crossroads."
+    },
+    {
+      "id": "charm-3",
+      "number": 3,
+      "name": "Stalwart Shell",
+      "area": "Dirtmouth",
+      "location": "Comprar de Sly por 200 Geo.",
+      "requirements": "Resgatar Sly."
+    },
+    {
+      "id": "charm-4",
+      "number": 4,
+      "name": "Soul Catcher",
+      "area": "Ancestral Mound",
+      "location": "Encontrado após o encontro com Elder Baldur.",
+      "requirements": "Acesso ao Ancestral Mound."
+    },
+    {
+      "id": "charm-5",
+      "number": 5,
+      "name": "Shaman Stone",
+      "area": "Forgotten Crossroads",
+      "location": "Comprar de Salubra por 220 Geo.",
+      "requirements": "Acessar Salubra."
+    },
+    {
+      "id": "charm-6",
+      "number": 6,
+      "name": "Soul Eater",
+      "area": "Resting Grounds",
+      "location": "Em área escondida acessível com Desolate Dive.",
+      "requirements": "Desolate Dive."
+    },
+    {
+      "id": "charm-7",
+      "number": 7,
+      "name": "Dashmaster",
+      "area": "Fungal Wastes",
+      "location": "Ao sul de Mantis Village.",
+      "requirements": "Explorar área abaixo da vila."
+    },
+    {
+      "id": "charm-8",
+      "number": 8,
+      "name": "Sprintmaster",
+      "area": "Dirtmouth",
+      "location": "Comprar de Sly por 400 Geo.",
+      "requirements": "Resgatar Sly."
+    },
+    {
+      "id": "charm-9",
+      "number": 9,
+      "name": "Grubsong",
+      "area": "Dirtmouth",
+      "location": "Recompensa do Grubfather por resgatar 10 Grubs.",
+      "requirements": "Resgatar 10 Grubs."
+    },
+    {
+      "id": "charm-10",
+      "number": 10,
+      "name": "Grubberfly's Elegy",
+      "area": "Dirtmouth",
+      "location": "Recompensa do Grubfather após resgatar todos os Grubs.",
+      "requirements": "Resgatar todos os 46 Grubs."
+    },
+    {
+      "id": "charm-11",
+      "number": 11,
+      "name": "Fragile Heart",
+      "area": "Fungal Wastes",
+      "location": "Comprar de Leg Eater por 350 Geo.",
+      "requirements": "Encontrar Leg Eater; pode quebrar ao morrer."
+    },
+    {
+      "id": "charm-12",
+      "number": 12,
+      "name": "Fragile Greed",
+      "area": "Fungal Wastes",
+      "location": "Comprar de Leg Eater por 250 Geo.",
+      "requirements": "Encontrar Leg Eater; pode quebrar ao morrer."
+    },
+    {
+      "id": "charm-13",
+      "number": 13,
+      "name": "Fragile Strength",
+      "area": "Fungal Wastes",
+      "location": "Comprar de Leg Eater por 600 Geo.",
+      "requirements": "Encontrar Leg Eater; pode quebrar ao morrer."
+    },
+    {
+      "id": "charm-14",
+      "number": 14,
+      "name": "Spell Twister",
+      "area": "City of Tears",
+      "location": "Secret room in Soul Sanctum.",
+      "requirements": "Explorar Soul Sanctum."
+    },
+    {
+      "id": "charm-15",
+      "number": 15,
+      "name": "Steady Body",
+      "area": "Dirtmouth",
+      "location": "Comprar de Salubra por 120 Geo.",
+      "requirements": "Acessar Salubra."
+    },
+    {
+      "id": "charm-16",
+      "number": 16,
+      "name": "Heavy Blow",
+      "area": "Dirtmouth",
+      "location": "Comprar de Sly por 350 Geo.",
+      "requirements": "Entregar Shopkeeper's Key a Sly."
+    },
+    {
+      "id": "charm-17",
+      "number": 17,
+      "name": "Quick Slash",
+      "area": "Kingdom's Edge",
+      "location": "Área escondida a leste, próxima de Oro.",
+      "requirements": "Explorar região e acessar passagem escondida."
+    },
+    {
+      "id": "charm-18",
+      "number": 18,
+      "name": "Longnail",
+      "area": "Dirtmouth",
+      "location": "Comprar de Salubra por 300 Geo.",
+      "requirements": "Acessar Salubra."
+    },
+    {
+      "id": "charm-19",
+      "number": 19,
+      "name": "Mark of Pride",
+      "area": "Mantis Village",
+      "location": "Sala ao nordeste do confronto com Mantis Lords.",
+      "requirements": "Derrotar Mantis Lords e explorar a vila."
+    },
+    {
+      "id": "charm-20",
+      "number": 20,
+      "name": "Fury of the Fallen",
+      "area": "King's Pass",
+      "location": "Passagem escondida perto da área inicial.",
+      "requirements": "Explorar King's Pass."
+    },
+    {
+      "id": "charm-21",
+      "number": 21,
+      "name": "Thorns of Agony",
+      "area": "Greenpath",
+      "location": "Área espinhosa escondida.",
+      "requirements": "Mothwing Cloak e explorar Greenpath."
+    },
+    {
+      "id": "charm-22",
+      "number": 22,
+      "name": "Baldur Shell",
+      "area": "Howling Cliffs",
+      "location": "Baú em Howling Cliffs.",
+      "requirements": "Explorar a área."
+    },
+    {
+      "id": "charm-23",
+      "number": 23,
+      "name": "Flukenest",
+      "area": "Royal Waterways",
+      "location": "Recompensa de Flukemarm.",
+      "requirements": "Derrotar Flukemarm."
+    },
+    {
+      "id": "charm-24",
+      "number": 24,
+      "name": "Defender's Crest",
+      "area": "Royal Waterways",
+      "location": "Recompensa de Dung Defender.",
+      "requirements": "Derrotar Dung Defender."
+    },
+    {
+      "id": "charm-25",
+      "number": 25,
+      "name": "Glowing Womb",
+      "area": "Forgotten Crossroads",
+      "location": "Área escondida próxima de False Knight.",
+      "requirements": "Monarch Wings."
+    },
+    {
+      "id": "charm-26",
+      "number": 26,
+      "name": "Quick Focus",
+      "area": "Dirtmouth",
+      "location": "Comprar de Salubra por 800 Geo.",
+      "requirements": "Acessar Salubra."
+    },
+    {
+      "id": "charm-27",
+      "number": 27,
+      "name": "Deep Focus",
+      "area": "Crystal Peak",
+      "location": "Caverna de cristal escondida.",
+      "requirements": "Explorar Crystal Peak."
+    },
+    {
+      "id": "charm-28",
+      "number": 28,
+      "name": "Lifeblood Heart",
+      "area": "Dirtmouth",
+      "location": "Comprar de Salubra por 250 Geo.",
+      "requirements": "Acessar Salubra."
+    },
+    {
+      "id": "charm-29",
+      "number": 29,
+      "name": "Lifeblood Core",
+      "area": "The Abyss",
+      "location": "Câmara selada no lado oeste do Abyss.",
+      "requirements": "Abrir a porta com quantidade suficiente de Lifeblood masks."
+    },
+    {
+      "id": "charm-30",
+      "number": 30,
+      "name": "Joni's Blessing",
+      "area": "Howling Cliffs",
+      "location": "Joni's Repose.",
+      "requirements": "Explorar Howling Cliffs."
+    },
+    {
+      "id": "charm-31",
+      "number": 31,
+      "name": "Hiveblood",
+      "area": "The Hive",
+      "location": "Recompensa após derrotar Hive Knight.",
+      "requirements": "Acessar The Hive e derrotar Hive Knight."
+    },
+    {
+      "id": "charm-32",
+      "number": 32,
+      "name": "Spore Shroom",
+      "area": "Fungal Wastes",
+      "location": "Câmara conectada a Queen's Gardens e Deepnest.",
+      "requirements": "Mantis Claw."
+    },
+    {
+      "id": "charm-33",
+      "number": 33,
+      "name": "Sharp Shadow",
+      "area": "Deepnest",
+      "location": "Passagem atrás de Shade Gate, perto de Hot Spring.",
+      "requirements": "Shade Cloak."
+    },
+    {
+      "id": "charm-34",
+      "number": 34,
+      "name": "Shape of Unn",
+      "area": "Greenpath",
+      "location": "Lago de Unn.",
+      "requirements": "Lake of Unn."
+    },
+    {
+      "id": "charm-35",
+      "number": 35,
+      "name": "Nailmaster's Glory",
+      "area": "Dirtmouth",
+      "location": "Recompensa dos Nailmasters após aprender as Nail Arts.",
+      "requirements": "Aprender todas as três Nail Arts."
+    },
+    {
+      "id": "charm-36",
+      "number": 36,
+      "name": "Weaversong",
+      "area": "Deepnest",
+      "location": "Parte superior de Weavers' Den.",
+      "requirements": "Mantis Claw."
+    },
+    {
+      "id": "charm-37",
+      "number": 37,
+      "name": "Dream Wielder",
+      "area": "Resting Grounds",
+      "location": "Recompensa da Seer por 500 Essence.",
+      "requirements": "Dream Nail e 500 Essence."
+    },
+    {
+      "id": "charm-38",
+      "number": 38,
+      "name": "Dreamshield",
+      "area": "Resting Grounds",
+      "location": "Câmara ao sul da Seer.",
+      "requirements": "Explorar Resting Grounds."
+    },
+    {
+      "id": "charm-39",
+      "number": 39,
+      "name": "Grimmchild",
+      "area": "Dirtmouth",
+      "location": "Recebido ao iniciar o Ritual da Grimm Troupe.",
+      "requirements": "Iniciar a missão da Grimm Troupe."
+    },
+    {
+      "id": "charm-40",
+      "number": 40,
+      "name": "Kingsoul",
+      "area": "White Palace / Queen's Gardens",
+      "location": "Duas metades: White Lady e White Palace.",
+      "requirements": "Acessar White Palace e Queen's Gardens; depois pode ser transformado em Void Heart."
+    }
+  ]
+}
