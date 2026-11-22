@@ -1,0 +1,324 @@
+[
+  {
+    "id": "false-knight",
+    "name": "False Knight",
+    "area": "Forgotten Crossroads",
+    "type": "Principal",
+    "notes": ""
+  },
+  {
+    "id": "gruz-mother",
+    "name": "Gruz Mother",
+    "area": "Forgotten Crossroads",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "vengefly-king",
+    "name": "Vengefly King",
+    "area": "Greenpath",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "hornet-protector",
+    "name": "Hornet (Protector)",
+    "area": "Greenpath",
+    "type": "Principal",
+    "notes": ""
+  },
+  {
+    "id": "massive-moss-charger",
+    "name": "Massive Moss Charger",
+    "area": "Greenpath",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "mantis-lords",
+    "name": "Mantis Lords",
+    "area": "Fungal Wastes",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "soul-warrior",
+    "name": "Soul Warrior",
+    "area": "City of Tears / Soul Sanctum",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "soul-master",
+    "name": "Soul Master",
+    "area": "Soul Sanctum",
+    "type": "Principal",
+    "notes": ""
+  },
+  {
+    "id": "flukemarm",
+    "name": "Flukemarm",
+    "area": "Royal Waterways",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "dung-defender",
+    "name": "Dung Defender",
+    "area": "Royal Waterways",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "broken-vessel",
+    "name": "Broken Vessel",
+    "area": "Ancient Basin",
+    "type": "Principal",
+    "notes": ""
+  },
+  {
+    "id": "brooding-mawlek",
+    "name": "Brooding Mawlek",
+    "area": "Forgotten Crossroads",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "crystal-guardian",
+    "name": "Crystal Guardian",
+    "area": "Crystal Peak",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "enraged-guardian",
+    "name": "Enraged Guardian",
+    "area": "Crystal Peak",
+    "type": "Variante",
+    "notes": ""
+  },
+  {
+    "id": "watcher-knights",
+    "name": "Watcher Knights",
+    "area": "City of Tears",
+    "type": "Principal",
+    "notes": ""
+  },
+  {
+    "id": "uumuu",
+    "name": "Uumuu",
+    "area": "Fog Canyon",
+    "type": "Principal",
+    "notes": ""
+  },
+  {
+    "id": "nosk",
+    "name": "Nosk",
+    "area": "Deepnest",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "traitor-lord",
+    "name": "Traitor Lord",
+    "area": "Queen's Gardens",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "hive-knight",
+    "name": "Hive Knight",
+    "area": "The Hive",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "collector",
+    "name": "The Collector",
+    "area": "Tower of Love",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "hollow-knight",
+    "name": "The Hollow Knight",
+    "area": "Black Egg Temple",
+    "type": "Principal",
+    "notes": ""
+  },
+  {
+    "id": "radiance",
+    "name": "The Radiance",
+    "area": "Black Egg Temple",
+    "type": "Final",
+    "notes": ""
+  },
+  {
+    "id": "zote",
+    "name": "Zote the Mighty",
+    "area": "Greenpath / Dirtmouth",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "oblobble",
+    "name": "Oblobbles",
+    "area": "Colosseum of Fools",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "god-tamer",
+    "name": "God Tamer",
+    "area": "Colosseum of Fools",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "sly",
+    "name": "Great Nailsage Sly",
+    "area": "Godhome",
+    "type": "Godhome",
+    "notes": ""
+  },
+  {
+    "id": "oro-mato",
+    "name": "Brothers Oro & Mato",
+    "area": "Godhome",
+    "type": "Godhome",
+    "notes": ""
+  },
+  {
+    "id": "sheo",
+    "name": "Paintmaster Sheo",
+    "area": "Godhome",
+    "type": "Godhome",
+    "notes": ""
+  },
+  {
+    "id": "grimm",
+    "name": "Troupe Master Grimm",
+    "area": "Dirtmouth / Grimm Troupe",
+    "type": "Opcional",
+    "notes": ""
+  },
+  {
+    "id": "nightmare-grimm",
+    "name": "Nightmare King Grimm",
+    "area": "Dirtmouth / Grimm Troupe",
+    "type": "Variante",
+    "notes": ""
+  },
+  {
+    "id": "failed-champion",
+    "name": "Failed Champion",
+    "area": "Forgotten Crossroads (Dream)",
+    "type": "Variante",
+    "notes": ""
+  },
+  {
+    "id": "lost-kin",
+    "name": "Lost Kin",
+    "area": "Ancient Basin (Dream)",
+    "type": "Variante",
+    "notes": ""
+  },
+  {
+    "id": "soul-tyrant",
+    "name": "Soul Tyrant",
+    "area": "Soul Sanctum (Dream)",
+    "type": "Variante",
+    "notes": ""
+  },
+  {
+    "id": "white-defender",
+    "name": "White Defender",
+    "area": "Royal Waterways (Dream)",
+    "type": "Variante",
+    "notes": ""
+  },
+  {
+    "id": "grey-prince-zote",
+    "name": "Grey Prince Zote",
+    "area": "Bretta's basement (Dream)",
+    "type": "Variante",
+    "notes": ""
+  },
+  {
+    "id": "winged-nosk",
+    "name": "Winged Nosk",
+    "area": "Godhome",
+    "type": "Godhome",
+    "notes": ""
+  },
+  {
+    "id": "pure-vessel",
+    "name": "Pure Vessel",
+    "area": "Godhome",
+    "type": "Godhome",
+    "notes": ""
+  },
+  {
+    "id": "absolute-radiance",
+    "name": "Absolute Radiance",
+    "area": "Godhome",
+    "type": "Godhome",
+    "notes": ""
+  },
+  {
+    "id": "sisters-battle",
+    "name": "Sisters of Battle",
+    "area": "Godhome",
+    "type": "Godhome",
+    "notes": ""
+  },
+  {
+    "id": "elder-hu",
+    "name": "Elder Hu",
+    "area": "Fungal Wastes",
+    "type": "Warrior Dream",
+    "notes": ""
+  },
+  {
+    "id": "galien",
+    "name": "Galien",
+    "area": "Deepnest",
+    "type": "Warrior Dream",
+    "notes": ""
+  },
+  {
+    "id": "gorb",
+    "name": "Gorb",
+    "area": "Howling Cliffs",
+    "type": "Warrior Dream",
+    "notes": ""
+  },
+  {
+    "id": "markoth",
+    "name": "Markoth",
+    "area": "Kingdom's Edge",
+    "type": "Warrior Dream",
+    "notes": ""
+  },
+  {
+    "id": "marmu",
+    "name": "Marmu",
+    "area": "Queen's Gardens",
+    "type": "Warrior Dream",
+    "notes": ""
+  },
+  {
+    "id": "no-eyes",
+    "name": "No Eyes",
+    "area": "Greenpath",
+    "type": "Warrior Dream",
+    "notes": ""
+  },
+  {
+    "id": "xero",
+    "name": "Xero",
+    "area": "Resting Grounds",
+    "type": "Warrior Dream",
+    "notes": ""
+  }
+]
