@@ -1,0 +1,379 @@
+{
+  "metadata": {
+    "game": "Hollow Knight",
+    "category": "Grubs",
+    "count": 46,
+    "reviewed": "2026-11-22",
+    "status": "Referências compiladas, não verificadas em gameplay"
+  },
+  "items": [
+    {
+      "id": "grub-1",
+      "number": 1,
+      "area": "Crossroads",
+      "location": "Husk Guard room northeast",
+      "description": "Jar behind guard near Crystal Peak",
+      "requirements": "Husk Guard"
+    },
+    {
+      "id": "grub-2",
+      "number": 2,
+      "area": "Crossroads",
+      "location": "West near Greenpath",
+      "description": "Open area",
+      "requirements": "None"
+    },
+    {
+      "id": "grub-3",
+      "number": 3,
+      "area": "Crossroads",
+      "location": "Upper corridor",
+      "description": "Breakable wall",
+      "requirements": "Wall"
+    },
+    {
+      "id": "grub-4",
+      "number": 4,
+      "area": "Crossroads",
+      "location": "Spiked shaft east of Stag Station",
+      "description": "Pogo from spikes",
+      "requirements": "Pogo"
+    },
+    {
+      "id": "grub-5",
+      "number": 5,
+      "area": "Crossroads",
+      "location": "Central ledge",
+      "description": "Gap crossing",
+      "requirements": "Dash or pogo"
+    },
+    {
+      "id": "grub-6",
+      "number": 6,
+      "area": "Greenpath",
+      "location": "East near Crossroads",
+      "description": "Moss block puzzle",
+      "requirements": "Moss block"
+    },
+    {
+      "id": "grub-7",
+      "number": 7,
+      "area": "Greenpath",
+      "location": "East lower junction",
+      "description": "Open location",
+      "requirements": "None"
+    },
+    {
+      "id": "grub-8",
+      "number": 8,
+      "area": "Greenpath",
+      "location": "Moss Knight chamber",
+      "description": "Guarded jar",
+      "requirements": "Moss Knight"
+    },
+    {
+      "id": "grub-9",
+      "number": 9,
+      "area": "Greenpath",
+      "location": "South below Lake of Unn",
+      "description": "Lower caverns",
+      "requirements": "None"
+    },
+    {
+      "id": "grub-10",
+      "number": 10,
+      "area": "Fungal Wastes",
+      "location": "Central",
+      "description": "Dash across gap",
+      "requirements": "Dash"
+    },
+    {
+      "id": "grub-11",
+      "number": 11,
+      "area": "Fungal Wastes",
+      "location": "South of Queen's Station",
+      "description": "Climb ledge",
+      "requirements": "Mantis Claw"
+    },
+    {
+      "id": "grub-12",
+      "number": 12,
+      "area": "City of Tears",
+      "location": "Central",
+      "description": "Open area",
+      "requirements": "None"
+    },
+    {
+      "id": "grub-13",
+      "number": 13,
+      "area": "City of Tears",
+      "location": "East sentry room",
+      "description": "Defeat guard",
+      "requirements": "Great Husk Sentry"
+    },
+    {
+      "id": "grub-14",
+      "number": 14,
+      "area": "City of Tears",
+      "location": "Northwest",
+      "description": "Break floor",
+      "requirements": "Desolate Dive"
+    },
+    {
+      "id": "grub-15",
+      "number": 15,
+      "area": "City of Tears",
+      "location": "Southeast toward Kingdom's Edge",
+      "description": "Flooded corner",
+      "requirements": "None"
+    },
+    {
+      "id": "grub-16",
+      "number": 16,
+      "area": "City of Tears",
+      "location": "Tower east of Watcher's Spire",
+      "description": "Climb and cross",
+      "requirements": "Mantis Claw; Wings or pogo"
+    },
+    {
+      "id": "grub-17",
+      "number": 17,
+      "area": "City of Tears",
+      "location": "Tower of Love",
+      "description": "First jar in corridor",
+      "requirements": "Love Key and Collector"
+    },
+    {
+      "id": "grub-18",
+      "number": 18,
+      "area": "City of Tears",
+      "location": "Tower of Love",
+      "description": "Second jar",
+      "requirements": "Love Key and Collector"
+    },
+    {
+      "id": "grub-19",
+      "number": 19,
+      "area": "City of Tears",
+      "location": "Tower of Love",
+      "description": "Third jar",
+      "requirements": "Love Key and Collector"
+    },
+    {
+      "id": "grub-20",
+      "number": 20,
+      "area": "Crystal Peak",
+      "location": "West above Dirtmouth",
+      "description": "Climb and super dash",
+      "requirements": "Mantis Claw; Crystal Heart"
+    },
+    {
+      "id": "grub-21",
+      "number": 21,
+      "area": "Crystal Peak",
+      "location": "Near Crystal Guardian",
+      "description": "Dash and climb",
+      "requirements": "Mothwing Cloak; Mantis Claw"
+    },
+    {
+      "id": "grub-22",
+      "number": 22,
+      "area": "Crystal Peak",
+      "location": "Northeast",
+      "description": "Climb and cross gap",
+      "requirements": "Mantis Claw; Heart or Wings"
+    },
+    {
+      "id": "grub-23",
+      "number": 23,
+      "area": "Crystal Peak",
+      "location": "Far northeast",
+      "description": "Dash to final platform",
+      "requirements": "Dash; Wings or pogo"
+    },
+    {
+      "id": "grub-24",
+      "number": 24,
+      "area": "Crystal Peak",
+      "location": "Central mines",
+      "description": "Traverse shafts",
+      "requirements": "Dash; Claw"
+    },
+    {
+      "id": "grub-25",
+      "number": 25,
+      "area": "Crystal Peak",
+      "location": "Lower near Cornifer",
+      "description": "Dash",
+      "requirements": "Mothwing Cloak"
+    },
+    {
+      "id": "grub-26",
+      "number": 26,
+      "area": "Crystal Peak",
+      "location": "East near Crystallised Mound",
+      "description": "Open passage",
+      "requirements": "Dive; Dash; Claw"
+    },
+    {
+      "id": "grub-27",
+      "number": 27,
+      "area": "Resting Grounds",
+      "location": "South catacombs",
+      "description": "Break floor and follow tunnel",
+      "requirements": "Desolate Dive"
+    },
+    {
+      "id": "grub-28",
+      "number": 28,
+      "area": "Howling Cliffs",
+      "location": "Lower",
+      "description": "Climb wall",
+      "requirements": "Mantis Claw"
+    },
+    {
+      "id": "grub-29",
+      "number": 29,
+      "area": "Fog Canyon",
+      "location": "East",
+      "description": "Super dash to sealed area",
+      "requirements": "Crystal Heart"
+    },
+    {
+      "id": "grub-30",
+      "number": 30,
+      "area": "Royal Waterways",
+      "location": "West",
+      "description": "Open sewer passage",
+      "requirements": "None"
+    },
+    {
+      "id": "grub-31",
+      "number": 31,
+      "area": "Royal Waterways",
+      "location": "East from Kingdom's Edge",
+      "description": "Access from Kingdom's Edge and cross",
+      "requirements": "Crystal Heart; Wings or pogo"
+    },
+    {
+      "id": "grub-32",
+      "number": 32,
+      "area": "Royal Waterways",
+      "location": "East flooded",
+      "description": "Cross acid",
+      "requirements": "Isma's Tear"
+    },
+    {
+      "id": "grub-33",
+      "number": 33,
+      "area": "Deepnest",
+      "location": "Northeast near Fungal Wastes",
+      "description": "Climb and break wall",
+      "requirements": "Mantis Claw"
+    },
+    {
+      "id": "grub-34",
+      "number": 34,
+      "area": "Deepnest",
+      "location": "Central",
+      "description": "Climb and cross gap",
+      "requirements": "Mantis Claw; Heart or pogo"
+    },
+    {
+      "id": "grub-35",
+      "number": 35,
+      "area": "Deepnest",
+      "location": "South near Hot Spring",
+      "description": "Break wall and cross",
+      "requirements": "Wings or Heart"
+    },
+    {
+      "id": "grub-36",
+      "number": 36,
+      "area": "Deepnest",
+      "location": "West near Distant Village",
+      "description": "Dark passages",
+      "requirements": "Dash; Claw"
+    },
+    {
+      "id": "grub-37",
+      "number": 37,
+      "area": "Deepnest",
+      "location": "Beast's Den",
+      "description": "Inside den",
+      "requirements": "Dash; Claw"
+    },
+    {
+      "id": "grub-38",
+      "number": 38,
+      "area": "Ancient Basin",
+      "location": "West",
+      "description": "Dash and double jump",
+      "requirements": "Dash; Wings"
+    },
+    {
+      "id": "grub-39",
+      "number": 39,
+      "area": "Ancient Basin",
+      "location": "Central",
+      "description": "Break floor",
+      "requirements": "Desolate Dive"
+    },
+    {
+      "id": "grub-40",
+      "number": 40,
+      "area": "Kingdom's Edge",
+      "location": "Far east",
+      "description": "Break floor and descend",
+      "requirements": "Desolate Dive"
+    },
+    {
+      "id": "grub-41",
+      "number": 41,
+      "area": "Kingdom's Edge",
+      "location": "Central ash fields",
+      "description": "Climb ledges",
+      "requirements": "Mantis Claw"
+    },
+    {
+      "id": "grub-42",
+      "number": 42,
+      "area": "The Hive",
+      "location": "West",
+      "description": "Break wax floor and traverse acid",
+      "requirements": "Dive; Isma's Tear"
+    },
+    {
+      "id": "grub-43",
+      "number": 43,
+      "area": "The Hive",
+      "location": "East",
+      "description": "Super dash and land",
+      "requirements": "Crystal Heart; Wings or pogo"
+    },
+    {
+      "id": "grub-44",
+      "number": 44,
+      "area": "Queen's Gardens",
+      "location": "Central near Stag Station",
+      "description": "Open location",
+      "requirements": "None"
+    },
+    {
+      "id": "grub-45",
+      "number": 45,
+      "area": "Queen's Gardens",
+      "location": "North below Greenpath",
+      "description": "Climb and super dash",
+      "requirements": "Claw; Crystal Heart"
+    },
+    {
+      "id": "grub-46",
+      "number": 46,
+      "area": "Queen's Gardens",
+      "location": "West",
+      "description": "Wall climb",
+      "requirements": "Mantis Claw"
+    }
+  ]
+}
