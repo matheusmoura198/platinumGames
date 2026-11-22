@@ -111,3 +111,4 @@ body#fundo-grand-theft-auto-vi { background-color: #2a2029; color: #f8eff6; }
 body#fundo-grand-theft-auto-vi .guide-section { border-color: #76566b; }
 body#fundo-black-myth-wukong { background-color: #2b2017; color: #f8efe0; }
 body#fundo-black-myth-wukong .guide-section { border-color: #806344; }
+\n/* Padrão de componentes de guia: listas e trackers com foco em acessibilidade. */\n.guide-section [hidden], .guide-step [hidden] { display: none !important; }\n.guide-section input[type=checkbox] { accent-color: var(--color-primary-hover); }\n
