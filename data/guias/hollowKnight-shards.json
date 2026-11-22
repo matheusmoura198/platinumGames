@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "game": "Hollow Knight",
+    "categories": [
+      {
+        "name": "Mask Shards",
+        "count": 16
+      },
+      {
+        "name": "Vessel Fragments",
+        "count": 9
+      }
+    ],
+    "status": "Referências compiladas; validar em gameplay"
+  },
+  "items": [
+    {
+      "id": "mask-1",
+      "number": 1,
+      "area": "Dirtmouth",
+      "location": "Sly 1",
+      "description": "Comprar de Sly por 150 Geo.",
+      "requirements": "Encontrar Sly nos Crossroads e trazê-lo de volta à Dirtmouth."
+    },
+    {
+      "id": "mask-2",
+      "number": 2,
+      "area": "Dirtmouth",
+      "location": "Sly 2",
+      "description": "Comprar por 500 Geo.",
+      "requirements": "Comprar o primeiro fragmento."
+    },
+    {
+      "id": "mask-3",
+      "number": 3,
+      "area": "Dirtmouth",
+      "location": "Sly 3",
+      "description": "Comprar por 800 Geo.",
+      "requirements": "Entregar a Shopkeeper's Key a Sly e comprar o segundo."
+    },
+    {
+      "id": "mask-4",
+      "number": 4,
+      "area": "Dirtmouth",
+      "location": "Sly 4",
+      "description": "Comprar por 1.500 Geo.",
+      "requirements": "Entregar a Shopkeeper's Key e adquirir o terceiro fragmento."
+    },
+    {
+      "id": "mask-5",
+      "number": 5,
+      "area": "Forgotten Crossroads",
+      "location": "Brooding Mawlek",
+      "description": "Recompensa após derrotar o chefe opcional.",
+      "requirements": "Acesso à área oeste dos Crossroads."
+    },
+    {
+      "id": "mask-6",
+      "number": 6,
+      "area": "Forgotten Crossroads",
+      "location": "Grubfather",
+      "description": "Recompensa por resgatar 5 Grubs.",
+      "requirements": "Resgatar cinco Grubs."
+    },
+    {
+      "id": "mask-7",
+      "number": 7,
+      "area": "Forgotten Crossroads",
+      "location": "Goam passage",
+      "description": "Passagem ao sul da área do False Knight, atravessando o corredor de Goams.",
+      "requirements": "Mantis Claw recomendada."
+    },
+    {
+      "id": "mask-8",
+      "number": 8,
+      "area": "Fungal Wastes",
+      "location": "Queen's Station",
+      "description": "Sala no lado leste da estação.",
+      "requirements": "Mantis Claw."
+    },
+    {
+      "id": "mask-9",
+      "number": 9,
+      "area": "Dirtmouth",
+      "location": "Bretta",
+      "description": "Dentro da casa de Bretta.",
+      "requirements": "Resgatar Bretta nos Fungal Wastes."
+    },
+    {
+      "id": "mask-10",
+      "number": 10,
+      "area": "Greenpath",
+      "location": "Stone Sanctuary",
+      "description": "Área escura do Stone Sanctuary.",
+      "requirements": "Lumafly Lantern recomendada."
+    },
+    {
+      "id": "mask-11",
+      "number": 11,
+      "area": "Royal Waterways",
+      "location": "Royal Waterways",
+      "description": "Passagem escondida na parte noroeste.",
+      "requirements": "Acesso aos Waterways."
+    },
+    {
+      "id": "mask-12",
+      "number": 12,
+      "area": "Fungal Wastes / Deepnest",
+      "location": "Fungal Core",
+      "description": "Fragmento na rota de Fungal Core.",
+      "requirements": "Monarch Wings."
+    },
+    {
+      "id": "mask-13",
+      "number": 13,
+      "area": "Crystal Peak",
+      "location": "Enraged Guardian",
+      "description": "Recompensa da segunda luta com Crystal Guardian.",
+      "requirements": "Derrotar Crystal Guardian e alcançar a segunda luta."
+    },
+    {
+      "id": "mask-14",
+      "number": 14,
+      "area": "The Hive",
+      "location": "The Hive",
+      "description": "Parede quebrável por um Hive Guardian.",
+      "requirements": "Lure o Hive Guardian para quebrar a parede."
+    },
+    {
+      "id": "mask-15",
+      "number": 15,
+      "area": "Resting Grounds",
+      "location": "Seer",
+      "description": "Recompensa por 1.500 Essence.",
+      "requirements": "Obter 1.500 Essence."
+    },
+    {
+      "id": "mask-16",
+      "number": 16,
+      "area": "Resting Grounds / Queen's Gardens",
+      "location": "Grey Mourner",
+      "description": "Recompensa após entregar a Delicate Flower.",
+      "requirements": "Completar a missão da Delicate Flower."
+    },
+    {
+      "id": "vessel-1",
+      "number": 1,
+      "area": "Dirtmouth",
+      "location": "Sly 1",
+      "description": "Comprar por 550 Geo.",
+      "requirements": "Encontrar Sly e acessar sua loja."
+    },
+    {
+      "id": "vessel-2",
+      "number": 2,
+      "area": "Dirtmouth",
+      "location": "Sly 2",
+      "description": "Comprar por 900 Geo.",
+      "requirements": "Comprar o primeiro fragmento e entregar Shopkeeper's Key."
+    },
+    {
+      "id": "vessel-3",
+      "number": 3,
+      "area": "Greenpath",
+      "location": "Queen's Gardens entrance",
+      "description": "Na região sul, perto da entrada inacessível de Queen's Gardens.",
+      "requirements": "Explorar a passagem próxima."
+    },
+    {
+      "id": "vessel-4",
+      "number": 4,
+      "area": "Forgotten Crossroads",
+      "location": "Lift",
+      "description": "À esquerda do elevador entre Crossroads e City of Tears.",
+      "requirements": "Desbloquear o elevador pelo lado de City of Tears."
+    },
+    {
+      "id": "vessel-5",
+      "number": 5,
+      "area": "City of Tears",
+      "location": "King's Station",
+      "description": "Acima da King's Station.",
+      "requirements": "Explorar a área acima da estação."
+    },
+    {
+      "id": "vessel-6",
+      "number": 6,
+      "area": "Deepnest",
+      "location": "Deepnest",
+      "description": "Sudeste da região, perto da rota do Tram.",
+      "requirements": "Explorar a região."
+    },
+    {
+      "id": "vessel-7",
+      "number": 7,
+      "area": "Stag Nest",
+      "location": "Stag Nest",
+      "description": "Recompensa no ninho do Last Stag.",
+      "requirements": "Desbloquear todas as Stag Stations."
+    },
+    {
+      "id": "vessel-8",
+      "number": 8,
+      "area": "Resting Grounds",
+      "location": "Seer",
+      "description": "Recompensa por 700 Essence.",
+      "requirements": "Obter 700 Essence."
+    },
+    {
+      "id": "vessel-9",
+      "number": 9,
+      "area": "Ancient Basin",
+      "location": "Ancient Basin fountain",
+      "description": "Fonte: depositar 3.000 Geo.",
+      "requirements": "Depositar 3.000 Geo na fonte."
+    }
+  ]
+}
