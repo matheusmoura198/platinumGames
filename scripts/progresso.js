@@ -4,7 +4,7 @@ if (main) {
   const allItems = [...main.querySelectorAll("li")];
   const items = allItems.filter((item) => !item.querySelector("li"));
   const pageKey = location.pathname.split("/").slice(-2).join("/");
-  const storageKey = `platinumGames:progress:v2:${pageKey}`;
+  const storageKey = `platinumGames:progress:v2:${pageKey}`;\n  const homeStorageKey = `platinumGames:progress:v1:${pageKey}`;
   const completed = new Set();
   const occurrences = new Map();
 
