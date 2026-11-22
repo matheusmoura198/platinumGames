@@ -22,3 +22,9 @@
 .guide-editorial li{margin-block:6px}
 .guide-editorial a{color:var(--color-accent);overflow-wrap:anywhere}
 @media(max-width:520px){.roadmap-overall,.roadmap-phase,.roadmap-task,.guide-editorial{padding:12px}}
+
+.roadmap-finder{display:grid;gap:8px;border:1px solid var(--color-border);border-radius:12px;padding:14px;background:var(--color-surface)}
+.roadmap-finder label{display:grid;gap:8px;font-weight:700}
+.roadmap-finder input{width:100%;padding:12px;border-radius:8px;border:1px solid var(--color-border);background:var(--color-surface-raised);color:inherit;font:inherit}
+.roadmap-location{padding:10px;border-left:3px solid var(--color-primary-hover);background:var(--color-surface);font-size:.92rem}
+.roadmap-task[hidden],.roadmap-phase[hidden]{display:none!important}
