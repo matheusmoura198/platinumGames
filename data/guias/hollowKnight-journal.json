@@ -1131,5 +1131,12 @@
       "notes": "Registro obtido por inspeção/condição específica.",
       "required": true
     }
-  ]
+  ],
+  "audit": {
+    "status": "incompleto",
+    "currentEntries": 141,
+    "requiredEntries": 146,
+    "reviewedAt": "2026-11-22",
+    "note": "Dados e requisitos de cada entrada ainda precisam ser comparados com uma lista de referência completa; não apresentar como lista fechada de Keen Hunter."
+  }
 }
