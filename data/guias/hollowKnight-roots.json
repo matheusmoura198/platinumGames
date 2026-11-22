@@ -1,0 +1,142 @@
+{
+  "title": "Whispering Roots",
+  "total": 15,
+  "totalEssence": 482,
+  "items": [
+    {
+      "id": "crossroads-grubfather",
+      "number": 1,
+      "area": "Forgotten Crossroads",
+      "location": "Próximo ao Grubfather",
+      "essence": 29,
+      "description": "Na área superior dos Crossroads, perto do Grubfather.",
+      "requirements": "Dream Nail"
+    },
+    {
+      "id": "ancestral-mound",
+      "number": 2,
+      "area": "Forgotten Crossroads",
+      "location": "Ancestral Mound",
+      "essence": 42,
+      "description": "Dentro do Ancestral Mound, acima do Snail Shaman.",
+      "requirements": "Dream Nail"
+    },
+    {
+      "id": "fungal-mantis",
+      "number": 3,
+      "area": "Fungal Wastes",
+      "location": "Acima de Mantis Village",
+      "essence": 18,
+      "description": "Na sala acima da entrada de Mantis Village.",
+      "requirements": "Dream Nail; Mantis Claw"
+    },
+    {
+      "id": "city-storerooms",
+      "number": 4,
+      "area": "City of Tears",
+      "location": "Abaixo da Stag Station / Storerooms",
+      "essence": 28,
+      "description": "Na área dos armazéns da cidade.",
+      "requirements": "Dream Nail"
+    },
+    {
+      "id": "howling-cliffs",
+      "number": 5,
+      "area": "Howling Cliffs",
+      "location": "Área principal dos cliffs",
+      "essence": 46,
+      "description": "Na região dos Howling Cliffs, em uma área mais ampla próxima aos caminhos de Cornifer.",
+      "requirements": "Dream Nail"
+    },
+    {
+      "id": "crystal-peak",
+      "number": 6,
+      "area": "Crystal Peak",
+      "location": "Hallownest's Crown",
+      "essence": 21,
+      "description": "Na área superior de Crystal Peak, em Hallownest's Crown.",
+      "requirements": "Dream Nail; acesso à região superior"
+    },
+    {
+      "id": "resting-grounds",
+      "number": 7,
+      "area": "Resting Grounds",
+      "location": "Próximo à Seer",
+      "essence": 20,
+      "description": "Na área próxima à Seer, nos Resting Grounds.",
+      "requirements": "Dream Nail"
+    },
+    {
+      "id": "spirits-glade",
+      "number": 8,
+      "area": "Resting Grounds",
+      "location": "Spirits' Glade",
+      "essence": 34,
+      "description": "Dentro de Spirits' Glade, área que se abre após entregar 200 Essence à Seer.",
+      "requirements": "Dream Nail; 200 Essence para abrir Glade"
+    },
+    {
+      "id": "waterways-lift",
+      "number": 9,
+      "area": "Royal Waterways",
+      "location": "Elevador quebrado",
+      "essence": 35,
+      "description": "Na passagem do elevador quebrado entre Royal Waterways e Ancient Basin.",
+      "requirements": "Dream Nail"
+    },
+    {
+      "id": "greenpath",
+      "number": 10,
+      "area": "Greenpath",
+      "location": "Próximo à conexão com Queen's Gardens",
+      "essence": 44,
+      "description": "Em Greenpath, na região próxima à conexão para Queen's Gardens.",
+      "requirements": "Dream Nail; acesso pelos caminhos de Greenpath e Queen's Gardens"
+    },
+    {
+      "id": "fungal-fog",
+      "number": 11,
+      "area": "Fungal Wastes",
+      "location": "Conexão com Fog Canyon",
+      "essence": 20,
+      "description": "No canto das Fungal Wastes próximo à conexão de Fog Canyon e Teacher's Archives.",
+      "requirements": "Dream Nail; Isma's Tear ou Shade Cloak"
+    },
+    {
+      "id": "queens-gardens",
+      "number": 12,
+      "area": "Queen's Gardens",
+      "location": "Abaixo da bancada no setor nordeste",
+      "essence": 29,
+      "description": "Na parte nordeste de Queen's Gardens.",
+      "requirements": "Dream Nail"
+    },
+    {
+      "id": "kingdoms-edge",
+      "number": 13,
+      "area": "Kingdom's Edge",
+      "location": "Área de cinzas a oeste",
+      "essence": 51,
+      "description": "Na área oeste de Kingdom's Edge, entre os caminhos cobertos de cinzas.",
+      "requirements": "Dream Nail"
+    },
+    {
+      "id": "deepnest",
+      "number": 14,
+      "area": "Deepnest",
+      "location": "Próximo à Distant Village",
+      "essence": 45,
+      "description": "Na parte oeste de Deepnest, perto dos caminhos para Distant Village.",
+      "requirements": "Dream Nail; Lumafly Lantern recomendada"
+    },
+    {
+      "id": "hive",
+      "number": 15,
+      "area": "The Hive",
+      "location": "Próximo à bancada",
+      "essence": 20,
+      "description": "Em uma área central da Hive, após os caminhos de Hive Soldiers.",
+      "requirements": "Dream Nail; Monarch Wings recomendado"
+    }
+  ]
+}
