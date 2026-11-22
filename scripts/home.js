@@ -38,7 +38,7 @@ const makeGameCard = (game) => {
 
 const readProgress = (path) => {
   try {
-    const value = JSON.parse(localStorage.getItem(`platinumGames:progress:v2:${path}`) || localStorage.getItem(`platinumGames:progress:v1:${path}`) || "null");
+    const value = JSON.parse(localStorage.getItem(`platinumGames:progress:v2:${path}`) || localStorage.getItem(`platinumGames:progress:v2:${path}`) || localStorage.getItem(`platinumGames:progress:v1:${path}`) || "null");
     if (!value || !Array.isArray(value.completed) || !Number.isFinite(value.total) || value.total <= 0) return null;
     return { done: value.completed.length, total: value.total };
   } catch {
