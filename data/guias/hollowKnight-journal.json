@@ -1,0 +1,1135 @@
+{
+  "title": "Hunter's Journal",
+  "achievement": "Keen Hunter",
+  "requiredEntries": 146,
+  "entries": [
+    {
+      "id": "journal-1",
+      "name": "Crawlid",
+      "kills": "0",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 0 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-2",
+      "name": "Vengefly",
+      "kills": "45",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 45 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-3",
+      "name": "Vengefly King",
+      "kills": "2",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 2 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-4",
+      "name": "Gruzzer",
+      "kills": "25",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-5",
+      "name": "Gruz Mother",
+      "kills": "3",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 3 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-6",
+      "name": "Tiktik",
+      "kills": "30",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 30 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-7",
+      "name": "Aspid Hunter",
+      "kills": "20",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-8",
+      "name": "Aspid Mother",
+      "kills": "15",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-9",
+      "name": "Aspid Hatchling",
+      "kills": "30",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 30 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-10",
+      "name": "Goam",
+      "kills": "Entry",
+      "area": "Forgotten Crossroads",
+      "notes": "Registro obtido por inspeção/condição específica.",
+      "required": true
+    },
+    {
+      "id": "journal-11",
+      "name": "Wandering Husk",
+      "kills": "35",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 35 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-12",
+      "name": "Husk Hornhead",
+      "kills": "35",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 35 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-13",
+      "name": "Leaping Husk",
+      "kills": "35",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 35 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-14",
+      "name": "Husk Bully",
+      "kills": "35",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 35 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-15",
+      "name": "Husk Warrior",
+      "kills": "10",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-16",
+      "name": "Husk Guard",
+      "kills": "6",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 6 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-17",
+      "name": "Entombed Husk",
+      "kills": "10",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-18",
+      "name": "False Knight",
+      "kills": "1",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-19",
+      "name": "Maggot",
+      "kills": "2",
+      "area": "Forgotten Crossroads",
+      "notes": "Completar notas: 2 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-20",
+      "name": "Lifeseed",
+      "kills": "10",
+      "area": "Greenpath",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-21",
+      "name": "Baldur",
+      "kills": "20",
+      "area": "Greenpath",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-22",
+      "name": "Elder Baldur",
+      "kills": "1",
+      "area": "Greenpath",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-23",
+      "name": "Mosscreep",
+      "kills": "30",
+      "area": "Greenpath",
+      "notes": "Completar notas: 30 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-24",
+      "name": "Mossfly",
+      "kills": "25",
+      "area": "Greenpath",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-25",
+      "name": "Mosskin",
+      "kills": "25",
+      "area": "Greenpath",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-26",
+      "name": "Volatile Mosskin",
+      "kills": "25",
+      "area": "Greenpath",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-27",
+      "name": "Fool Eater",
+      "kills": "15",
+      "area": "Greenpath",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-28",
+      "name": "Squit",
+      "kills": "25",
+      "area": "Greenpath",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-29",
+      "name": "Obble",
+      "kills": "20",
+      "area": "Greenpath",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-30",
+      "name": "Gulka",
+      "kills": "15",
+      "area": "Greenpath",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-31",
+      "name": "Maskfly",
+      "kills": "15",
+      "area": "Greenpath",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-32",
+      "name": "Moss Charger",
+      "kills": "15",
+      "area": "Greenpath",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-33",
+      "name": "Massive Moss Charger",
+      "kills": "1",
+      "area": "Greenpath",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-34",
+      "name": "Moss Knight",
+      "kills": "8",
+      "area": "Greenpath",
+      "notes": "Completar notas: 8 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-35",
+      "name": "Mossy Vagabond",
+      "kills": "10",
+      "area": "Queen's Gardens",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-36",
+      "name": "Durandoo",
+      "kills": "8",
+      "area": "Greenpath",
+      "notes": "Completar notas: 8 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-37",
+      "name": "Duranda",
+      "kills": "8",
+      "area": "Greenpath",
+      "notes": "Completar notas: 8 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-38",
+      "name": "Aluba",
+      "kills": "1",
+      "area": "Greenpath",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-39",
+      "name": "Charged Lumafly",
+      "kills": "Entry",
+      "area": "Fog Canyon",
+      "notes": "Registro obtido por inspeção/condição específica.",
+      "required": true
+    },
+    {
+      "id": "journal-40",
+      "name": "Uoma",
+      "kills": "20",
+      "area": "Fog Canyon",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-41",
+      "name": "Ooma",
+      "kills": "20",
+      "area": "Fog Canyon",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-42",
+      "name": "Fuzzy",
+      "kills": "10",
+      "area": "Fog Canyon",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-43",
+      "name": "Ambloom",
+      "kills": "15",
+      "area": "Fungal Wastes",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-44",
+      "name": "Shrumal Warrior",
+      "kills": "15",
+      "area": "Fungal Wastes",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-45",
+      "name": "Shrumal Ogre",
+      "kills": "1",
+      "area": "Fungal Wastes",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-46",
+      "name": "Mantis",
+      "kills": "15",
+      "area": "Fungal Wastes",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-47",
+      "name": "Mantis Warrior",
+      "kills": "15",
+      "area": "Fungal Wastes",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-48",
+      "name": "Mantis Lords",
+      "kills": "1",
+      "area": "Fungal Wastes",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-49",
+      "name": "Husk Sentry",
+      "kills": "25",
+      "area": "City of Tears",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-50",
+      "name": "Husk Sentinel",
+      "kills": "15",
+      "area": "City of Tears",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-51",
+      "name": "Winged Sentry",
+      "kills": "15",
+      "area": "City of Tears",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-52",
+      "name": "Heavy Sentry",
+      "kills": "10",
+      "area": "City of Tears",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-53",
+      "name": "Mistake",
+      "kills": "15",
+      "area": "City of Tears",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-54",
+      "name": "Lance Sentry",
+      "kills": "15",
+      "area": "City of Tears",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-55",
+      "name": "Watcher Knight",
+      "kills": "1",
+      "area": "City of Tears",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-56",
+      "name": "Soul Warrior",
+      "kills": "1",
+      "area": "City of Tears",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-57",
+      "name": "Soul Twister",
+      "kills": "15",
+      "area": "City of Tears",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-58",
+      "name": "Soul Master",
+      "kills": "1",
+      "area": "City of Tears",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-59",
+      "name": "Great Husk Sentry",
+      "kills": "1",
+      "area": "City of Tears",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-60",
+      "name": "Husk Dandy",
+      "kills": "15",
+      "area": "City of Tears",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-61",
+      "name": "Husk Merchant",
+      "kills": "1",
+      "area": "City of Tears",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-62",
+      "name": "Gluttonous Husk",
+      "kills": "10",
+      "area": "City of Tears",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-63",
+      "name": "Pilflip",
+      "kills": "20",
+      "area": "Royal Waterways",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-64",
+      "name": "Hwurmp",
+      "kills": "20",
+      "area": "Royal Waterways",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-65",
+      "name": "Bluggsac",
+      "kills": "5",
+      "area": "Royal Waterways",
+      "notes": "Completar notas: 5 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-66",
+      "name": "Dung Defender",
+      "kills": "1",
+      "area": "Royal Waterways",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-67",
+      "name": "White Defender",
+      "kills": "1",
+      "area": "Dream Realm",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-68",
+      "name": "Flukefey",
+      "kills": "15",
+      "area": "Royal Waterways",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-69",
+      "name": "Flukemon",
+      "kills": "20",
+      "area": "Royal Waterways",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-70",
+      "name": "Flukemunga",
+      "kills": "8",
+      "area": "Royal Waterways",
+      "notes": "Completar notas: 8 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-71",
+      "name": "Flukemarm",
+      "kills": "1",
+      "area": "Royal Waterways",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-72",
+      "name": "Shardmite",
+      "kills": "15",
+      "area": "Crystal Peak",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-73",
+      "name": "Glimback",
+      "kills": "15",
+      "area": "Crystal Peak",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-74",
+      "name": "Crystal Hunter",
+      "kills": "20",
+      "area": "Crystal Peak",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-75",
+      "name": "Crystal Crawler",
+      "kills": "15",
+      "area": "Crystal Peak",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-76",
+      "name": "Husk Miner",
+      "kills": "20",
+      "area": "Crystal Peak",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-77",
+      "name": "Crystallised Husk",
+      "kills": "15",
+      "area": "Crystal Peak",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-78",
+      "name": "Crystal Guardian",
+      "kills": "2",
+      "area": "Crystal Peak",
+      "notes": "Completar notas: 2 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-79",
+      "name": "Furious Vengefly",
+      "kills": "15",
+      "area": "Infected Crossroads",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-80",
+      "name": "Volatile Gruzzer",
+      "kills": "15",
+      "area": "Infected Crossroads",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-81",
+      "name": "Violent Husk",
+      "kills": "15",
+      "area": "Infected Crossroads",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-82",
+      "name": "Slobbering Husk",
+      "kills": "15",
+      "area": "Infected Crossroads",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-83",
+      "name": "Dirtcarver",
+      "kills": "35",
+      "area": "Deepnest",
+      "notes": "Completar notas: 35 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-84",
+      "name": "Carver Hatcher",
+      "kills": "15",
+      "area": "Deepnest",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-85",
+      "name": "Garpede",
+      "kills": "Entry",
+      "area": "Deepnest",
+      "notes": "Registro obtido por inspeção/condição específica.",
+      "required": true
+    },
+    {
+      "id": "journal-86",
+      "name": "Corpse Creeper",
+      "kills": "15",
+      "area": "Deepnest",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-87",
+      "name": "Deepling",
+      "kills": "25",
+      "area": "Deepnest",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-88",
+      "name": "Deephunter",
+      "kills": "20",
+      "area": "Deepnest",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-89",
+      "name": "Little Weaver",
+      "kills": "20",
+      "area": "Deepnest",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-90",
+      "name": "Stalking Devout",
+      "kills": "15",
+      "area": "Deepnest",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-91",
+      "name": "Nosk",
+      "kills": "1",
+      "area": "Deepnest",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-92",
+      "name": "Shadow Creeper",
+      "kills": "20",
+      "area": "Deepnest",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-93",
+      "name": "Lesser Mawlek",
+      "kills": "10",
+      "area": "Ancient Basin",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-94",
+      "name": "Mawlurk",
+      "kills": "10",
+      "area": "Ancient Basin",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-95",
+      "name": "Brooding Mawlek",
+      "kills": "1",
+      "area": "Ancient Basin",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-96",
+      "name": "Lightseed",
+      "kills": "20",
+      "area": "Ancient Basin",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-97",
+      "name": "Infected Balloon",
+      "kills": "10",
+      "area": "Ancient Basin",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-98",
+      "name": "Broken Vessel",
+      "kills": "1",
+      "area": "Ancient Basin",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-99",
+      "name": "Boofly",
+      "kills": "20",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-100",
+      "name": "Primal Aspid",
+      "kills": "25",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-101",
+      "name": "Hopper",
+      "kills": "25",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-102",
+      "name": "Great Hopper",
+      "kills": "10",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-103",
+      "name": "Grub Mimic",
+      "kills": "5",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 5 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-104",
+      "name": "Hiveling",
+      "kills": "30",
+      "area": "The Hive",
+      "notes": "Completar notas: 30 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-105",
+      "name": "Hive Soldier",
+      "kills": "15",
+      "area": "The Hive",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-106",
+      "name": "Hive Guardian",
+      "kills": "12",
+      "area": "The Hive",
+      "notes": "Completar notas: 12 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-107",
+      "name": "Husk Hive",
+      "kills": "10",
+      "area": "The Hive",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-108",
+      "name": "Hive Knight",
+      "kills": "1",
+      "area": "The Hive",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-109",
+      "name": "Spiny Husk",
+      "kills": "20",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-110",
+      "name": "Loodle",
+      "kills": "15",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-111",
+      "name": "Mantis Petra",
+      "kills": "16",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 16 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-112",
+      "name": "Mantis Traitor",
+      "kills": "15",
+      "area": "Queen's Gardens",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-113",
+      "name": "Traitor Lord",
+      "kills": "1",
+      "area": "Queen's Gardens",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-114",
+      "name": "Sharp Baldur",
+      "kills": "20",
+      "area": "Colosseum",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-115",
+      "name": "Armoured Squit",
+      "kills": "15",
+      "area": "Colosseum",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-116",
+      "name": "Battle Obble",
+      "kills": "15",
+      "area": "Colosseum",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-117",
+      "name": "Oblobbles",
+      "kills": "1",
+      "area": "Colosseum",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-118",
+      "name": "Shielded Fool",
+      "kills": "25",
+      "area": "Colosseum",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-119",
+      "name": "Sturdy Fool",
+      "kills": "25",
+      "area": "Colosseum",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-120",
+      "name": "Winged Fool",
+      "kills": "25",
+      "area": "Colosseum",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-121",
+      "name": "Heavy Fool",
+      "kills": "20",
+      "area": "Colosseum",
+      "notes": "Completar notas: 20 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-122",
+      "name": "Death Loodle",
+      "kills": "15",
+      "area": "Colosseum",
+      "notes": "Completar notas: 15 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-123",
+      "name": "Volt Twister",
+      "kills": "6",
+      "area": "Colosseum",
+      "notes": "Completar notas: 6 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-124",
+      "name": "God Tamer",
+      "kills": "1",
+      "area": "Colosseum",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-125",
+      "name": "Pale Lurker",
+      "kills": "1",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-126",
+      "name": "Xero",
+      "kills": "1",
+      "area": "Resting Grounds",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-127",
+      "name": "Gorb",
+      "kills": "1",
+      "area": "Howling Cliffs",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-128",
+      "name": "Elder Hu",
+      "kills": "1",
+      "area": "Fungal Wastes",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-129",
+      "name": "Marmu",
+      "kills": "1",
+      "area": "Queen's Gardens",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-130",
+      "name": "No Eyes",
+      "kills": "1",
+      "area": "Greenpath",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-131",
+      "name": "Galien",
+      "kills": "1",
+      "area": "Deepnest",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-132",
+      "name": "Markoth",
+      "kills": "1",
+      "area": "Kingdom's Edge",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-133",
+      "name": "Grimmkin Novice",
+      "kills": "1",
+      "area": "Grimm Troupe",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-134",
+      "name": "Grimmkin Master",
+      "kills": "1",
+      "area": "Grimm Troupe",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-135",
+      "name": "Grimmkin Nightmare",
+      "kills": "1",
+      "area": "Grimm Troupe",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-136",
+      "name": "Grimm",
+      "kills": "1",
+      "area": "Grimm Troupe",
+      "notes": "Completar notas: 1 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-137",
+      "name": "Wingmould",
+      "kills": "10",
+      "area": "White Palace",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-138",
+      "name": "Royal Retainer",
+      "kills": "10",
+      "area": "White Palace",
+      "notes": "Completar notas: 10 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-139",
+      "name": "Kingsmould",
+      "kills": "2",
+      "area": "White Palace",
+      "notes": "Completar notas: 2 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-140",
+      "name": "Sibling",
+      "kills": "25",
+      "area": "The Abyss",
+      "notes": "Completar notas: 25 eliminações (referência).",
+      "required": true
+    },
+    {
+      "id": "journal-141",
+      "name": "Void Tendrils",
+      "kills": "Entry",
+      "area": "The Abyss",
+      "notes": "Registro obtido por inspeção/condição específica.",
+      "required": true
+    }
+  ]
+}
